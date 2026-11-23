@@ -365,7 +365,8 @@
     "after": [
       "OAuth2",
       "Other",
-      "Basic"
+      "Basic",
+      "Bearer token"
     ],
     "action": "Applied source-attributed route review."
   },

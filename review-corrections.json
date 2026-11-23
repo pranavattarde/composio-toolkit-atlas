@@ -11,5 +11,20 @@
     "additional": {
       "access_note": "All accounts, including free and trial, include API access. Generate a personal token in Harvest ID or register an OAuth application for delegated access."
     }
+  },
+  {
+    "id": 26,
+    "field": "auth",
+    "value": [
+      "OAuth2",
+      "Other",
+      "Basic",
+      "Bearer token"
+    ],
+    "url": "https://docs.discord.com/developers/docs/interactions/slash-commands",
+    "note": "The application-command permission endpoint requires a bearer credential with guild permissions. The reviewed list captured OAuth but omitted its supported bearer presentation.",
+    "claims": [
+      "auth"
+    ]
   }
 ]

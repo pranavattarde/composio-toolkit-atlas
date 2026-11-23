@@ -15,6 +15,8 @@ def main():
         for r in read(path):
             sources.update(s["url"] for s in r["sources"])
     sources.update(p["url"] for p in read(ROOT/"verification/reference.json"))
+    sources.update(p["url"] for p in read(ROOT/"review-corrections.json"))
+    sources.update(p["url"] for p in read(ROOT/"verification/holdout-reference.json"))
     results=[]
     with ThreadPoolExecutor(max_workers=8) as pool:
         for f in as_completed([pool.submit(fetch,u,args.refresh) for u in sorted(sources)]):
@@ -23,4 +25,3 @@ def main():
     print("Checked",len(results),"citations at",utc(),flush=True)
 if __name__=="__main__":
     main()
-

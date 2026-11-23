@@ -51,7 +51,7 @@
     "http": 200,
     "title": "What are the limitations of a trial account? – Vonage API Support",
     "checked_at": "2026-11-23T18:37:14+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://apify.com/pricing",
@@ -186,7 +186,7 @@
     "http": 200,
     "title": "Telegram Bot Features",
     "checked_at": "2026-11-23T18:37:14+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://dataforseo.com/apis",
@@ -270,6 +270,15 @@
     "cached": true
   },
   {
+    "url": "https://dev.frontapp.com/reference/introduction",
+    "final_url": "https://dev.frontapp.com/reference/introduction",
+    "status": "readable",
+    "http": 200,
+    "title": "Introduction",
+    "checked_at": "2026-11-23T18:48:12+00:00",
+    "cached": false
+  },
+  {
     "url": "https://developer-docs.amazon.com/sp-api/docs/onboarding-overview",
     "final_url": "https://developer-docs.amazon/sp-api/docs/onboarding-overview",
     "status": "readable",
@@ -321,7 +330,7 @@
     "http": 200,
     "title": "Overview",
     "checked_at": "2026-11-23T18:37:14+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developer.aircall.io/docs/plan-your-integration",
@@ -330,7 +339,7 @@
     "http": 200,
     "title": "Plan your integration",
     "checked_at": "2026-11-23T18:37:14+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developer.atlassian.com/cloud/jira/platform/jira-rest-api-cookie-based-authentication/",
@@ -339,7 +348,7 @@
     "http": 200,
     "title": "Cookie-based auth for REST APIs",
     "checked_at": "2026-11-23T18:37:14+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro",
@@ -384,7 +393,7 @@
     "http": 200,
     "title": "Steps",
     "checked_at": "2026-11-23T18:37:14+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developer.brex.com/guides/authentication",
@@ -393,7 +402,7 @@
     "http": 200,
     "title": "Authentication",
     "checked_at": "2026-11-23T18:37:14+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developer.brex.com/guides/partner_authentication",
@@ -402,7 +411,7 @@
     "http": 200,
     "title": "Partner authentication",
     "checked_at": "2026-11-23T18:37:14+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developer.clickup.com/docs/authentication",
@@ -636,7 +645,7 @@
     "http": 200,
     "title": "Introducing the Vonage MCP Tooling Server",
     "checked_at": "2026-11-23T18:37:15+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developer.vonage.com/en/getting-started/concepts/authentication?source=device-location-retrieval",
@@ -645,7 +654,7 @@
     "http": 200,
     "title": "Authentication - API Concepts | Vonage API Documentation",
     "checked_at": "2026-11-23T18:37:15+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developer.vonage.com/en/getting-started/overview",
@@ -654,7 +663,7 @@
     "http": 200,
     "title": "Getting Started With Vonage APIs (New User Guide)",
     "checked_at": "2026-11-23T18:37:15+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developer.woocommerce.com/docs/apis/rest-api/",
@@ -816,7 +825,7 @@
     "http": 200,
     "title": "Cloudflare API | Cloudflare API",
     "checked_at": "2026-11-23T18:37:15+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developers.cloudflare.com/dns/additional-options/analytics/",
@@ -825,7 +834,7 @@
     "http": 200,
     "title": "Analytics and logs · Cloudflare DNS docs",
     "checked_at": "2026-11-23T18:37:16+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developers.cloudflare.com/fundamentals/account/create-account/",
@@ -834,7 +843,7 @@
     "http": 200,
     "title": "Create account · Cloudflare Fundamentals docs",
     "checked_at": "2026-11-23T18:37:16+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developers.cloudflare.com/fundamentals/api/get-started/token-formats/",
@@ -852,7 +861,7 @@
     "http": 200,
     "title": "Make API calls · Cloudflare Fundamentals docs",
     "checked_at": "2026-11-23T18:37:17+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developers.cloudflare.com/fundamentals/oauth/create-an-oauth-client/",
@@ -861,7 +870,7 @@
     "http": 200,
     "title": "Create your OAuth client · Cloudflare Fundamentals docs",
     "checked_at": "2026-11-23T18:37:17+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developers.facebook.com/docs/business-management-apis/2tier-bm-solution/get-started/",
@@ -870,7 +879,7 @@
     "http": 200,
     "title": "Get Started - Business Management APIs - Documentation - Meta for Developers",
     "checked_at": "2026-11-23T18:37:18+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developers.facebook.com/docs/business-management-apis/businessmanager/support",
@@ -879,7 +888,7 @@
     "http": 200,
     "title": "Support - Business Management APIs - Documentation - Meta for Developers",
     "checked_at": "2026-11-23T18:37:18+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developers.facebook.com/docs/business-management-apis/system-users",
@@ -888,7 +897,7 @@
     "http": 200,
     "title": "System Users - Business Management APIs - Documentation - Meta for Developers",
     "checked_at": "2026-11-23T18:37:18+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developers.facebook.com/docs/graph-api/reference/whats-app-business-account/phone_numbers/",
@@ -897,7 +906,7 @@
     "http": 200,
     "title": "Graph API Reference v27.0: Whats App Business Account Phone Numbers - Documentation - Meta for Developers",
     "checked_at": "2026-11-23T18:37:18+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developers.facebook.com/docs/resp-plat-initiatives/app-review/introduction",
@@ -915,7 +924,7 @@
     "http": 200,
     "title": "Marketing API | Meta | Meta for Developers",
     "checked_at": "2026-11-23T18:37:19+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/get-started",
@@ -924,7 +933,7 @@
     "http": 200,
     "title": "",
     "checked_at": "2026-11-23T18:37:19+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developers.fathom.ai/oauth",
@@ -933,7 +942,7 @@
     "http": 200,
     "title": "Building with OAuth - Fathom API",
     "checked_at": "2026-11-23T18:37:19+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developers.fathom.ai/quickstart",
@@ -942,7 +951,7 @@
     "http": 200,
     "title": "Quickstart - Fathom API",
     "checked_at": "2026-11-23T18:37:19+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developers.freshdesk.com/api/",
@@ -969,7 +978,7 @@
     "http": 200,
     "title": "Access levels and permissible use  |  Google Ads API  |  Google for Developers",
     "checked_at": "2026-11-23T18:37:20+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developers.google.com/google-ads/api/docs/api-policy/developer-token",
@@ -978,7 +987,7 @@
     "http": 200,
     "title": "Developer token  |  Google Ads API  |  Google for Developers",
     "checked_at": "2026-11-23T18:37:20+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developers.google.com/google-ads/api/docs/best-practices/testing",
@@ -987,7 +996,7 @@
     "http": 200,
     "title": "Testing  |  Google Ads API  |  Google for Developers",
     "checked_at": "2026-11-23T18:37:20+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server",
@@ -996,7 +1005,7 @@
     "http": 200,
     "title": "Google Ads MCP server: Developer integration guide  |  Google Ads API  |  Google for Developers",
     "checked_at": "2026-11-23T18:37:21+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction",
@@ -1005,7 +1014,7 @@
     "http": 200,
     "title": "Introduction to the Google Ads API  |  Google for Developers",
     "checked_at": "2026-11-23T18:37:21+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developers.google.com/google-ads/api/rest/auth",
@@ -1023,7 +1032,7 @@
     "http": 200,
     "title": "The REST interface overview  |  Google Ads API  |  Google for Developers",
     "checked_at": "2026-11-23T18:37:22+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developers.gorgias.com/docs/1-register-on-developer-portal",
@@ -1059,7 +1068,7 @@
     "http": 0,
     "title": "",
     "checked_at": "2026-11-23T18:37:23+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developers.hubspot.com/blog/a-developers-guide-to-hubspot-crm-objects-deals-object",
@@ -1248,7 +1257,7 @@
     "http": 200,
     "title": "Tokens",
     "checked_at": "2026-11-23T18:37:24+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://developers.smartsheet.com/api/smartsheet/openapi/tokens/tokens-getorrefresh",
@@ -1293,7 +1302,7 @@
     "http": 200,
     "title": "",
     "checked_at": "2026-11-23T18:37:24+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.ahrefs.com/en/ahrefs-connect/docs/api-guide",
@@ -1348,6 +1357,15 @@
     "title": "Apify API | Apify Documentation",
     "checked_at": "2026-11-23T16:19:52+00:00",
     "cached": true
+  },
+  {
+    "url": "https://docs.apify.com/integrations/api",
+    "final_url": "https://docs.apify.com/integrations/api",
+    "status": "readable",
+    "http": 200,
+    "title": "API integration | Platform | Apify Documentation",
+    "checked_at": "2026-11-23T18:48:12+00:00",
+    "cached": false
   },
   {
     "url": "https://docs.apify.com/integrations/integrate",
@@ -1413,6 +1431,15 @@
     "cached": true
   },
   {
+    "url": "https://docs.bigcommerce.com/developer/docs/storefront/guides/graphql-storefront-api/overview",
+    "final_url": "https://docs.bigcommerce.com/developer/docs/storefront/guides/graphql-storefront-api/overview",
+    "status": "readable",
+    "http": 200,
+    "title": "GraphQL Storefront API overview | BigCommerce Docs",
+    "checked_at": "2026-11-23T18:48:12+00:00",
+    "cached": false
+  },
+  {
     "url": "https://docs.brightdata.com/ai/mcp-server/overview",
     "final_url": "https://docs.brightdata.com/products/mcp-server/overview",
     "status": "readable",
@@ -1437,7 +1464,7 @@
     "http": 200,
     "title": "Package google.cloud.notebooklm.v1alpha  |  Gemini Enterprise  |  Google Cloud Documentation",
     "checked_at": "2026-11-23T18:37:25+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
@@ -1455,7 +1482,7 @@
     "http": 200,
     "title": "Get licenses for Gemini Notebook Enterprise  |  Google Cloud Documentation",
     "checked_at": "2026-11-23T18:37:25+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.consensus.app/docs/mcp",
@@ -1464,7 +1491,7 @@
     "http": 200,
     "title": "Get started with Consensus MCP - Consensus",
     "checked_at": "2026-11-23T18:37:25+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.datadoghq.com/api",
@@ -1500,7 +1527,7 @@
     "http": 200,
     "title": "Authentication - Devin Docs",
     "checked_at": "2026-11-23T18:37:26+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.devin.ai/work-with-devin/devin-mcp",
@@ -1509,6 +1536,15 @@
     "http": 200,
     "title": "Devin MCP - Devin Docs",
     "checked_at": "2026-11-23T18:37:27+00:00",
+    "cached": true
+  },
+  {
+    "url": "https://docs.discord.com/developers/docs/interactions/slash-commands",
+    "final_url": "https://docs.discord.com/developers/interactions/application-commands",
+    "status": "readable",
+    "http": 200,
+    "title": "Application Commands - Documentation - Discord",
+    "checked_at": "2026-11-23T18:48:12+00:00",
     "cached": false
   },
   {
@@ -1545,7 +1581,7 @@
     "http": 200,
     "title": "GitHub's plans - GitHub Docs",
     "checked_at": "2026-11-23T18:37:27+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.github.com/en/graphql/guides/forming-calls-with-graphql",
@@ -1554,7 +1590,7 @@
     "http": 200,
     "title": "Forming calls with GraphQL - GitHub Docs",
     "checked_at": "2026-11-23T18:37:27+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
@@ -1572,7 +1608,7 @@
     "http": 200,
     "title": "Authenticating to the REST API - GitHub Docs",
     "checked_at": "2026-11-23T18:37:28+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.github.com/en/rest/using-the-rest-api/getting-started-with-the-rest-api?apiVersion=latest",
@@ -1581,7 +1617,7 @@
     "http": 200,
     "title": "Getting started with the REST API - GitHub Docs",
     "checked_at": "2026-11-23T18:37:28+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.gorgias.com/en-US/rest-api-208286",
@@ -1644,7 +1680,7 @@
     "http": 200,
     "title": "Get started with the Netlify API | Netlify Docs",
     "checked_at": "2026-11-23T18:37:28+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.netlify.com/build/build-with-ai/agent-setup-guides/agent-setup-overview/",
@@ -1653,7 +1689,7 @@
     "http": 200,
     "title": "Agent setup overview | Netlify Docs",
     "checked_at": "2026-11-23T18:37:28+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-credit-based-plans/credit-based-pricing-plans/",
@@ -1662,7 +1698,7 @@
     "http": 200,
     "title": "Credit-based pricing plans | Netlify Docs",
     "checked_at": "2026-11-23T18:37:29+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.ramp.com/developer-api/v1/api/transactions",
@@ -1671,7 +1707,7 @@
     "http": 200,
     "title": "Ramp API Documentation",
     "checked_at": "2026-11-23T18:37:29+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.ramp.com/developer-api/v1/authorization",
@@ -1680,7 +1716,7 @@
     "http": 200,
     "title": "Ramp API Documentation",
     "checked_at": "2026-11-23T18:37:30+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.ramp.com/developer-api/v1/ramp-mcp",
@@ -1689,7 +1725,7 @@
     "http": 200,
     "title": "Ramp API Documentation",
     "checked_at": "2026-11-23T18:37:30+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.reducto.ai/",
@@ -1698,7 +1734,7 @@
     "http": 200,
     "title": "Reducto Documentation",
     "checked_at": "2026-11-23T18:37:30+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.reducto.ai/mcp-server",
@@ -1707,7 +1743,7 @@
     "http": 200,
     "title": "Reducto MCP Server | Reducto Documentation",
     "checked_at": "2026-11-23T18:37:30+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.reducto.ai/quickstart",
@@ -1716,7 +1752,7 @@
     "http": 200,
     "title": "API Quickstart | Reducto Documentation",
     "checked_at": "2026-11-23T18:37:31+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.sentry.io/api/",
@@ -1752,7 +1788,7 @@
     "http": 200,
     "title": "Overview | Slack Developer Docs",
     "checked_at": "2026-11-23T18:37:32+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.slack.dev/apis/web-api/rate-limits/",
@@ -1761,7 +1797,7 @@
     "http": 200,
     "title": "Rate limits | Slack Developer Docs",
     "checked_at": "2026-11-23T18:37:32+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.slack.dev/authentication/installing-with-oauth/",
@@ -1770,7 +1806,7 @@
     "http": 200,
     "title": "Installing via OAuth authorization code flow | Slack Developer Docs",
     "checked_at": "2026-11-23T18:37:32+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.slack.dev/authentication/tokens",
@@ -1779,7 +1815,7 @@
     "http": 200,
     "title": "Tokens | Slack Developer Docs",
     "checked_at": "2026-11-23T18:37:32+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.slack.dev/tools/developer-sandboxes/",
@@ -1788,7 +1824,7 @@
     "http": 200,
     "title": "Developer sandboxes | Slack Developer Docs",
     "checked_at": "2026-11-23T18:37:33+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
@@ -1797,7 +1833,7 @@
     "http": 200,
     "title": "Authenticating Snowflake REST APIs with Snowflake | Snowflake Documentation",
     "checked_at": "2026-11-23T18:37:33+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/tutorials-overview",
@@ -1806,7 +1842,7 @@
     "http": 200,
     "title": "Tutorials: Getting started with the Snowflake REST APIs | Snowflake Documentation",
     "checked_at": "2026-11-23T18:37:34+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.snowflake.com/en/developer-guide/sql-api",
@@ -1815,7 +1851,7 @@
     "http": 200,
     "title": "Snowflake SQL API | Snowflake Documentation",
     "checked_at": "2026-11-23T18:37:34+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.snowflake.com/en/user-guide/admin-trial-account",
@@ -1824,7 +1860,7 @@
     "http": 200,
     "title": "Trial accounts | Snowflake Documentation",
     "checked_at": "2026-11-23T18:37:35+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp",
@@ -1833,7 +1869,7 @@
     "http": 200,
     "title": "Snowflake-managed MCP server | Snowflake Documentation",
     "checked_at": "2026-11-23T18:37:35+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://docs.stripe.com/api",
@@ -1896,7 +1932,7 @@
     "http": 200,
     "title": "GitHub - Consensus-NLP/consensus-api: Consensus REST API. Semantic search over 400M+ peer-reviewed research papers, including all of PubMed, for RAG, AI agents and research tools. · GitHub",
     "checked_at": "2026-11-23T18:37:35+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://github.com/High-Impact-Athletes/fathom-mcp",
@@ -1905,7 +1941,7 @@
     "http": 200,
     "title": "GitHub - High-Impact-Athletes/fathom-mcp: MCP server connecting Claude Desktop to Fathom AI meeting data via OAuth · GitHub",
     "checked_at": "2026-11-23T18:37:36+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://github.com/Kcrong/smartsheet-mcp",
@@ -1914,7 +1950,7 @@
     "http": 200,
     "title": "GitHub - Kcrong/smartsheet-mcp: Smartsheet mcp for Kiro · GitHub",
     "checked_at": "2026-11-23T18:37:36+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://github.com/MSPbotsAIFramework/sentry-mcp",
@@ -1923,7 +1959,7 @@
     "http": 200,
     "title": "GitHub - MSPbotsAIFramework/sentry-mcp: MCP server for Sentry · GitHub",
     "checked_at": "2026-11-23T18:37:37+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://github.com/adrian-dotco/harvest-mcp-server",
@@ -1932,7 +1968,7 @@
     "http": 200,
     "title": "GitHub - adrian-dotco/harvest-mcp-server: An MCP server for natural language time entry in Harvest · GitHub",
     "checked_at": "2026-11-23T18:37:37+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://github.com/amzn/selling-partner-agentic-toolkit",
@@ -1950,7 +1986,7 @@
     "http": 404,
     "title": "",
     "checked_at": "2026-11-23T18:37:38+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://github.com/amzn/selling-partner-api-sdk",
@@ -2022,7 +2058,7 @@
     "http": 200,
     "title": "discord-api-docs/developers/events/gateway.mdx at main · discord/discord-api-docs · GitHub",
     "checked_at": "2026-11-23T18:37:38+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://github.com/discord/discord-api-docs/blob/main/developers/platform/bots.mdx",
@@ -2031,7 +2067,7 @@
     "http": 200,
     "title": "discord-api-docs/developers/platform/bots.mdx at main · discord/discord-api-docs · GitHub",
     "checked_at": "2026-11-23T18:37:38+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://github.com/discord/discord-api-docs/blob/main/developers/quick-start/getting-started.mdx",
@@ -2040,7 +2076,7 @@
     "http": 200,
     "title": "discord-api-docs/developers/quick-start/getting-started.mdx at main · discord/discord-api-docs · GitHub",
     "checked_at": "2026-11-23T18:37:39+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://github.com/discord/discord-api-docs/blob/main/developers/reference.mdx",
@@ -2049,7 +2085,7 @@
     "http": 200,
     "title": "discord-api-docs/developers/reference.mdx at main · discord/discord-api-docs · GitHub",
     "checked_at": "2026-11-23T18:37:40+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://github.com/domdomegg/airtable-mcp-server",
@@ -2067,7 +2103,7 @@
     "http": 200,
     "title": "GitHub - duytnb26/asana-mcp-server: Asana tool mcp server · GitHub",
     "checked_at": "2026-11-23T18:37:41+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://github.com/eadm/grain-mcp-server",
@@ -2076,7 +2112,7 @@
     "http": 200,
     "title": "GitHub - eadm/grain-mcp-server: MCP Server for Grain · GitHub",
     "checked_at": "2026-11-23T18:37:41+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://github.com/firecrawl/firecrawl-docs/blob/main/mcp-server.mdx",
@@ -2130,7 +2166,7 @@
     "http": 200,
     "title": "GitHub - lbldssr/monday-mcp: A lightweight MCP server for Monday.com, enabling AI assistants and development tools to interact with the Monday.com GraphQL API. · GitHub",
     "checked_at": "2026-11-23T18:37:42+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://github.com/magento/magento2/blob/2.4-develop/composer.json",
@@ -2184,7 +2220,7 @@
     "http": 200,
     "title": "GitHub - meta/agentic-tools: Agentic tools plugin and skills · GitHub",
     "checked_at": "2026-11-23T18:37:44+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://github.com/orellazri/coda-mcp",
@@ -2193,7 +2229,7 @@
     "http": 200,
     "title": "GitHub - orellazri/coda-mcp: MCP Server for Coda · GitHub",
     "checked_at": "2026-11-23T18:37:45+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://github.com/roomi-fields/gemini-notebook-mcp",
@@ -2202,7 +2238,7 @@
     "http": 200,
     "title": "GitHub - roomi-fields/gemini-notebook-mcp: Google Gemini Notebook (formerly NotebookLM) over MCP + a local HTTP REST API. Citation-backed Q&A, full Studio generation, chat history, multi-account rotation. For Claude Code, Codex, Cursor, n8n, Zapier, Make. · GitHub",
     "checked_at": "2026-11-23T18:37:47+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://github.com/ryu1maniwa/mermaid-local-mcp",
@@ -2211,7 +2247,7 @@
     "http": 200,
     "title": "GitHub - ryu1maniwa/mermaid-local-mcp: Local MCP server that renders Mermaid diagrams via mmdc and returns PNG images for visual feedback loops in Claude Code · GitHub",
     "checked_at": "2026-11-23T18:37:48+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://github.com/sherlock-project/api/blob/master/README.md",
@@ -2274,7 +2310,7 @@
     "http": 200,
     "title": "GitHub - telemcp/telemcp: Open source Telegram MCP server: connect your own Telegram account or bot to Claude and other AI assistants. Runs on your machine. · GitHub",
     "checked_at": "2026-11-23T18:37:49+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://github.com/twentyhq/twenty/blob/main/packages/twenty-docs/developers/extend/api.mdx",
@@ -2310,7 +2346,7 @@
     "http": 200,
     "title": "GitHub - twilio-labs/mcp: Monorepo providing 1) OpenAPI to MCP Tool generator 2) Exposing all of Twilio's API as MCP Tools · GitHub",
     "checked_at": "2026-11-23T18:37:50+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://gumroad.com/cursor",
@@ -2418,7 +2454,7 @@
     "http": 200,
     "title": "Fathom MCP: Connect Claude & ChatGPT",
     "checked_at": "2026-11-23T18:37:52+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
@@ -2463,7 +2499,7 @@
     "http": 200,
     "title": "https://marketplace.gohighlevel.com/docs/ : HighLevel Support Portal",
     "checked_at": "2026-11-23T18:37:53+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
@@ -2472,7 +2508,7 @@
     "http": 200,
     "title": "Otter MCP Server – Help Center",
     "checked_at": "2026-11-23T18:37:54+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
@@ -2481,7 +2517,7 @@
     "http": 200,
     "title": "Otter.ai Public API – Help Center",
     "checked_at": "2026-11-23T18:37:55+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://help.plain.com/article/does-the-plain-mcp-server-support-api-key-authentication-h7d83qtfdzxo4h49x4oyklwx",
@@ -2562,7 +2598,7 @@
     "http": 200,
     "title": "Twilio Help Center",
     "checked_at": "2026-11-23T18:37:55+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://helpcenter.gorgias.com/en-US/explore-gorgias-mcp-tools-9131180",
@@ -2580,7 +2616,7 @@
     "http": 200,
     "title": "How to Generate AI Video From Your Terminal With Higgsfield CLI",
     "checked_at": "2026-11-23T18:37:55+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://higgsfield.ai/creator-hub/help-center/integrations/what-is-higgsfield-mcp",
@@ -2589,7 +2625,7 @@
     "http": 200,
     "title": "What Is Higgsfield MCP and How It Differs",
     "checked_at": "2026-11-23T18:37:56+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://higgsfield.ai/creator-hub/help-center/integrations/what-is-the-higgsfield-api",
@@ -2598,7 +2634,7 @@
     "http": 200,
     "title": "What Is the Higgsfield API and How Do I Get Started",
     "checked_at": "2026-11-23T18:37:56+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-10",
@@ -2607,7 +2643,7 @@
     "http": 200,
     "title": "Increasing Access - LinkedIn | Microsoft Learn",
     "checked_at": "2026-11-23T18:37:57+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://learn.microsoft.com/en-us/linkedin/marketing/integrations/ads/getting-started?view=li-lms-2026-01",
@@ -2616,7 +2652,7 @@
     "http": 200,
     "title": "Campaign Management Getting Started - LinkedIn | Microsoft Learn",
     "checked_at": "2026-11-23T18:37:57+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://learn.microsoft.com/en-us/linkedin/marketing/quick-start?view=li-lms-2026-10",
@@ -2625,7 +2661,7 @@
     "http": 200,
     "title": "Quick Start - LinkedIn | Microsoft Learn",
     "checked_at": "2026-11-23T18:37:57+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://linear.app/developers/graphql?noRedirect=1",
@@ -2715,7 +2751,7 @@
     "http": 200,
     "title": "OAuth 2.0 | HighLevel API",
     "checked_at": "2026-11-23T18:37:58+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://marketplace.gohighlevel.com/docs/Authorization/authorization_doc/",
@@ -2724,7 +2760,7 @@
     "http": 200,
     "title": "Authorization | HighLevel API",
     "checked_at": "2026-11-23T18:37:58+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://marketplace.gohighlevel.com/docs/other/mcp/",
@@ -2733,7 +2769,7 @@
     "http": 200,
     "title": "mcp | HighLevel API",
     "checked_at": "2026-11-23T18:37:59+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://marketplace.stripe.com/apps/stripe-mcp",
@@ -2769,7 +2805,7 @@
     "http": 404,
     "title": "",
     "checked_at": "2026-11-23T18:37:59+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://mcp.pipedream.com/app/cloudflare_api_key",
@@ -2778,7 +2814,7 @@
     "http": 404,
     "title": "",
     "checked_at": "2026-11-23T18:37:59+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://mcp.pipedream.com/app/dataforseo",
@@ -2805,7 +2841,7 @@
     "http": 404,
     "title": "",
     "checked_at": "2026-11-23T18:38:00+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://mcp.pipedream.com/app/gumroad",
@@ -2814,7 +2850,7 @@
     "http": 404,
     "title": "",
     "checked_at": "2026-11-23T18:38:00+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://mcp.pipedream.com/app/klaviyo_oauth",
@@ -2823,7 +2859,7 @@
     "http": 404,
     "title": "",
     "checked_at": "2026-11-23T18:38:00+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://mcp.pipedream.com/app/mailchimp",
@@ -2832,7 +2868,7 @@
     "http": 404,
     "title": "",
     "checked_at": "2026-11-23T18:38:01+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://mcp.pipedream.com/app/netlify",
@@ -2841,7 +2877,7 @@
     "http": 404,
     "title": "",
     "checked_at": "2026-11-23T18:38:01+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://mcp.pipedream.com/app/pinterest",
@@ -2877,7 +2913,7 @@
     "http": 404,
     "title": "",
     "checked_at": "2026-11-23T18:38:01+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://mcp.pipedream.com/app/snowflake",
@@ -2886,7 +2922,7 @@
     "http": 404,
     "title": "",
     "checked_at": "2026-11-23T18:38:01+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://mcp.pipedream.com/app/squarespace",
@@ -2895,7 +2931,7 @@
     "http": 404,
     "title": "",
     "checked_at": "2026-11-23T18:38:02+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://mcp.pipedream.com/app/supabase",
@@ -2904,7 +2940,7 @@
     "http": 404,
     "title": "",
     "checked_at": "2026-11-23T18:38:02+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://mcp.pipedream.com/app/systeme_io",
@@ -2913,7 +2949,7 @@
     "http": 404,
     "title": "",
     "checked_at": "2026-11-23T18:38:02+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://mcp.pipedream.com/app/vercel_token_auth",
@@ -2922,7 +2958,7 @@
     "http": 404,
     "title": "",
     "checked_at": "2026-11-23T18:38:03+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://mermaid.ai/docs/ai/mcp-server",
@@ -2931,7 +2967,7 @@
     "http": 200,
     "title": "MCP Server — Mermaid Chart",
     "checked_at": "2026-11-23T18:38:04+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://mrscraper.com/pricing",
@@ -2949,7 +2985,7 @@
     "http": 200,
     "title": "Introducing MCP for Aura: Hosted MCP, built into every Aura instance",
     "checked_at": "2026-11-23T18:38:05+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://neo4j.com/docs/aura/api/authentication/",
@@ -2958,7 +2994,7 @@
     "http": 200,
     "title": "Authentication - Neo4j Aura",
     "checked_at": "2026-11-23T18:38:05+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://neo4j.com/docs/aura/api/overview/",
@@ -2967,7 +3003,7 @@
     "http": 200,
     "title": "Overview - Neo4j Aura",
     "checked_at": "2026-11-23T18:38:05+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://neo4j.com/docs/query-api/current/",
@@ -2976,7 +3012,7 @@
     "http": 200,
     "title": "Introduction - Query API",
     "checked_at": "2026-11-23T18:38:06+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://neo4j.com/docs/query-api/current/authentication-authorization/",
@@ -2985,7 +3021,7 @@
     "http": 200,
     "title": "Authorize requests - Query API",
     "checked_at": "2026-11-23T18:38:07+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://neo4j.com/free-graph-database/",
@@ -2994,7 +3030,7 @@
     "http": 200,
     "title": "Free graph database",
     "checked_at": "2026-11-23T18:38:07+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://notion.notion.site/API-Reference-914a8531daa84753aacdf01274df8ec5?pvs=4",
@@ -3012,7 +3048,7 @@
     "http": 200,
     "title": "Quick start | Higgsfield API",
     "checked_at": "2026-11-23T18:38:08+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://open.larksuite.com/document/home/introduction-to-custom-app-development/testing-enterprise-and-personnel-functions",
@@ -3021,7 +3057,7 @@
     "http": 200,
     "title": "开发文档 - Lark开放平台",
     "checked_at": "2026-11-23T18:38:08+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://open.larksuite.com/document/mcp_open_tools/mcp-user-guide",
@@ -3030,7 +3066,7 @@
     "http": 200,
     "title": "开发文档 - Lark开放平台",
     "checked_at": "2026-11-23T18:38:08+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://open.larksuite.com/document/server-docs/getting-started/overview-of-app-scopes",
@@ -3039,7 +3075,7 @@
     "http": 200,
     "title": "开发文档 - Lark开放平台",
     "checked_at": "2026-11-23T18:38:09+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/authentication-management/access-token/refresh-user-access-token",
@@ -3048,7 +3084,7 @@
     "http": 200,
     "title": "开发文档 - Lark开放平台",
     "checked_at": "2026-11-23T18:38:09+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://open.larksuite.com/document/ukTMukTMukTM/uUDN04SN0QjL1QDN/docs-v1",
@@ -3057,7 +3093,7 @@
     "http": 200,
     "title": "开发文档 - Lark开放平台",
     "checked_at": "2026-11-23T18:38:09+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://otter.ai/pricing?geo=US",
@@ -3066,7 +3102,7 @@
     "http": 200,
     "title": "Pricing | Otter.ai",
     "checked_at": "2026-11-23T18:38:09+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://pipedrive.readme.io/docs/core-api-concepts-authentication",
@@ -3111,7 +3147,7 @@
     "http": 403,
     "title": "",
     "checked_at": "2026-11-23T18:38:10+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://pitchbook.com/products/direct-access-data/api",
@@ -3120,7 +3156,7 @@
     "http": 403,
     "title": "",
     "checked_at": "2026-11-23T18:38:10+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://plaid.com/docs/api/",
@@ -3174,7 +3210,7 @@
     "http": 200,
     "title": "How to use the Pumble MCP server - Pumble Help",
     "checked_at": "2026-11-23T18:38:10+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://pumble.com/pricing",
@@ -3255,7 +3291,7 @@
     "http": 200,
     "title": "REST Admin API reference",
     "checked_at": "2026-11-23T18:38:11+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://shopify.dev/docs/api/ai-toolkit",
@@ -3291,7 +3327,7 @@
     "http": 200,
     "title": "Creating API Routes | Supabase Docs",
     "checked_at": "2026-11-23T18:38:11+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://supabase.com/docs/guides/getting-started/api-keys",
@@ -3318,7 +3354,7 @@
     "http": 200,
     "title": "About billing on Supabase | Supabase Docs",
     "checked_at": "2026-11-23T18:38:11+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://supabase.com/docs/reference/api/introduction",
@@ -3327,7 +3363,7 @@
     "http": 200,
     "title": "Introduction | Management API Reference | Supabase Docs",
     "checked_at": "2026-11-23T18:38:11+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://supabase.com/features/mcp-server",
@@ -3336,7 +3372,7 @@
     "http": 200,
     "title": "MCP Server | Supabase Features",
     "checked_at": "2026-11-23T18:38:12+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://support.aircall.io/en-gb/articles/10375395181853",
@@ -3345,7 +3381,7 @@
     "http": 200,
     "title": "Aircall Help Center | Getting your Aircall API key",
     "checked_at": "2026-11-23T18:38:12+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://support.aircall.io/en-gb/articles/15149698584733",
@@ -3354,7 +3390,7 @@
     "http": 200,
     "title": "Aircall Help Center | Trial experience with Aircall",
     "checked_at": "2026-11-23T18:38:12+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://support.aircall.io/en-gb/articles/39677926959517",
@@ -3363,7 +3399,7 @@
     "http": 200,
     "title": "Aircall Help Center | Using Aircall MCP with AI assistants (beta)",
     "checked_at": "2026-11-23T18:38:13+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://support.airtable.com/articles/6292134965-getting-started-with-airtable-s-web-api",
@@ -3444,7 +3480,7 @@
     "http": 200,
     "title": "Grain MCP | Grain",
     "checked_at": "2026-11-23T18:38:13+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://support.grain.com/en/articles/15507288-grain-api",
@@ -3453,7 +3489,7 @@
     "http": 200,
     "title": "Grain API | Grain",
     "checked_at": "2026-11-23T18:38:13+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://support.liveagent.com/647358-MCP-Integration-for-agents",
@@ -3525,7 +3561,7 @@
     "http": 200,
     "title": "Ramp Help Center",
     "checked_at": "2026-11-23T18:38:13+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://support.squarespace.com/hc/en-us/articles/236297987-Squarespace-API-keys",
@@ -3606,7 +3642,7 @@
     "http": 200,
     "title": "YouTube Transcript API with cURL | TranscriptAPI.com",
     "checked_at": "2026-11-23T18:38:14+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://transcriptapi.com/docs/mcp/",
@@ -3615,7 +3651,7 @@
     "http": 200,
     "title": "MCP (Model Context Protocol) | TranscriptAPI.com",
     "checked_at": "2026-11-23T18:38:14+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://transcriptapi.com/terms",
@@ -3624,7 +3660,16 @@
     "http": 200,
     "title": "Terms and Conditions | TranscriptAPI",
     "checked_at": "2026-11-23T18:38:14+00:00",
-    "cached": false
+    "cached": true
+  },
+  {
+    "url": "https://twenty.com/pricing",
+    "final_url": "https://twenty.com/pricing",
+    "status": "readable",
+    "http": 200,
+    "title": "Twenty CRM Pricing — Plans from $9 per User per Month",
+    "checked_at": "2026-11-23T16:19:03+00:00",
+    "cached": true
   },
   {
     "url": "https://university.clay.com/docs/clay-api-cli",
@@ -3660,7 +3705,7 @@
     "http": 200,
     "title": "",
     "checked_at": "2026-11-23T18:38:15+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://vercel.com/docs/plans/hobby",
@@ -3669,7 +3714,7 @@
     "http": 200,
     "title": "",
     "checked_at": "2026-11-23T18:38:15+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://vercel.com/docs/rest-api",
@@ -3687,7 +3732,7 @@
     "http": 200,
     "title": "Vercel Pricing: Hobby, Pro, and Enterprise plans",
     "checked_at": "2026-11-23T18:38:15+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://whatsappbusiness.com/products/platform-pricing/?lang=en",
@@ -3696,7 +3741,7 @@
     "http": 200,
     "title": "WhatsApp Business Platform Pricing | WhatsApp API Pricing",
     "checked_at": "2026-11-23T18:38:15+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://woocommerce.com/document/w7s-mcp/",
@@ -3741,7 +3786,7 @@
     "http": 200,
     "title": "BigCommerce Pricing and Plan Information | BigCommerce",
     "checked_at": "2026-11-23T18:38:15+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://www.binance.com/en/support/faq/detail/7a6e676e36fb455d96478932cb12d9f3",
@@ -3759,7 +3804,7 @@
     "http": 200,
     "title": "Using Brex in AI apps",
     "checked_at": "2026-11-23T18:38:17+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://www.copper.com/mcp",
@@ -3957,7 +4002,7 @@
     "http": 200,
     "title": "Postman",
     "checked_at": "2026-11-23T18:38:17+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://www.progress.com/podio/documentation/using-podio/ai-and-mcp/podio-mcp-server-integration-guide",
@@ -4002,7 +4047,7 @@
     "http": 200,
     "title": "SendGrid v3 API reference | SendGrid Docs | Twilio",
     "checked_at": "2026-11-23T18:38:17+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://www.twilio.com/docs/sendgrid/api-reference/api-keys",
@@ -4014,13 +4059,22 @@
     "cached": true
   },
   {
+    "url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+    "final_url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+    "status": "readable",
+    "http": 200,
+    "title": "Authentication | SendGrid Docs | Twilio",
+    "checked_at": "2026-11-23T18:48:12+00:00",
+    "cached": false
+  },
+  {
     "url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/requests",
     "final_url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/requests",
     "status": "readable",
     "http": 200,
     "title": "Requests | SendGrid Docs | Twilio",
     "checked_at": "2026-11-23T18:38:17+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://www.twilio.com/docs/sendgrid/api-reference/mail-send",
@@ -4047,7 +4101,7 @@
     "http": 200,
     "title": "Twilio API requests | Twilio",
     "checked_at": "2026-11-23T18:38:17+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://www.twilio.com/docs/usage/trials",
@@ -4056,7 +4110,7 @@
     "http": 200,
     "title": "Twilio trial account | Twilio",
     "checked_at": "2026-11-23T18:38:18+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account",
@@ -4065,7 +4119,7 @@
     "http": 200,
     "title": "Get started with your Twilio free trial account | Twilio",
     "checked_at": "2026-11-23T18:38:18+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://www.waterfall.io/book-a-call",
@@ -4110,7 +4164,7 @@
     "http": 200,
     "title": "Guide to Zoho Cliq's MCP Server",
     "checked_at": "2026-11-23T18:38:18+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://www.zoho.com/cliq/help/restapi/v2/",
@@ -4119,7 +4173,7 @@
     "http": 200,
     "title": "Rest API documentation | Cliq",
     "checked_at": "2026-11-23T18:38:18+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://www.zoho.com/cliq/help/restapi/v2/registerclient/",
@@ -4128,7 +4182,7 @@
     "http": 200,
     "title": "Register your application | Zoho Cliq | API Documentation",
     "checked_at": "2026-11-23T18:38:18+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://www.zoho.com/cliq/plan-comparison.html?zredirect=f",
@@ -4137,7 +4191,7 @@
     "http": 200,
     "title": "Plans and Pricing Comparison | Zoho Cliq",
     "checked_at": "2026-11-23T18:38:18+00:00",
-    "cached": false
+    "cached": true
   },
   {
     "url": "https://www.zoho.com/crm/developer/",

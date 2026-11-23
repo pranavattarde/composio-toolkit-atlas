@@ -1,7 +1,7 @@
 {
   "auth": {
     "OAuth2": 69,
-    "Bearer token": 50,
+    "Bearer token": 51,
     "API key": 48,
     "Basic": 16,
     "Other": 11,
@@ -225,8 +225,8 @@
       }
     }
   ],
-  "reviewed_sources": 517,
-  "readable_sources": 467,
+  "reviewed_sources": 518,
+  "readable_sources": 468,
   "source_fields": {
     "identity": 11,
     "auth": 98,
@@ -236,7 +236,7 @@
     "mcp_official": 85,
     "mcp_third_party": 78
   },
-  "catalog_matches": 77,
+  "catalog_matches": 79,
   "both_mcp": 68,
   "selfserve": 65,
   "coverage_apps": 100,
@@ -254,6 +254,6 @@
   "first_known": 7,
   "first_sources": 367,
   "last_checked": "2026-11-23",
-  "ready_listed": 43,
+  "ready_listed": 44,
   "free_with_restrictions": 16
 }

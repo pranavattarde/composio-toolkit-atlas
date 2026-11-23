@@ -1,5 +1,5 @@
 "use strict";
-const {apps,summary:s,checks,run,browser}=JSON.parse(document.querySelector("#dataset").textContent);
+const {apps,summary:s,checks,run,browser,holdout}=JSON.parse(document.querySelector("#dataset").textContent);
 const el=(sel)=>document.querySelector(sel);
 const E=(value)=>String(value??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const allStates=["READY","CONDITIONAL","GATED","BLOCKED","UNKNOWN"];
@@ -12,7 +12,7 @@ const hits=s.final_hits,total=s.tested_fields;
 const readable=s.readable_sources, sources=s.reviewed_sources;
 const shortCat=["CRM & sales","Support & helpdesk","Communications","Marketing & ads","Ecommerce","Data, SEO & scraping","Developer & infra","Productivity","Finance & fintech","AI, research & media"];
 el("#headline").textContent=s.verdict.READY;
-el("#deck").textContent="Composio already lists "+s.ready_listed+" of those "+s.verdict.READY+". Across 100 requested apps, the bigger decision is which workflows deserve deeper coverage and which need a vendor agreement first.";
+el("#deck").textContent="Composio already lists "+s.ready_listed+" of those "+s.verdict.READY+". The other "+(s.verdict.READY-s.ready_listed)+" warrant a catalog gap review. For the "+s.verdict.GATED+" gated apps, start with an access sponsor.";
 el("#map").innerHTML=apps.map(r=>'<button class="tile '+r.verdict+'" data-open="'+r.id+'" title="'+E(r.name+' · '+r.verdict)+'" aria-label="'+E('Open '+r.name+', '+r.verdict)+'"></button>').join("");
 el("#legend").innerHTML=allStates.map(v=>'<span class="key '+v+'"><i class="swatch"></i>'+E(v[0]+v.slice(1).toLowerCase())+' '+(s.verdict[v]||0)+'</span>').join("");
 const metrics=[
@@ -25,6 +25,9 @@ el("#metrics").innerHTML=metrics.map(([v,h,p])=>'<div class="metric"><div class=
 function barRows(obj,max=100){return Object.entries(obj).map(([k,v])=>'<div class="barrow"><span>'+E(k)+'</span><div class="bartrack"><div class="barfill" style="width:'+100*v/max+'%"></div></div><span class="value">'+v+'</span></div>').join("")}
 el("#categories").innerHTML=s.categories.map((c,i)=>'<button class="catrow" data-cat="'+E(c.name)+'" title="'+E(Object.entries(c.verdict).map(([a,b])=>a+' '+b).join(', '))+'"><span>'+shortCat[i]+'</span><span class="strip">'+allStates.filter(v=>c.verdict[v]).map(v=>'<i class="'+v+'" style="flex:'+c.verdict[v]+'"></i>').join("")+'</span><span class="value">'+(c.verdict.READY||0)+'/10</span></button>').join("")+'<p class="muted">Right-hand counts show READY apps. Productivity has nine. Finance has two, including sandbox and testnet development paths.</p>';
 el("#accesschart").innerHTML=barRows(s.access,100);
+const authLeader=Object.entries(s.auth)[0];
+const blockerLeader=Object.entries(s.blocker_type).find(([k])=>k!=="None");
+el("#patternNote").textContent=authLeader[0]+" is the most common authentication method ("+authLeader[1]+"/100). Plan or payment requirements are the largest primary blocker ("+blockerLeader[1]+" apps). Standardizing OAuth onboarding helps many connectors, but each still needs an entitlement check.";
 el("#breakdowns").innerHTML=[["Auth methods",s.auth],["Interface types",s.api],["API breadth",s.surface],["Primary blocker",s.blocker_type],["Public interface evidence",s.remote_api],["MCP ownership",{"Vendor":s.official_mcp.Verified,"Third party":s.third_party_mcp.Verified,"Both":s.both_mcp}]].map(([h,obj])=>'<div><h3>'+h+'</h3>'+barRows(obj)+'</div>').join("");
 el("#roadIntro").textContent="Of the "+s.verdict.READY+" ready apps, "+(s.verdict.READY-s.ready_listed)+" had no confirmed match in this catalog scan. These three offer a narrow first tool and a concrete way to evaluate it.";
 const road=[
@@ -61,10 +64,11 @@ render();
 el("#verificationIntro").textContent=s.tested_apps+" sampled apps span all "+s.sample_categories+" categories and every observed verdict. Each pass was compared with the same "+total+" source-backed assertions.";
 el("#score").innerHTML=[[s.first_hits,"Rules-only first pass"],[hits,"After source review"]].map(([v,label])=>'<div><strong>'+percent(v,total)+'</strong><span>'+label+' · '+v+'/'+total+'</span></div>').join("");
 el("#rubric").textContent="One point per documented assertion. Scalar labels must match; most multi-label checks test a named method, with explicit exclusions and a complete-set check where stated. Missing answers count as misses. This purposive sample was used during correction, so the final score measures reconciliation on those claims. It does not estimate accuracy across every field.";
+el("#holdout").innerHTML='<div class="callout"><strong>Fresh check on a frozen release: '+holdout.frozen_hits+'/'+holdout.total+' matched.</strong> Ten additional apps were checked after the initial release. Discord listed OAuth2 and bot authentication, but omitted the bearer credential on command-permission updates. The source-backed fix brings these checks to '+holdout.published_hits+'/'+holdout.total+'. '+link("https://github.com/pranavattarde/composio-toolkit-atlas/blob/main/verification/holdout.json","Inspect the frozen values and sources")+'</div>';
 const lessons=[
  [80,"A legacy method looked current","The pilot flagged Basic auth in Harvest's migration text. The current v2 guide specifies OAuth2 or a personal token. A separate help article confirmed free accounts can use the API."],
  [90,"A blocked fetch hid a real API","PitchBook returned HTTP 403 to the first crawler. Its own help center describes a REST API sold under a separate agreement. The verdict moved from UNKNOWN to GATED."],
- [84,"One identity is still unresolved","A marketing page names Paygent Connect, but it does not establish the assignment's NMI relationship. This row remains UNKNOWN."]
+ [84,"One identity is still unresolved","A marketing page names Paygent Connect, but it does not establish an NMI affiliation. This row remains UNKNOWN."]
 ];
 el("#mistakes").innerHTML=lessons.map(([id,h,p])=>'<article class="note"><small>'+E(apps[id-1].name)+'</small><h3>'+E(h)+'</h3><p>'+E(p)+'</p>'+openButton(id,"Inspect evidence")+'</article>').join("");
 el("#auditLabel").textContent="Inspect all "+total+" scored checks";
@@ -72,4 +76,3 @@ el("#auditRows").innerHTML=checks.map(q=>'<details class="audit"><summary>'+E(q.
 el("#runMeta").textContent="The production snapshot's first pass processed "+run.records+" apps and "+s.first_sources+" page receipts with "+run.workers+" workers. "+browser.filter(r=>r.status==="matched").length+" of "+browser.length+" rendered-browser text checks matched. A workflow rerun produces a downloadable artifact and keeps the published snapshot intact.";
 el("#limits").textContent=s.coverage_apps+"/100 apps have cited sources. The direct reader extracted text from "+readable+" of "+sources+" distinct published URLs. Indexed vendor text supports some JavaScript-only or restricted pages. Auth, access and interface sources cover "+s.source_fields.auth+", "+s.source_fields.access+" and "+s.source_fields.api+" apps, respectively. MCP counts are documented lower bounds and include developer-only servers. High confidence requires documented auth, access and API with readable sources. App-level evidence and unresolved questions remain visible above.";
 if(/^#app-\d+$/.test(location.hash))showApp(Number(location.hash.slice(5)));
-

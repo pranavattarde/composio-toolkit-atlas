@@ -1,0 +1,93 @@
+[
+  {
+    "id": 5,
+    "url": "https://twenty.com/pricing",
+    "note": "The plan comparison names both REST and GraphQL.",
+    "field": "api",
+    "expected": "REST"
+  },
+  {
+    "id": 5,
+    "url": "https://twenty.com/pricing",
+    "note": "The plan comparison names both REST and GraphQL.",
+    "field": "api",
+    "expected": "GraphQL"
+  },
+  {
+    "id": 14,
+    "url": "https://dev.frontapp.com/reference/introduction",
+    "note": "The Core API accepts OAuth2 or an account token.",
+    "field": "auth",
+    "expected": "OAuth2"
+  },
+  {
+    "id": 26,
+    "url": "https://docs.discord.com/developers/docs/interactions/slash-commands",
+    "note": "The commands permissions endpoint specifically requires a bearer token.",
+    "field": "auth",
+    "expected": "Bearer token"
+  },
+  {
+    "id": 40,
+    "url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+    "note": "The Web API v3 calls itself REST. API keys are sent using the Bearer authorization scheme.",
+    "field": "api",
+    "expected": "REST"
+  },
+  {
+    "id": 40,
+    "url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+    "note": "The Web API v3 calls itself REST. API keys are sent using the Bearer authorization scheme.",
+    "field": "auth",
+    "expected": "API key"
+  },
+  {
+    "id": 40,
+    "url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+    "note": "The Web API v3 calls itself REST. API keys are sent using the Bearer authorization scheme.",
+    "field": "auth",
+    "expected": "Bearer token"
+  },
+  {
+    "id": 43,
+    "url": "https://docs.bigcommerce.com/developer/docs/storefront/guides/graphql-storefront-api/overview",
+    "note": "The storefront overview identifies GraphQL for catalog and storefront data.",
+    "field": "api",
+    "expected": "GraphQL"
+  },
+  {
+    "id": 55,
+    "url": "https://docs.apify.com/integrations/api",
+    "note": "The platform calls its public interface a REST API.",
+    "field": "api",
+    "expected": "REST"
+  },
+  {
+    "id": 63,
+    "url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+    "note": "The API guide documents OAuth2 and token-based requests.",
+    "field": "auth",
+    "expected": "OAuth2"
+  },
+  {
+    "id": 72,
+    "url": "https://support.airtable.com/articles/7735693959-managing-api-call-limits-in-airtable",
+    "note": "Free workspaces have an explicit monthly API allowance.",
+    "field": "access",
+    "expected": "Self-serve free"
+  },
+  {
+    "id": 87,
+    "url": "https://developer.xero.com/documentation/guides/oauth2/overview",
+    "note": "Xero documents OAuth 2.0 for delegated accounting access.",
+    "field": "auth",
+    "expected": "OAuth2"
+  },
+  {
+    "id": 93,
+    "url": "https://www.fathom.ai/features/api",
+    "note": "Fathom documents personal API keys as an integration path.",
+    "field": "auth",
+    "expected": "API key"
+  }
+]

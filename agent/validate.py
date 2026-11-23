@@ -43,9 +43,15 @@ def main():
     page=BeautifulSoup((ROOT/"docs/index.html").read_text(encoding="utf8"),"html.parser")
     embedded=json.loads(page.select_one("#dataset").string)
     assert embedded["apps"]==apps and embedded["summary"]==summary and embedded["checks"]==audit
+    holdout=embedded["holdout"]
+    assert len(holdout["observations"])==holdout["total"]
+    assert {q["id"] for q in holdout["observations"]}.isdisjoint(q["id"] for q in audit)
+    assert sum(q["frozen_correct"] for q in holdout["observations"])==holdout["frozen_hits"]
+    for q in holdout["observations"]:
+        assert judge(q["frozen"],q)==q["frozen_correct"]
+        assert judge(apps[q["id"]-1][q["field"]],q)==q["published_correct"]
     for a in page.select("a[href]"):
         url=a["href"]
         if url.startswith("data/"): assert (ROOT/"docs"/url).is_file()
     print(f'PASS: {len(apps)} apps, 10 categories, {summary["reviewed_sources"]} cited URLs, {len(audit)} scored checks, CSV/JSON/HTML agree.')
 if __name__=="__main__": main()
-

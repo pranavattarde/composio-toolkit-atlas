@@ -1,8 +1,16 @@
 # Toolkit Atlas
 
-A Composio AI Product Ops take-home by Pranav Attarde. Of 100 requested apps, 51 have a documented path to a scoped prototype. Composio already lists 43 of those 51. The case study identifies specific workflow gaps to test and the access approvals worth pursuing early.
+By **Pranav Attarde**
 
-**[Open the live case study](https://pranavattarde.github.io/composio-toolkit-atlas/)** · [Research records (JSON)](docs/data/apps.json) · [CSV](docs/data/apps.csv) · [Successful research run](https://github.com/pranavattarde/composio-toolkit-atlas/actions/runs/45240712943)
+## Problem statement
+
+Which of 100 applications can support an agent-callable toolkit, which need an access agreement, and where would additional engineering duplicate existing coverage?
+
+Fifty-one apps have a documented path to a scoped prototype. Composio already lists 44 of them. Seven merit a closer catalog gap review. Twelve other apps need substantial access approval.
+
+**[Open the live case study](https://pranavattarde.github.io/composio-toolkit-atlas/)** · [Source repository](https://github.com/pranavattarde/composio-toolkit-atlas) · [Research records (JSON)](docs/data/apps.json) · [CSV](docs/data/apps.csv) · [Successful research run](https://github.com/pranavattarde/composio-toolkit-atlas/actions/runs/45240712943)
+
+For the offline edition, extract the complete ZIP and open **START-HERE.html**. The index, charts, app search and evidence notes work locally. Source links open the original websites.
 
 ## Run the research agent
 
@@ -19,14 +27,16 @@ The first command after installation reproduces the five-app pilot scope. The se
 
 Alternatively use **Actions → Recheck public documentation → Run workflow** in a public fork. Select app IDs or enter `all`. The standard Ubuntu runner uploads two result files for one day. A run leaves the committed study unchanged. People without write access can inspect the linked successful run or dispatch in their own fork.
 
-## How the release was produced
+## Research design
 
-1. Preserve the supplied names, ordering and hints in [the canonical CSV](input/apps.csv). Five pilot seed sets augment the supplied hints. Missing hosts, including the ambiguous Paygent hint, are left for review.
+1. The app directory preserves the original names, ordering and website hints in [the canonical CSV](input/apps.csv). Five pilot seed sets augment the directory. Missing hosts, including the ambiguous Paygent hint, are left for review.
 2. The Python runner follows ranked same-vendor links, reads public documentation under robots policy and extracts short pieces of text for access, auth and interface rules. Bounded concurrency, per-host pacing, timeouts, transient retries, cache expiry and resumable checkpoints keep the crawl small. The live full run processed 100 rows and 367 page receipts. The first pass inferred a verdict for seven apps. The remainder went to review.
-3. AI-assisted researchers used public vendor documentation, project maintainers' repositories and public vendor-source search results to produce the attributed [review annotations](review). The deterministic fallback runs without those judgments. The release uses these checked-in annotations to resolve product identity, credential issuance, production gates, access scope and MCP ownership. A new crawl alone cannot independently reproduce interpretive research.
-4. [The catalog check](agent/catalog.py) reads Composio's public sitemap and verifies candidate toolkit pages. A published MCP route supports a third-party access claim. A known relay with an MCP-suffixed slug is excluded as independent implementation evidence unless another publisher establishes it. The ambiguous YouTube Transcript catalog name is excluded because its underlying provider was unverified. The agent made no authenticated SDK/MCP calls.
+3. The research layer combines AI-assisted interpretation with public vendor guides, maintainers' repositories and indexed vendor documentation. Each decision is recorded in the attributed [review annotations](review). The deterministic fallback runs without those judgments. The release uses these checked-in annotations to resolve product identity, credential issuance, production gates, access scope and MCP ownership. A new crawl alone cannot independently reproduce interpretive research.
+4. [The catalog check](agent/catalog.py) reads Composio's public toolkit and documentation sitemaps and verifies candidate toolkit pages. A published MCP route supports a third-party access claim. A known relay with an MCP-suffixed slug is excluded as independent implementation evidence unless another publisher establishes it. The ambiguous YouTube Transcript catalog name is excluded because its underlying provider was unverified. The agent made no authenticated SDK/MCP calls.
 5. [The citation checker](agent/check_sources.py) rechecks every reviewed source and sample URL. The publication step removes confirmed 404/410 links, lowers unsupported MCP claims, compares conflicting classifications and emits a [review queue](docs/data/issues.json) and [correction history](docs/data/corrections.json). An HTTP 403 or a thin page is recorded separately from an invalid link. Indexed vendor observations can still support a qualified claim.
-6. [Reference assertions](verification/reference.json) were sourced separately, then scored against both passes. Fifty-nine checks span 30 apps across all ten categories and all four observed outcomes. The baseline matched 21/59 and the corrected dataset matched 59/59. Most checks test specified facts, with exact scalar labels, named multi-label inclusions, two exclusions and one exact set. The sample informed correction, including the Harvest free-account entitlement. These figures describe the sampled assertions only. The complete-set and exclusion checks overlap some named-method checks. Eight browser-rendered text checks are recorded in [browser observations](verification/browser-observations.json). No human confirmation is recorded.
+6. [Reference assertions](verification/reference.json) were sourced separately, then scored against both passes. Fifty-nine checks span 30 apps across all ten categories and all four observed outcomes. The baseline matched 21/59 and the corrected dataset matched 59/59. Most checks test specified facts, with exact scalar labels, named multi-label inclusions, two exclusions and one exact set. The sample informed correction, including the Harvest free-account entitlement. These figures describe the sampled assertions only. The complete-set and exclusion checks overlap some named-method checks. Eight browser-rendered text checks are recorded in [browser observations](verification/browser-observations.json). These are automated browser checks.
+
+A later check on ten additional apps compared 13 claims against the frozen first release. Twelve matched. Discord's command-permission update requires a bearer credential that was missing from the normalized auth labels. After correction, all 13 matched. [Frozen values, corrected values and source links](verification/holdout.json).
 
 ## Rebuild the exact published snapshot
 
@@ -57,7 +67,7 @@ Review changed claims before releasing a new snapshot. Documentation and catalog
 - **Breadth** estimates resource families, without asserting endpoint counts. Focused covers one workflow family, moderate covers several related families and broad spans multiple families. MCP evidence includes vendor-run data tools and developer-only documentation tools. Check the source observation before treating a server as a substitute for a product API.
 - **Confidence** reflects support for auth, access and API. High requires all three and direct readable evidence across the three claim types. Medium indicates partial direct validation. Low marks unresolved buildability or a missing interface. Confidence is separate from the breadth of an MCP catalog search.
 - **Source coverage** is the number of distinct URLs, with per-source check results alongside notes. The evidence rows have public URLs and original observations. Raw pages, credentials, browser profiles and caches are excluded. Timestamps in receipts are UTC.
-- **Human check**. Read Harvest v2 authentication, Telegram's bot introduction and the Mermaid CLI README through the checklist in the case study. The current release records the agent’s checks.
+- **Reader verification**. The case study links directly to the Harvest v2 credential guide, Telegram bot registration and Mermaid CLI interface for a short independent check.
 
 ## Files
 

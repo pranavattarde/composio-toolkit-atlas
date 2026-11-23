@@ -1073,11 +1073,28 @@
   {
     "id": 26,
     "field": "auth",
+    "before": [
+      "OAuth2",
+      "Other",
+      "Basic"
+    ],
+    "after": [
+      "OAuth2",
+      "Other",
+      "Basic",
+      "Bearer token"
+    ],
+    "reason": "The application-command permission endpoint requires a bearer credential with guild permissions. The reviewed list captured OAuth but omitted its supported bearer presentation."
+  },
+  {
+    "id": 26,
+    "field": "auth",
     "before": [],
     "after": [
       "OAuth2",
       "Other",
-      "Basic"
+      "Basic",
+      "Bearer token"
     ],
     "reason": "Reviewed source notes and scope in the final app record."
   },

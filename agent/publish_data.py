@@ -148,4 +148,3 @@ def main():
         for r in final: writer.writerow({k:json.dumps(v,ensure_ascii=False) if isinstance(v,(dict,list)) else v for k,v in r.items()})
     print(json.dumps({k:summary[k] for k in ["verdict","tested_apps","tested_fields","first_hits","final_hits","reviewed_sources","readable_sources","selfserve","ready_listed","free_with_restrictions"]},indent=2))
 if __name__=="__main__": main()
-

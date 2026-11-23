@@ -1244,7 +1244,7 @@
     "unknowns": [
       "Confirm the customer plan for any advanced scopes."
     ],
-    "composio_listing": null,
+    "composio_listing": "https://docs.composio.dev/toolkits/front",
     "remote_api": "Documented",
     "last_checked": "2026-11-23",
     "confidence": "High"
@@ -1321,7 +1321,7 @@
     "unknowns": [
       "No standalone free API sandbox was confirmed."
     ],
-    "composio_listing": null,
+    "composio_listing": "https://composio.dev/toolkits/pylon_mcp",
     "remote_api": "Documented",
     "last_checked": "2026-11-23",
     "confidence": "Medium"
@@ -2258,6 +2258,15 @@
         "last_fetched": "2026-11-23T18:37:38+00:00"
       },
       {
+        "url": "https://docs.discord.com/developers/docs/interactions/slash-commands",
+        "note": "The application-command permission endpoint requires a bearer credential with guild permissions. The reviewed list captured OAuth but omitted its supported bearer presentation.",
+        "claims": [
+          "auth"
+        ],
+        "fetch_status": "readable",
+        "last_fetched": "2026-11-23T18:48:12+00:00"
+      },
+      {
         "url": "https://composio.dev/toolkits/discord",
         "claims": [
           "mcp_third_party"
@@ -2270,7 +2279,8 @@
     "auth": [
       "OAuth2",
       "Other",
-      "Basic"
+      "Basic",
+      "Bearer token"
     ],
     "access": "Self-serve (cost unverified)",
     "access_note": "The developer portal issues a bot token for a registered app and allows installation in a test server. No explicit fee schedule was established here.",
@@ -7494,11 +7504,11 @@
     "name": "Paygent Connect",
     "category": "Finance and Fintech",
     "website_hint": "paygent (NMI-powered)",
-    "description": "The supplied name points to a marketplace-payments and merchant-onboarding product; its NMI relationship is unresolved.",
+    "description": "Paygent Connect is a candidate marketplace-payments and merchant-onboarding product. Its NMI affiliation is unresolved.",
     "website": null,
     "auth": [],
     "access": "Unknown",
-    "access_note": "A candidate vendor page markets Paygent Connect and mentions sandbox testing. It does not establish the supplied NMI identity or an issuer of Connect-specific credentials.",
+    "access_note": "A candidate vendor page markets Paygent Connect and mentions sandbox testing. It does not establish an NMI affiliation or an issuer of Connect-specific credentials.",
     "api": [],
     "surface": "Unknown",
     "capabilities": [],

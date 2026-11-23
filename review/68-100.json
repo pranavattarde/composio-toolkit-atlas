@@ -1121,11 +1121,11 @@
   },
   {
     "id": 84,
-    "description": "The supplied name points to a marketplace-payments and merchant-onboarding product; its NMI relationship is unresolved.",
+    "description": "Paygent Connect is a candidate marketplace-payments and merchant-onboarding product. Its NMI affiliation is unresolved.",
     "website": null,
     "auth": [],
     "access": "Unknown",
-    "access_note": "A candidate vendor page markets Paygent Connect and mentions sandbox testing. It does not establish the supplied NMI identity or an issuer of Connect-specific credentials.",
+    "access_note": "A candidate vendor page markets Paygent Connect and mentions sandbox testing. It does not establish an NMI affiliation or an issuer of Connect-specific credentials.",
     "api": [],
     "surface": "Unknown",
     "capabilities": [],
