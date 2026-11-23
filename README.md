@@ -27,16 +27,26 @@ The first command after installation reproduces the five-app pilot scope. The se
 
 Alternatively use **Actions → Recheck public documentation → Run workflow** in a public fork. Select app IDs or enter `all`. The standard Ubuntu runner uploads two result files for one day. A run leaves the committed study unchanged. People without write access can inspect the linked successful run or dispatch in their own fork.
 
+To see a fresh run from a clean extraction of the ZIP, use:
+
+```sh
+python agent/research.py --ids 80 --refresh --out runs/manual
+```
+
+Open `runs/manual/run.json` and look for one fresh record and current start and finish times. Then open `runs/manual/first-pass.json` and inspect Harvest's source URLs, HTTP statuses, timestamps, cache flags and extracted auth evidence. Repeat with IDs `80,98` and confirm that the fresh results now include Mermaid CLI as well. The raw crawler and the published, reviewed release serve different purposes and may classify an app differently.
+
 ## Research design
 
 1. The app directory preserves the original names, ordering and website hints in [the canonical CSV](input/apps.csv). Five pilot seed sets augment the directory. Missing hosts, including the ambiguous Paygent hint, are left for review.
 2. The Python runner follows ranked same-vendor links, reads public documentation under robots policy and extracts short pieces of text for access, auth and interface rules. Bounded concurrency, per-host pacing, timeouts, transient retries, cache expiry and resumable checkpoints keep the crawl small. The live full run processed 100 rows and 367 page receipts. The first pass inferred a verdict for seven apps. The remainder went to review.
 3. The research layer combines AI-assisted interpretation with public vendor guides, maintainers' repositories and indexed vendor documentation. Each decision is recorded in the attributed [review annotations](review). The deterministic fallback runs without those judgments. The release uses these checked-in annotations to resolve product identity, credential issuance, production gates, access scope and MCP ownership. A new crawl alone cannot independently reproduce interpretive research.
 4. [The catalog check](agent/catalog.py) reads Composio's public toolkit and documentation sitemaps and verifies candidate toolkit pages. A published MCP route supports a third-party access claim. A known relay with an MCP-suffixed slug is excluded as independent implementation evidence unless another publisher establishes it. The ambiguous YouTube Transcript catalog name is excluded because its underlying provider was unverified. The agent made no authenticated SDK/MCP calls.
-5. [The citation checker](agent/check_sources.py) rechecks every reviewed source and sample URL. The publication step removes confirmed 404/410 links, lowers unsupported MCP claims, compares conflicting classifications and emits a [review queue](docs/data/issues.json) and [correction history](docs/data/corrections.json). An HTTP 403 or a thin page is recorded separately from an invalid link. Indexed vendor observations can still support a qualified claim.
+5. [The citation checker](agent/check_sources.py) rechecks reviewed, sampled and catalog URLs. It looks for field-specific evidence in the extracted page text. The publication step removes confirmed 404/410 links, lowers unsupported MCP claims and emits a [review queue](docs/data/issues.json) and [correction history](docs/data/corrections.json). Indexed vendor text can support a qualified claim when a page blocks direct access or returns little readable content.
 6. [Reference assertions](verification/reference.json) were sourced separately, then scored against both passes. Fifty-nine checks span 30 apps across all ten categories and all four observed outcomes. The baseline matched 21/59 and the corrected dataset matched 59/59. Most checks test specified facts, with exact scalar labels, named multi-label inclusions, two exclusions and one exact set. The sample informed correction, including the Harvest free-account entitlement. These figures describe the sampled assertions only. The complete-set and exclusion checks overlap some named-method checks. Eight browser-rendered text checks are recorded in [browser observations](verification/browser-observations.json). These are automated browser checks.
 
 A later check on ten additional apps compared 13 claims against the frozen first release. Twelve matched. Discord's command-permission update requires a bearer credential that was missing from the normalized auth labels. After correction, all 13 matched. [Frozen values, corrected values and source links](verification/holdout.json).
+
+The latest audit selected two more apps from each original category, with 20 apps and 41 assertions. The same scoring rules yielded 12/41 for the archived first pass, 39/41 for the frozen reviewed release, and 41/41 after fixing DealCloud's bearer transport and the FanBasis checkout interface type. These scores describe the selected claims. FanBasis's credential eligibility remains unresolved. [Stratified audit with frozen values and source links](docs/data/stratified-audit.json).
 
 ## Rebuild the exact published snapshot
 
@@ -65,9 +75,9 @@ Review changed claims before releasing a new snapshot. Documentation and catalog
 - **Access** is the best-supported initial credential path for the named use case. **Buildability** considers that path and meaningful production restrictions. A free sandbox and partner-gated distribution can coexist. The row notes identify which route applies. Self-hosted tools may support local agent skills.
 - **Authentication and interfaces** are multi-label. Bearer describes token presentation and can overlap OAuth2 or an API key. Product-specific supplementary mechanisms appear in the source notes. Empty lists mean unverified or inapplicable as explained in the row.
 - **Breadth** estimates resource families, without asserting endpoint counts. Focused covers one workflow family, moderate covers several related families and broad spans multiple families. MCP evidence includes vendor-run data tools and developer-only documentation tools. Check the source observation before treating a server as a substitute for a product API.
-- **Confidence** reflects support for auth, access and API. High requires all three and direct readable evidence across the three claim types. Medium indicates partial direct validation. Low marks unresolved buildability or a missing interface. Confidence is separate from the breadth of an MCP catalog search.
+- **Confidence** reflects support for auth, access and API. High requires a direct text signal for every declared auth and interface label and the access path in sources attributed to that field. Medium indicates incomplete text corroboration or unconfirmed cost. Low marks unresolved buildability or a missing interface. Text signals assist source review. They do not test production entitlement or MCP behavior.
 - **Source coverage** is the number of distinct URLs, with per-source check results alongside notes. The evidence rows have public URLs and original observations. Raw pages, credentials, browser profiles and caches are excluded. Timestamps in receipts are UTC.
-- **Reader verification**. The case study links directly to the Harvest v2 credential guide, Telegram bot registration and Mermaid CLI interface for a short independent check.
+- **Reader verification**. The case study links directly to four short checks covering Harvest, Telegram, Mermaid CLI and DealCloud. No personal verification is recorded.
 
 ## Files
 

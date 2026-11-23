@@ -6,6 +6,7 @@ import re
 from collections import Counter
 from pathlib import Path
 
+from evidence_screen import inspect_app, confidence
 from fetch import ROOT, save
 from research import inputs
 
@@ -52,6 +53,7 @@ def main():
     catalog=read(source/"catalog.json")
     checks=read(source/"source-checks.json")
     audit=read(ROOT/"verification/reference.json")
+    independent=read(ROOT/"verification/stratified-reference.json")
     changes=read(ROOT/"review-corrections.json")
     apps=inputs()
     reviews=[r for p in sorted((ROOT/"review").glob("*.json")) for r in read(p)]
@@ -69,7 +71,7 @@ def main():
             r[edit["field"]]=edit["value"]; r.update(edit.get("additional",{}))
             r["sources"].append({k:edit[k] for k in ("url","note","claims")})
         # Useful supporting checks also address gaps in the original source review.
-        for q in (p for p in audit if p["id"]==n):
+        for q in (p for p in audit+independent["probes"] if p["id"]==n):
             tag={"official_mcp":"mcp_official","third_party_mcp":"mcp_third_party"}.get(q["field"],q["field"])
             if tag in CORE and judge(r[q["field"]],q):
                 r["sources"].append({"url":q["url"],"claims":[tag],"note":q["note"]})
@@ -102,10 +104,8 @@ def main():
         if n==58: r["remote_api"]="Self-hosted HTTP wrapper"
         if n==98: r["remote_api"]="Local interface only in reviewed sources"
         r["last_checked"]=max((s.get("last_fetched") or baseline["checked_at"])[:10] for s in r["sources"]) if r["sources"] else baseline["checked_at"][:10]
-        routes={"auth":bool(r["auth"] or r["access"]=="Local/open source"),"access":r["access"]!="Unknown","api":bool(r["api"])}
-        readable={k for s in r["sources"] if s["fetch_status"]=="readable" for k in s["claims"]}
-        r["confidence"]="Low" if r["verdict"]=="UNKNOWN" or not r["api"] else (
-            "High" if all(routes.values()) and {"api","access","auth"} <= readable else "Medium")
+        r["evidence_screen"]=inspect_app(r,tickets)
+        r["confidence"]=confidence(r,r["evidence_screen"])
         for s in r["sources"]:
             if s["fetch_status"]!="readable":
                 issues.append({"id":n,"kind":"direct reader limitation","url":s["url"],"status":s["fetch_status"],"action":"Attributed source review retained; direct fetch limitation visible."})
@@ -132,6 +132,9 @@ def main():
          "reviewed_sources":len({s["url"] for r in final for s in r["sources"]}),
          "readable_sources":len({s["url"] for r in final for s in r["sources"] if s["fetch_status"]=="readable"}),
          "source_fields":{k:sum(any(k in s["claims"] for s in r["sources"]) for r in final) for k in CORE},
+         "resolved_fields":{"auth":sum(bool(r["auth"]) for r in final),
+                            "access":sum(r["access"]!="Unknown" for r in final),
+                            "api":sum(bool(r["api"]) for r in final)},
          "catalog_matches":sum(bool(r["composio_listing"]) for r in final),
          "both_mcp":sum(r["official_mcp"]==r["third_party_mcp"]=="Verified" for r in final),
          "selfserve":sum(r["access"].startswith("Self-serve") for r in final),"coverage_apps":sum(bool(r["sources"]) for r in final),
@@ -141,6 +144,28 @@ def main():
          "first_sources":sum(run["source_status"].values()),"last_checked":max(r["last_checked"] for r in final),
          "ready_listed":sum(r["verdict"]=="READY" and bool(r["composio_listing"]) for r in final),
          "free_with_restrictions":sum(r["access"] in {"Self-serve free","Self-serve trial"} and r["verdict"] in {"CONDITIONAL","GATED"} for r in final)})
+    independent_results=[]
+    for probe in independent["probes"]:
+        index=probe["id"]-1
+        field=probe["field"]
+        orig=first[index][field]
+        current=final[index][field]
+        independent_results.append({**probe,"name":final[index]["name"],"first_value":orig,"final_value":current,
+            "first_correct":judge(orig,probe),"prior_correct":judge(probe["prior_value"],probe),"final_correct":judge(current,probe)})
+    summary["independent"]={
+        "apps":len({p["id"] for p in independent_results}), "claims":len(independent_results),
+        **{stage:sum(p[stage+"_correct"] for p in independent_results) for stage in ("first","prior","final")},
+        "categories":len({final[p["id"]-1]["category"] for p in independent_results})}
+    save(DATA/"stratified-audit.json",{"design":independent["design"],"frozen_commit":independent["frozen_commit"],
+          "frozen_sha256":independent["frozen_sha256"],"scores":summary["independent"],"observations":independent_results})
+    # One candidate per credential path. Original order breaks ties within each path.
+    unlisted=[r for r in final if r["verdict"]=="READY" and not r["composio_listing"]]
+    shortlist=[]
+    for path in ("Self-serve free","Self-serve trial","Local/open source"):
+        match=next((r for r in unlisted if r["access"]==path),None)
+        if match: shortlist.append(match["id"])
+    summary["catalog_gap_candidates"]=[r["id"] for r in unlisted]
+    summary["shortlist"]=shortlist
     for filename,obj in {"first-pass":first,"run":run,"catalog":catalog,"source-checks":checks,"apps":final,"summary":summary,"verification":v,"corrections":delta,"issues":issues}.items():
         save(DATA/(filename+".json"),obj)
     with (DATA/"apps.csv").open("w",encoding="utf-8-sig",newline="") as f:

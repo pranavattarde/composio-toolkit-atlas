@@ -26,5 +26,33 @@
     "claims": [
       "auth"
     ]
+  },
+  {
+    "id": 10,
+    "field": "auth",
+    "value": [
+      "OAuth2",
+      "API key",
+      "Bearer token"
+    ],
+    "url": "https://api.docs.dealcloud.com/docs/token",
+    "note": "The client ID and key obtain an OAuth2 access token. Data requests present the resulting token as Bearer.",
+    "claims": [
+      "auth"
+    ]
+  },
+  {
+    "id": 50,
+    "field": "api",
+    "value": [
+      "REST",
+      "SDK"
+    ],
+    "url": "https://www.npmjs.com/package/%40fanbasis/checkout-sdk",
+    "note": "The publisher explicitly identifies the underlying Checkout REST API. Its SDK describes the sandbox and production environments. Credential issuance for a new Commas seller remains unresolved.",
+    "claims": [
+      "api",
+      "surface"
+    ]
   }
 ]

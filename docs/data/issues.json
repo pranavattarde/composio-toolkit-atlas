@@ -8,12 +8,28 @@
   },
   {
     "id": 1,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Confirm the customer edition before onboarding."
+    ]
+  },
+  {
+    "id": 1,
     "kind": "auth discrepancy",
     "before": [],
     "after": [
       "OAuth2"
     ],
     "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 2,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Feature entitlement in each customer portal depends on its subscription."
+    ]
   },
   {
     "id": 2,
@@ -94,6 +110,28 @@
     "action": "Applied source-attributed route review."
   },
   {
+    "id": 10,
+    "kind": "auth discrepancy",
+    "before": [
+      "OAuth2",
+      "API key"
+    ],
+    "after": [
+      "OAuth2",
+      "API key",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 11,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Public distribution and EAP participation have separate requirements."
+    ]
+  },
+  {
     "id": 11,
     "kind": "auth discrepancy",
     "before": [],
@@ -129,6 +167,14 @@
       "OAuth2"
     ],
     "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 14,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Confirm the customer plan for any advanced scopes."
+    ]
   },
   {
     "id": 14,
@@ -209,12 +255,27 @@
   },
   {
     "id": 17,
+    "kind": "direct reader limitation",
+    "url": "https://www.plain.com/changelog/plain-mcp",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 17,
     "kind": "auth discrepancy",
     "before": [],
     "after": [
       "API key"
     ],
     "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 18,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Trial API entitlement was not confirmed."
+    ]
   },
   {
     "id": 18,
@@ -238,6 +299,15 @@
       "Basic"
     ],
     "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 20,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Gladly documents consuming external MCP tools. A vendor server exposing Gladly data was not established.",
+      "A free independent developer sandbox was not confirmed."
+    ]
   },
   {
     "id": 20,
@@ -348,6 +418,14 @@
   },
   {
     "id": 25,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Confirm workspace-specific permission to install the add-on."
+    ]
+  },
+  {
+    "id": 25,
     "kind": "auth discrepancy",
     "before": [
       "OAuth2",
@@ -357,6 +435,15 @@
       "API key"
     ],
     "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 26,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "The direct resource credential is a Bot token (Other). Basic applies only to OAuth token endpoints.",
+      "An official Discord MCP server for acting on server data was not confirmed."
+    ]
   },
   {
     "id": 26,
@@ -376,6 +463,14 @@
     "url": "https://www.postman.com/meta/whatsapp-business-platform/documentation/wlk6lh4/whatsapp-cloud-api?entity=folder-13382743-148258e1-3240-4eed-8a78-049bb1d1fe25",
     "status": "thin",
     "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 28,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "A no-payment test entitlement was not independently confirmed in the primary sources cited here."
+    ]
   },
   {
     "id": 28,
@@ -416,6 +511,14 @@
   },
   {
     "id": 30,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Confirm country-specific sender registration for the intended production route."
+    ]
+  },
+  {
+    "id": 30,
     "kind": "auth discrepancy",
     "before": [],
     "after": [
@@ -451,6 +554,14 @@
       "Service account"
     ],
     "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 33,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Eligibility differs by marketing product and customer role. No official MCP server was established in this review."
+    ]
   },
   {
     "id": 33,
@@ -498,6 +609,14 @@
     "kind": "unavailable citation",
     "url": "https://mcp.pipedream.com/app/klaviyo_oauth",
     "action": "Removed from the published app evidence; remaining sources re-evaluated."
+  },
+  {
+    "id": 36,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Check which send operations are enabled on the target plan."
+    ]
   },
   {
     "id": 36,
@@ -676,6 +795,14 @@
   },
   {
     "id": 44,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Identify an entitled organization and delegated administrator for live merchant workflows."
+    ]
+  },
+  {
+    "id": 44,
     "kind": "auth discrepancy",
     "before": [],
     "after": [
@@ -788,6 +915,13 @@
   },
   {
     "id": 50,
+    "kind": "direct reader limitation",
+    "url": "https://www.npmjs.com/package/%40fanbasis/checkout-sdk",
+    "status": "robots_http_403",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 50,
     "kind": "confidence",
     "action": "Low",
     "questions": [
@@ -824,6 +958,14 @@
     "kind": "unavailable citation",
     "url": "https://mcp.pipedream.com/app/ahrefs",
     "action": "Removed from the published app evidence; remaining sources re-evaluated."
+  },
+  {
+    "id": 53,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Check the exact datasets, row limits and units for the customer's subscription."
+    ]
   },
   {
     "id": 53,
@@ -879,6 +1021,14 @@
   },
   {
     "id": 56,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Confirm credit costs for requested extraction formats and hosted operation limits."
+    ]
+  },
+  {
+    "id": 56,
     "kind": "auth discrepancy",
     "before": [
       "API key",
@@ -902,12 +1052,29 @@
   },
   {
     "id": 59,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Is there an alternate self-serve developer sandbox?",
+      "Which API-key header applies to each API version?"
+    ]
+  },
+  {
+    "id": 59,
     "kind": "auth discrepancy",
     "before": [],
     "after": [
       "API key"
     ],
     "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 60,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Check per-workspace client allowlists for MCP and provider credit costs."
+    ]
   },
   {
     "id": 60,
@@ -946,6 +1113,14 @@
     "kind": "unavailable citation",
     "url": "https://mcp.pipedream.com/app/vercel_token_auth",
     "action": "Removed from the published app evidence; remaining sources re-evaluated."
+  },
+  {
+    "id": 62,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Confirm the commercial plan and team role required for the production use case."
+    ]
   },
   {
     "id": 62,
@@ -1062,6 +1237,14 @@
   },
   {
     "id": 70,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Plan-specific entitlement for advanced operations. Legacy API keys are disabled for new accounts."
+    ]
+  },
+  {
+    "id": 70,
     "kind": "auth discrepancy",
     "before": [
       "OAuth2",
@@ -1082,6 +1265,14 @@
     "url": "https://notion.notion.site/API-Reference-914a8531daa84753aacdf01274df8ec5?pvs=4",
     "status": "thin",
     "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 71,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Enterprise admin API and private-beta agent features have separate entitlements."
+    ]
   },
   {
     "id": 71,
@@ -1128,6 +1319,14 @@
       "Bearer token"
     ],
     "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 73,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Customer-specific key policy and rate budget."
+    ]
   },
   {
     "id": 73,
@@ -1184,6 +1383,14 @@
   },
   {
     "id": 76,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Guest access differs from member access."
+    ]
+  },
+  {
+    "id": 76,
     "kind": "auth discrepancy",
     "before": [
       "OAuth2"
@@ -1193,6 +1400,14 @@
       "OAuth2"
     ],
     "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 77,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Coverage differs between v2 and v3."
+    ]
   },
   {
     "id": 78,
@@ -1241,6 +1456,14 @@
   },
   {
     "id": 79,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Trial API entitlement was not established."
+    ]
+  },
+  {
+    "id": 79,
     "kind": "auth discrepancy",
     "before": [],
     "after": [
@@ -1248,6 +1471,14 @@
       "Bearer token"
     ],
     "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 81,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Production feature availability depends on account and country."
+    ]
   },
   {
     "id": 81,
@@ -1287,6 +1518,14 @@
     "url": "https://www.binance.com/en/support/faq/detail/7a6e676e36fb455d96478932cb12d9f3",
     "status": "http_202",
     "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 83,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Live account and regional eligibility are outside the public-data prototype."
+    ]
   },
   {
     "id": 83,
@@ -1470,6 +1709,13 @@
   },
   {
     "id": 89,
+    "kind": "direct reader limitation",
+    "url": "https://docs.ramp.com/developer-api",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 89,
     "kind": "confidence",
     "action": "Medium",
     "questions": [
@@ -1537,6 +1783,14 @@
   },
   {
     "id": 92,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Enterprise trial/API eligibility and customer-specific admin controls."
+    ]
+  },
+  {
+    "id": 92,
     "kind": "auth discrepancy",
     "before": [],
     "after": [
@@ -1544,6 +1798,14 @@
       "Bearer token"
     ],
     "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 93,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Marketplace review and permissions for target customer teams."
+    ]
   },
   {
     "id": 93,
@@ -1580,6 +1842,14 @@
   },
   {
     "id": 96,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Legacy-key instructions differ across docs; use v3 credentials and check the exact MCP tool's auth requirements."
+    ]
+  },
+  {
+    "id": 96,
     "kind": "auth discrepancy",
     "before": [
       "API key",
@@ -1605,6 +1875,21 @@
     "url": "https://developers.grain.com/",
     "status": "robots_http_403",
     "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 100,
+    "kind": "direct reader limitation",
+    "url": "https://developers.grain.com/authentication.html",
+    "status": "robots_http_403",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 100,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "No separate sandbox; test using an explicitly authorized recording."
+    ]
   },
   {
     "id": 100,

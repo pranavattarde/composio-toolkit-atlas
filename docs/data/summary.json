@@ -1,15 +1,15 @@
 {
   "auth": {
     "OAuth2": 69,
-    "Bearer token": 51,
+    "Bearer token": 52,
     "API key": 48,
     "Basic": 16,
     "Other": 11,
     "Service account": 6
   },
   "api": {
-    "REST": 70,
-    "HTTP API": 25,
+    "REST": 71,
+    "HTTP API": 24,
     "SDK": 14,
     "GraphQL": 12,
     "CLI": 7,
@@ -51,8 +51,8 @@
     "Evidence gap": 2
   },
   "confidence": {
-    "High": 82,
-    "Medium": 16,
+    "High": 52,
+    "Medium": 46,
     "Low": 2
   },
   "verdict": {
@@ -225,8 +225,8 @@
       }
     }
   ],
-  "reviewed_sources": 518,
-  "readable_sources": 468,
+  "reviewed_sources": 525,
+  "readable_sources": 471,
   "source_fields": {
     "identity": 11,
     "auth": 98,
@@ -235,6 +235,11 @@
     "surface": 99,
     "mcp_official": 85,
     "mcp_third_party": 78
+  },
+  "resolved_fields": {
+    "auth": 97,
+    "access": 97,
+    "api": 99
   },
   "catalog_matches": 79,
   "both_mcp": 68,
@@ -255,5 +260,27 @@
   "first_sources": 367,
   "last_checked": "2026-11-23",
   "ready_listed": 44,
-  "free_with_restrictions": 16
+  "free_with_restrictions": 16,
+  "independent": {
+    "apps": 20,
+    "claims": 41,
+    "first": 12,
+    "prior": 39,
+    "final": 41,
+    "categories": 10
+  },
+  "catalog_gap_candidates": [
+    16,
+    37,
+    42,
+    45,
+    83,
+    95,
+    99
+  ],
+  "shortlist": [
+    37,
+    16,
+    42
+  ]
 }

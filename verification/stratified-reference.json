@@ -1,0 +1,432 @@
+{
+  "frozen_commit": "03a5eb03fe4116e91f8b429553780cce543b4955",
+  "frozen_sha256": "64a5f7d480578a04e19b086205920d6e3c080da7edadf22bda3a2e66f6f8a632",
+  "design": "Two additional apps per original category. App IDs do not overlap the earlier 30-app sample or the 10-app holdout. Deliberate coverage of credential, interface, MCP and approval questions. Equal weight per assertion.",
+  "probes": [
+    {
+      "id": 6,
+      "field": "auth",
+      "expected": "OAuth2",
+      "url": "https://developers.podio.com/authentication",
+      "note": "Podio's API authentication overview requires application registration and documents OAuth2 flows.",
+      "prior_value": [
+        "OAuth2"
+      ]
+    },
+    {
+      "id": 10,
+      "field": "auth",
+      "expected": "OAuth2",
+      "url": "https://api.docs.dealcloud.com/docs/token",
+      "note": "The client credentials flow returns an OAuth2 bearer token for REST calls.",
+      "prior_value": [
+        "OAuth2",
+        "API key"
+      ]
+    },
+    {
+      "id": 10,
+      "field": "auth",
+      "expected": "Bearer token",
+      "url": "https://api.docs.dealcloud.com/docs/token",
+      "note": "The client credentials flow returns an OAuth2 bearer token for REST calls.",
+      "prior_value": [
+        "OAuth2",
+        "API key"
+      ]
+    },
+    {
+      "id": 10,
+      "field": "api",
+      "expected": "REST",
+      "url": "https://api.docs.dealcloud.com/docs/token",
+      "note": "The client credentials flow returns an OAuth2 bearer token for REST calls.",
+      "prior_value": [
+        "REST"
+      ]
+    },
+    {
+      "id": 10,
+      "field": "access",
+      "expected": "Admin approval",
+      "url": "https://api.docs.dealcloud.com/docs/apikeys",
+      "note": "An administrator must enable the relevant user group's API capability.",
+      "prior_value": "Admin approval"
+    },
+    {
+      "id": 13,
+      "field": "api",
+      "expected": "REST",
+      "url": "https://developers.freshdesk.com/api/",
+      "note": "The v2 reference identifies a REST API and demonstrates a key as the username for HTTP Basic.",
+      "prior_value": [
+        "REST"
+      ]
+    },
+    {
+      "id": 13,
+      "field": "auth",
+      "expected": "Basic",
+      "url": "https://developers.freshdesk.com/api/",
+      "note": "The v2 reference identifies a REST API and demonstrates a key as the username for HTTP Basic.",
+      "prior_value": [
+        "API key",
+        "Basic",
+        "OAuth2"
+      ]
+    },
+    {
+      "id": 13,
+      "field": "auth",
+      "expected": "API key",
+      "url": "https://developers.freshdesk.com/api/",
+      "note": "The v2 reference identifies a REST API and demonstrates a key as the username for HTTP Basic.",
+      "prior_value": [
+        "API key",
+        "Basic",
+        "OAuth2"
+      ]
+    },
+    {
+      "id": 20,
+      "field": "api",
+      "expected": "REST",
+      "url": "https://developer.gladly.com/rest/index.html",
+      "note": "The REST reference pairs an agent email and API token under HTTP Basic. The identity needs the API User permission.",
+      "prior_value": [
+        "REST"
+      ]
+    },
+    {
+      "id": 20,
+      "field": "auth",
+      "expected": "Basic",
+      "url": "https://developer.gladly.com/rest/index.html",
+      "note": "The REST reference pairs an agent email and API token under HTTP Basic. The identity needs the API User permission.",
+      "prior_value": [
+        "Basic",
+        "API key"
+      ]
+    },
+    {
+      "id": 20,
+      "field": "access",
+      "expected": "Admin approval",
+      "url": "https://developer.gladly.com/rest/index.html",
+      "note": "The REST reference pairs an agent email and API token under HTTP Basic. The identity needs the API User permission.",
+      "prior_value": "Admin approval"
+    },
+    {
+      "id": 24,
+      "field": "auth",
+      "expected": "Bearer token",
+      "url": "https://open.larksuite.com/document/ukTMukTMukTM/uUDN04SN0QjL1QDN/docs-v1",
+      "note": "The document-content endpoint accepts user or tenant access via a Bearer header.",
+      "prior_value": [
+        "OAuth2",
+        "Bearer token"
+      ]
+    },
+    {
+      "id": 29,
+      "field": "auth",
+      "expected": "Basic",
+      "url": "https://developer.aircall.io/docs/authentication",
+      "note": "Aircall lists Basic authentication for private integrations and OAuth for integrations acting for customers. It explicitly names REST.",
+      "prior_value": [
+        "OAuth2",
+        "Basic",
+        "API key"
+      ]
+    },
+    {
+      "id": 29,
+      "field": "api",
+      "expected": "REST",
+      "url": "https://developer.aircall.io/docs/authentication",
+      "note": "Aircall lists Basic authentication for private integrations and OAuth for integrations acting for customers. It explicitly names REST.",
+      "prior_value": [
+        "REST"
+      ]
+    },
+    {
+      "id": 33,
+      "field": "verdict",
+      "expected": "GATED",
+      "url": "https://learn.microsoft.com/en-us/linkedin/marketing/lms-faq?view=li-lms-2026-01",
+      "note": "The Standard tier applies to scaled multi-account campaign management. The production write toolkit needs an approval path.",
+      "prior_value": "GATED"
+    },
+    {
+      "id": 38,
+      "field": "verdict",
+      "expected": "GATED",
+      "url": "https://developers.pinterest.com/docs/key-concepts/access-tiers/",
+      "note": "Pinterest reviews apps even for Trial access. User-facing integrations may need a separate Standard approval.",
+      "prior_value": "GATED"
+    },
+    {
+      "id": 47,
+      "field": "access",
+      "expected": "Paid plan",
+      "url": "https://docs.ecwid.com/get-started/set-up-your-dev-environment-in-ecwid",
+      "note": "Production stores need a paid plan. A developer may request a test-store upgrade.",
+      "prior_value": "Paid plan"
+    },
+    {
+      "id": 47,
+      "field": "api",
+      "expected": "REST",
+      "url": "https://docs.ecwid.com/get-started/make-your-first-api-request",
+      "note": "The REST API uses OAuth2 for public apps and offers an own-store credential path.",
+      "prior_value": [
+        "REST"
+      ]
+    },
+    {
+      "id": 47,
+      "field": "auth",
+      "expected": "OAuth2",
+      "url": "https://docs.ecwid.com/get-started/make-your-first-api-request",
+      "note": "The REST API uses OAuth2 for public apps and offers an own-store credential path.",
+      "prior_value": [
+        "OAuth2",
+        "Bearer token"
+      ]
+    },
+    {
+      "id": 50,
+      "field": "auth",
+      "expected": "API key",
+      "url": "https://demo.embedded.fanbasis.io/docs/checkout-session-secret",
+      "note": "The checkout guide shows the seller-portal API key for sandbox and live session creation.",
+      "prior_value": [
+        "API key"
+      ]
+    },
+    {
+      "id": 50,
+      "field": "api",
+      "expected": "REST",
+      "url": "https://www.npmjs.com/package/%40fanbasis/checkout-sdk",
+      "note": "The publisher explicitly identifies the backing Checkout REST API in its TypeScript client description.",
+      "prior_value": [
+        "HTTP API",
+        "SDK"
+      ]
+    },
+    {
+      "id": 54,
+      "field": "auth",
+      "expected": "Bearer token",
+      "url": "https://docs.mrscraper.com/docs/api/authentication",
+      "note": "The dashboard-issued API token is sent in a custom header for regular endpoints and as Bearer for Marketplace endpoints.",
+      "prior_value": [
+        "API key",
+        "Bearer token",
+        "OAuth2"
+      ]
+    },
+    {
+      "id": 60,
+      "field": "access",
+      "expected": "Self-serve free",
+      "url": "https://university.clay.com/docs/clay-api-cli",
+      "note": "Free and trial accounts can use the developer platform. Enterprise table sync unlocks structured queries.",
+      "prior_value": "Self-serve free"
+    },
+    {
+      "id": 60,
+      "field": "api",
+      "expected": "CLI",
+      "url": "https://university.clay.com/docs/clay-api-cli",
+      "note": "Free and trial accounts can use the developer platform. Enterprise table sync unlocks structured queries.",
+      "prior_value": [
+        "HTTP API",
+        "CLI"
+      ]
+    },
+    {
+      "id": 65,
+      "field": "auth",
+      "expected": "OAuth2",
+      "url": "https://supabase.com/docs/reference/api/introduction",
+      "note": "The Management API supports delegated OAuth2 and personal tokens.",
+      "prior_value": [
+        "API key",
+        "OAuth2",
+        "Bearer token"
+      ]
+    },
+    {
+      "id": 65,
+      "field": "auth",
+      "expected": "Bearer token",
+      "url": "https://supabase.com/docs/guides/platform/personal-access-tokens",
+      "note": "The Management API example sends the personal token as a bearer credential.",
+      "prior_value": [
+        "API key",
+        "OAuth2",
+        "Bearer token"
+      ]
+    },
+    {
+      "id": 67,
+      "field": "api",
+      "expected": "REST",
+      "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+      "note": "Snowflake's REST reference documents key-pair JWTs and programmatic access tokens carried in the bearer header.",
+      "prior_value": [
+        "REST"
+      ]
+    },
+    {
+      "id": 67,
+      "field": "auth",
+      "expected": "Bearer token",
+      "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+      "note": "Snowflake's REST reference documents key-pair JWTs and programmatic access tokens carried in the bearer header.",
+      "prior_value": [
+        "OAuth2",
+        "Bearer token",
+        "Other"
+      ]
+    },
+    {
+      "id": 67,
+      "field": "auth",
+      "expected": "Other",
+      "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+      "note": "Snowflake's REST reference documents key-pair JWTs and programmatic access tokens carried in the bearer header.",
+      "prior_value": [
+        "OAuth2",
+        "Bearer token",
+        "Other"
+      ]
+    },
+    {
+      "id": 73,
+      "field": "api",
+      "expected": "GraphQL",
+      "url": "https://linear.app/developers",
+      "note": "Linear's integration entry point explicitly lists GraphQL, OAuth 2.0 and personal API keys.",
+      "prior_value": [
+        "GraphQL"
+      ]
+    },
+    {
+      "id": 73,
+      "field": "auth",
+      "expected": "OAuth2",
+      "url": "https://linear.app/developers",
+      "note": "Linear's integration entry point explicitly lists GraphQL, OAuth 2.0 and personal API keys.",
+      "prior_value": [
+        "API key",
+        "OAuth2"
+      ]
+    },
+    {
+      "id": 73,
+      "field": "auth",
+      "expected": "API key",
+      "url": "https://linear.app/developers",
+      "note": "Linear's integration entry point explicitly lists GraphQL, OAuth 2.0 and personal API keys.",
+      "prior_value": [
+        "API key",
+        "OAuth2"
+      ]
+    },
+    {
+      "id": 77,
+      "field": "auth",
+      "expected": "OAuth2",
+      "url": "https://developer.clickup.com/docs/authentication",
+      "note": "ClickUp's external app flow obtains delegated OAuth tokens for authorized Workspaces.",
+      "prior_value": [
+        "OAuth2",
+        "Bearer token"
+      ]
+    },
+    {
+      "id": 88,
+      "field": "access",
+      "expected": "Partner/sales",
+      "url": "https://developer.brex.com/guides/partner_authentication",
+      "note": "Brex issues partner client credentials through developer support, then uses OAuth 2.0 and customer consent.",
+      "prior_value": "Partner/sales"
+    },
+    {
+      "id": 88,
+      "field": "auth",
+      "expected": "OAuth2",
+      "url": "https://developer.brex.com/guides/partner_authentication",
+      "note": "Brex issues partner client credentials through developer support, then uses OAuth 2.0 and customer consent.",
+      "prior_value": [
+        "Bearer token",
+        "OAuth2"
+      ]
+    },
+    {
+      "id": 89,
+      "field": "access",
+      "expected": "Partner/sales",
+      "url": "https://docs.ramp.com/developer-api",
+      "note": "Ramp directs external builders to the partner program. Existing customers have an internal credential route.",
+      "prior_value": "Partner/sales"
+    },
+    {
+      "id": 96,
+      "field": "auth",
+      "expected": "Service account",
+      "url": "https://docs.devin.ai/es/api-reference/authentication",
+      "note": "The vendor's v3 authentication guide describes service-user credentials and the Bearer transport.",
+      "prior_value": [
+        "Service account",
+        "API key",
+        "Bearer token"
+      ]
+    },
+    {
+      "id": 96,
+      "field": "auth",
+      "expected": "Bearer token",
+      "url": "https://docs.devin.ai/es/api-reference/authentication",
+      "note": "The vendor's v3 authentication guide describes service-user credentials and the Bearer transport.",
+      "prior_value": [
+        "Service account",
+        "API key",
+        "Bearer token"
+      ]
+    },
+    {
+      "id": 100,
+      "field": "auth",
+      "expected": "OAuth2",
+      "url": "https://developers.grain.com/authentication.html",
+      "note": "Grain supports OAuth2 and bearer tokens. Personal-scoped tokens also authenticate to the documented Grain MCP server.",
+      "prior_value": [
+        "OAuth2",
+        "Bearer token"
+      ]
+    },
+    {
+      "id": 100,
+      "field": "auth",
+      "expected": "Bearer token",
+      "url": "https://developers.grain.com/authentication.html",
+      "note": "Grain supports OAuth2 and bearer tokens. Personal-scoped tokens also authenticate to the documented Grain MCP server.",
+      "prior_value": [
+        "OAuth2",
+        "Bearer token"
+      ]
+    },
+    {
+      "id": 100,
+      "field": "official_mcp",
+      "expected": "Verified",
+      "url": "https://developers.grain.com/authentication.html",
+      "note": "Grain supports OAuth2 and bearer tokens. Personal-scoped tokens also authenticate to the documented Grain MCP server.",
+      "prior_value": "Verified"
+    }
+  ]
+}
