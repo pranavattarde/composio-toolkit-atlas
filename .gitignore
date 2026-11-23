@@ -1,0 +1,9 @@
+.cache/
+.venv/
+__pycache__/
+*.py[cod]
+.env
+runs/
+node_modules/
+*.log
+.DS_Store

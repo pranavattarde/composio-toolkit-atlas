@@ -1,0 +1,7 @@
+{
+  "27": ["https://core.telegram.org/bots/api", "https://core.telegram.org/bots"],
+  "61": ["https://docs.github.com/en/rest", "https://github.com/github/github-mcp-server"],
+  "80": ["https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/", "https://help.getharvest.com/api-v2/introduction/overview/general/"],
+  "90": ["https://pitchbook.com/products/direct-data"],
+  "98": ["https://github.com/mermaid-js/mermaid-cli"]
+}
