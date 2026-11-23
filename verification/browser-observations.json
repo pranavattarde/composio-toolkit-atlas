@@ -1,0 +1,82 @@
+[
+  {
+    "id": 3,
+    "url": "https://www.pipedrive.com/en/features/crm-api",
+    "pattern": "OAuth 2\\.0",
+    "checked_at": "2026-11-23T18:38:21+00:00",
+    "status": "matched",
+    "title": "CRM API | REST API integration | Pipedrive",
+    "http": 200,
+    "excerpt": "authentication is managed using OAuth 2.0 authentication. Create a public app Public"
+  },
+  {
+    "id": 17,
+    "url": "https://help.plain.com/article/does-the-plain-mcp-server-support-api-key-authentication-h7d83qtfdzxo4h49x4oyklwx",
+    "pattern": "GraphQL",
+    "checked_at": "2026-11-23T18:38:23+00:00",
+    "status": "matched",
+    "title": "AI Agents - Does the Plain MCP server support API key authentication? | Help Center",
+    "http": 200,
+    "excerpt": "m MCP server that wraps Plain's GraphQL API with a single machine user API key. In"
+  },
+  {
+    "id": 27,
+    "url": "https://core.telegram.org/bots",
+    "pattern": "BotFather",
+    "checked_at": "2026-11-23T18:38:25+00:00",
+    "status": "matched",
+    "title": "Bots: An introduction for developers",
+    "http": 200,
+    "excerpt": "evelopers Basic Tutorial: From @BotFather to 'Hello World' The Telegram Bot Platform"
+  },
+  {
+    "id": 35,
+    "url": "https://mailchimp.com/developer/marketing/api-concepts/authentication/",
+    "pattern": "OAuth 2",
+    "checked_at": "2026-11-23T18:38:28+00:00",
+    "status": "matched",
+    "title": "Authentication | Mailchimp | Developer",
+    "http": 200,
+    "excerpt": "t way to make a first request. OAuth 2 authenticates against an account belonging t"
+  },
+  {
+    "id": 42,
+    "url": "https://developer.woocommerce.com/docs/apis/rest-api/authentication/",
+    "pattern": "HTTP Basic Auth",
+    "checked_at": "2026-11-23T18:38:31+00:00",
+    "status": "matched",
+    "title": "Authentication | WooCommerce developer docs",
+    "http": 200,
+    "excerpt": "cation over HTTPS​ You may use HTTP Basic Auth by providing the REST API Consumer Key as th"
+  },
+  {
+    "id": 61,
+    "url": "https://github.com/github/github-mcp-server",
+    "pattern": "GitHub MCP Server",
+    "checked_at": "2026-11-23T18:38:32+00:00",
+    "status": "matched",
+    "title": "GitHub - github/github-mcp-server: GitHub's official MCP Server · GitHub",
+    "http": 200,
+    "excerpt": "tributing MIT license Security GitHub MCP Server The GitHub MCP Server connects AI tools dir"
+  },
+  {
+    "id": 80,
+    "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+    "pattern": "Personal Access Token",
+    "checked_at": "2026-11-23T18:38:34+00:00",
+    "status": "matched",
+    "title": "Authentication – Harvest API V2 Documentation",
+    "http": 200,
+    "excerpt": "wo options available to you: A Personal Access Token which is tied directly to you and is the qui"
+  },
+  {
+    "id": 98,
+    "url": "https://github.com/mermaid-js/mermaid-cli",
+    "pattern": "SVG/PNG/PDF",
+    "checked_at": "2026-11-23T18:38:36+00:00",
+    "status": "matched",
+    "title": "GitHub - mermaid-js/mermaid-cli: Command line tool for the Mermaid library · GitHub",
+    "http": 200,
+    "excerpt": "file as input and generates an SVG/PNG/PDF file as output. There's basic support for co"
+  }
+]

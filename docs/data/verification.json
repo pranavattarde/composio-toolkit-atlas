@@ -1,0 +1,1008 @@
+[
+  {
+    "id": 1,
+    "field": "auth",
+    "expected": "OAuth2",
+    "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+    "note": "The external-client-app guide describes OAuth 2.0 authorization for the REST API.",
+    "name": "Salesforce",
+    "first": [],
+    "final": [
+      "OAuth2"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "CONDITIONAL"
+  },
+  {
+    "id": 1,
+    "field": "api",
+    "expected": "REST",
+    "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+    "note": "The external-client-app guide describes OAuth 2.0 authorization for the REST API.",
+    "name": "Salesforce",
+    "first": [],
+    "final": [
+      "REST",
+      "SOAP"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "CONDITIONAL"
+  },
+  {
+    "id": 3,
+    "field": "api",
+    "expected": "REST",
+    "url": "https://www.pipedrive.com/en/features/crm-api",
+    "note": "Pipedrive names the REST surface, API key and OAuth 2.0 access token.",
+    "name": "Pipedrive",
+    "first": [
+      "REST"
+    ],
+    "final": [
+      "REST"
+    ],
+    "first_correct": true,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 3,
+    "field": "auth",
+    "expected": "OAuth2",
+    "url": "https://www.pipedrive.com/en/features/crm-api",
+    "note": "Pipedrive names the REST surface, API key and OAuth 2.0 access token.",
+    "name": "Pipedrive",
+    "first": [
+      "OAuth2"
+    ],
+    "final": [
+      "OAuth2",
+      "API key"
+    ],
+    "first_correct": true,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 3,
+    "field": "auth",
+    "expected": "API key",
+    "url": "https://www.pipedrive.com/en/features/crm-api",
+    "note": "Pipedrive names the REST surface, API key and OAuth 2.0 access token.",
+    "name": "Pipedrive",
+    "first": [
+      "OAuth2"
+    ],
+    "final": [
+      "OAuth2",
+      "API key"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 11,
+    "field": "auth",
+    "expected": "OAuth2",
+    "url": "https://support.zendesk.com/hc/en-us/articles/10851263566234-Announcing-the-removal-of-API-tokens-as-an-authentication-method-for-API-requests",
+    "note": "The Support API migration directs new integrations toward OAuth. Existing tokens have a separate retirement schedule.",
+    "name": "Zendesk",
+    "first": [],
+    "final": [
+      "OAuth2",
+      "Basic",
+      "API key"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "CONDITIONAL"
+  },
+  {
+    "id": 17,
+    "field": "api",
+    "expected": "GraphQL",
+    "url": "https://help.plain.com/article/does-the-plain-mcp-server-support-api-key-authentication-h7d83qtfdzxo4h49x4oyklwx",
+    "note": "Plain distinguishes its hosted MCP server from direct GraphQL access using a machine-user key.",
+    "name": "Plain",
+    "first": [],
+    "final": [
+      "GraphQL",
+      "SDK"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 17,
+    "field": "auth",
+    "expected": "API key",
+    "url": "https://help.plain.com/article/does-the-plain-mcp-server-support-api-key-authentication-h7d83qtfdzxo4h49x4oyklwx",
+    "note": "Plain distinguishes its hosted MCP server from direct GraphQL access using a machine-user key.",
+    "name": "Plain",
+    "first": [],
+    "final": [
+      "API key"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 17,
+    "field": "official_mcp",
+    "expected": "Verified",
+    "url": "https://help.plain.com/article/does-the-plain-mcp-server-support-api-key-authentication-h7d83qtfdzxo4h49x4oyklwx",
+    "note": "Plain distinguishes its hosted MCP server from direct GraphQL access using a machine-user key.",
+    "name": "Plain",
+    "first": "Unverified",
+    "final": "Verified",
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 21,
+    "field": "official_mcp",
+    "expected": "Verified",
+    "url": "https://slack.com/help/articles/48855576908307-Guide-to-the-Slack-MCP-server",
+    "note": "Slack documents its own server separately from Slackbot acting as a client.",
+    "name": "Slack",
+    "first": "Unverified",
+    "final": "Verified",
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "CONDITIONAL"
+  },
+  {
+    "id": 27,
+    "field": "access",
+    "expected": "Self-serve free",
+    "url": "https://core.telegram.org/api",
+    "note": "The bot platform is available without charge and uses an HTTPS interface.",
+    "name": "Telegram",
+    "first": "Unknown",
+    "final": "Self-serve free",
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 27,
+    "field": "api",
+    "expected": "HTTP API",
+    "url": "https://core.telegram.org/api",
+    "note": "The bot platform is available without charge and uses an HTTPS interface.",
+    "name": "Telegram",
+    "first": [
+      "HTTP API"
+    ],
+    "final": [
+      "HTTP API"
+    ],
+    "first_correct": true,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 31,
+    "field": "api",
+    "expected": "REST",
+    "url": "https://developers.google.com/google-ads/api/rest/auth",
+    "note": "The REST authorization guide specifies OAuth 2.0 for Google Ads requests.",
+    "name": "Google Ads",
+    "first": [],
+    "final": [
+      "REST",
+      "gRPC"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "CONDITIONAL"
+  },
+  {
+    "id": 31,
+    "field": "auth",
+    "expected": "OAuth2",
+    "url": "https://developers.google.com/google-ads/api/rest/auth",
+    "note": "The REST authorization guide specifies OAuth 2.0 for Google Ads requests.",
+    "name": "Google Ads",
+    "first": [
+      "OAuth2"
+    ],
+    "final": [
+      "OAuth2",
+      "Service account"
+    ],
+    "first_correct": true,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "CONDITIONAL"
+  },
+  {
+    "id": 35,
+    "field": "auth",
+    "expected": "OAuth2",
+    "url": "https://mailchimp.com/developer/marketing/api-concepts/authentication/",
+    "note": "For Marketing API requests, the account owner's key and a delegated OAuth 2 token are supported.",
+    "name": "Mailchimp",
+    "first": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "final": [
+      "API key",
+      "OAuth2",
+      "Basic",
+      "Bearer token"
+    ],
+    "first_correct": true,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 35,
+    "field": "auth",
+    "expected": "API key",
+    "url": "https://mailchimp.com/developer/marketing/api-concepts/authentication/",
+    "note": "For Marketing API requests, the account owner's key and a delegated OAuth 2 token are supported.",
+    "name": "Mailchimp",
+    "first": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "final": [
+      "API key",
+      "OAuth2",
+      "Basic",
+      "Bearer token"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 42,
+    "field": "api",
+    "expected": "REST",
+    "url": "https://developer.woocommerce.com/docs/apis/rest-api/authentication/",
+    "note": "Over HTTPS the REST API accepts the consumer key/secret using HTTP Basic.",
+    "name": "WooCommerce",
+    "first": [
+      "REST"
+    ],
+    "final": [
+      "REST"
+    ],
+    "first_correct": true,
+    "final_correct": true,
+    "first_verdict": "READY",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 42,
+    "field": "auth",
+    "expected": "Basic",
+    "url": "https://developer.woocommerce.com/docs/apis/rest-api/authentication/",
+    "note": "Over HTTPS the REST API accepts the consumer key/secret using HTTP Basic.",
+    "name": "WooCommerce",
+    "first": [
+      "API key"
+    ],
+    "final": [
+      "API key",
+      "Basic",
+      "Other"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "READY",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 49,
+    "field": "auth",
+    "expected": "OAuth2",
+    "url": "https://developer-docs.amazon.com/sp-api/docs/onboarding-overview",
+    "note": "For public SP-API applications, selling partners authorize access through Login with Amazon OAuth 2.0.",
+    "name": "Amazon Selling Partner",
+    "first": [
+      "OAuth2"
+    ],
+    "final": [
+      "OAuth2"
+    ],
+    "first_correct": true,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "GATED"
+  },
+  {
+    "id": 51,
+    "field": "auth",
+    "expected": "Basic",
+    "url": "https://docs.dataforseo.com/v3/auth/",
+    "note": "A registered developer retrieves an API login and password from the dashboard for HTTP Basic authentication.",
+    "name": "DataForSEO",
+    "first": [
+      "Basic"
+    ],
+    "final": [
+      "Basic"
+    ],
+    "first_correct": true,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "CONDITIONAL"
+  },
+  {
+    "id": 61,
+    "field": "api",
+    "expected": "REST",
+    "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+    "note": "The reference documents REST requests authenticated with access tokens.",
+    "name": "GitHub",
+    "first": [
+      "REST"
+    ],
+    "final": [
+      "REST",
+      "GraphQL"
+    ],
+    "first_correct": true,
+    "final_correct": true,
+    "first_verdict": "READY",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 61,
+    "field": "auth",
+    "expected": "Bearer token",
+    "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+    "note": "The reference documents REST requests authenticated with access tokens.",
+    "name": "GitHub",
+    "first": [
+      "Basic",
+      "Bearer token"
+    ],
+    "final": [
+      "OAuth2",
+      "Bearer token",
+      "Basic",
+      "Other"
+    ],
+    "first_correct": true,
+    "final_correct": true,
+    "first_verdict": "READY",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 64,
+    "field": "auth",
+    "expected": "Bearer token",
+    "url": "https://developers.cloudflare.com/fundamentals/api/get-started/token-formats/",
+    "note": "The credential reference distinguishes scoped bearer tokens and a legacy global key.",
+    "name": "Cloudflare",
+    "first": [
+      "Bearer token"
+    ],
+    "final": [
+      "API key",
+      "Bearer token",
+      "OAuth2"
+    ],
+    "first_correct": true,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 64,
+    "field": "auth",
+    "expected": "API key",
+    "url": "https://developers.cloudflare.com/fundamentals/api/get-started/token-formats/",
+    "note": "The credential reference distinguishes scoped bearer tokens and a legacy global key.",
+    "name": "Cloudflare",
+    "first": [
+      "Bearer token"
+    ],
+    "final": [
+      "API key",
+      "Bearer token",
+      "OAuth2"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 64,
+    "field": "official_mcp",
+    "expected": "Verified",
+    "url": "https://developers.cloudflare.com/agents/model-context-protocol/cloudflare/servers-for-cloudflare/",
+    "note": "Cloudflare operates remote MCP servers for its own products.",
+    "name": "Cloudflare",
+    "first": "Unverified",
+    "final": "Verified",
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 71,
+    "field": "auth",
+    "expected": "Bearer token",
+    "url": "https://developers.notion.com/reference/create-view",
+    "note": "The create-view endpoint specifies Bearer authorization.",
+    "name": "Notion",
+    "first": [
+      "OAuth2",
+      "Bearer token",
+      "Other"
+    ],
+    "final": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "first_correct": true,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 80,
+    "field": "access",
+    "expected": "Self-serve free",
+    "url": "https://support.getharvest.com/hc/en-us/articles/360048180732-The-Harvest-API",
+    "note": "The help center explicitly includes free and trial accounts in API access.",
+    "name": "Harvest",
+    "first": "Self-serve (cost unverified)",
+    "final": "Self-serve free",
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "READY",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 80,
+    "field": "auth",
+    "expected": "OAuth2",
+    "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+    "note": "v2 documents OAuth 2 and personal access tokens. Its Basic example is a reference to legacy v1.",
+    "name": "Harvest",
+    "first": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "final": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "first_correct": true,
+    "final_correct": true,
+    "first_verdict": "READY",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 80,
+    "field": "auth",
+    "expected": "Bearer token",
+    "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+    "note": "v2 documents OAuth 2 and personal access tokens. Its Basic example is a reference to legacy v1.",
+    "name": "Harvest",
+    "first": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "final": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "first_correct": true,
+    "final_correct": true,
+    "first_verdict": "READY",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 82,
+    "field": "auth",
+    "expected": "API key",
+    "url": "https://plaid.com/docs/quickstart/",
+    "note": "The Sandbox quickstart requires a client ID and environment-specific secret from the Plaid dashboard.",
+    "name": "Plaid",
+    "first": [],
+    "final": [
+      "API key"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "CONDITIONAL"
+  },
+  {
+    "id": 84,
+    "field": "verdict",
+    "expected": "UNKNOWN",
+    "url": "https://www.gopaygent.com/",
+    "note": "The vendor names Paygent Connect but the offering description does not establish an NMI-specific developer path. A defensible verdict on that exact route is unresolved.",
+    "name": "Paygent Connect",
+    "first": "UNKNOWN",
+    "final": "UNKNOWN",
+    "first_correct": true,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "UNKNOWN"
+  },
+  {
+    "id": 85,
+    "field": "api",
+    "expected": "REST",
+    "url": "https://www.ipayx.ai/docs/api",
+    "note": "The FX Audit API identifies its v1 REST contract and a key sent as a bearer credential.",
+    "name": "iPayX",
+    "first": [],
+    "final": [
+      "REST"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "CONDITIONAL"
+  },
+  {
+    "id": 85,
+    "field": "auth",
+    "expected": "API key",
+    "url": "https://www.ipayx.ai/docs/api",
+    "note": "The FX Audit API identifies its v1 REST contract and a key sent as a bearer credential.",
+    "name": "iPayX",
+    "first": [],
+    "final": [
+      "API key",
+      "Bearer token"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "CONDITIONAL"
+  },
+  {
+    "id": 85,
+    "field": "auth",
+    "expected": "Bearer token",
+    "url": "https://www.ipayx.ai/docs/api",
+    "note": "The FX Audit API identifies its v1 REST contract and a key sent as a bearer credential.",
+    "name": "iPayX",
+    "first": [],
+    "final": [
+      "API key",
+      "Bearer token"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "CONDITIONAL"
+  },
+  {
+    "id": 85,
+    "field": "official_mcp",
+    "expected": "Verified",
+    "url": "https://www.ipayx.ai/docs/mcp-server",
+    "note": "The iPayX site publishes a production MCP service and its setup instructions.",
+    "name": "iPayX",
+    "first": "Unverified",
+    "final": "Verified",
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "CONDITIONAL"
+  },
+  {
+    "id": 90,
+    "field": "api",
+    "expected": "REST",
+    "url": "https://pitchbook.com/help/PitchBook-api",
+    "note": "PitchBook describes REST and explicitly requires a standalone API contract.",
+    "name": "PitchBook",
+    "first": [],
+    "final": [
+      "REST"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "GATED"
+  },
+  {
+    "id": 90,
+    "field": "access",
+    "expected": "Partner/sales",
+    "url": "https://pitchbook.com/help/PitchBook-api",
+    "note": "PitchBook describes REST and explicitly requires a standalone API contract.",
+    "name": "PitchBook",
+    "first": "Unknown",
+    "final": "Partner/sales",
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "GATED"
+  },
+  {
+    "id": 90,
+    "field": "verdict",
+    "expected": "GATED",
+    "url": "https://pitchbook.com/help/PitchBook-api",
+    "note": "PitchBook describes REST and explicitly requires a standalone API contract.",
+    "name": "PitchBook",
+    "first": "UNKNOWN",
+    "final": "GATED",
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "GATED"
+  },
+  {
+    "id": 91,
+    "field": "api",
+    "expected": "REST",
+    "url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+    "note": "The licensed Enterprise product documents a REST interface for notebook lifecycle operations.",
+    "name": "NotebookLM",
+    "first": [
+      "REST",
+      "CLI"
+    ],
+    "final": [
+      "REST",
+      "RPC"
+    ],
+    "first_correct": true,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "GATED"
+  },
+  {
+    "id": 94,
+    "field": "auth",
+    "expected": "API key",
+    "url": "https://help.consensus.app/en/articles/16516328-the-consensus-api",
+    "note": "The standalone API uses a key. Free accounts have a limited monthly call allowance.",
+    "name": "Consensus",
+    "first": [],
+    "final": [
+      "API key"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 94,
+    "field": "access",
+    "expected": "Self-serve free",
+    "url": "https://help.consensus.app/en/articles/16516328-the-consensus-api",
+    "note": "The standalone API uses a key. Free accounts have a limited monthly call allowance.",
+    "name": "Consensus",
+    "first": "Unknown",
+    "final": "Self-serve free",
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 94,
+    "field": "official_mcp",
+    "expected": "Verified",
+    "url": "https://help.consensus.app/en/articles/17680317-how-to-connect-consensus-to-other-ai-tools",
+    "note": "The vendor describes connecting to its research MCP service.",
+    "name": "Consensus",
+    "first": "Unverified",
+    "final": "Verified",
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 98,
+    "field": "api",
+    "expected": "CLI",
+    "url": "https://github.com/mermaid-js/mermaid-cli/blob/master/README.md",
+    "note": "The maintainer describes a locally callable command-line renderer.",
+    "name": "Mermaid CLI",
+    "first": [
+      "CLI"
+    ],
+    "final": [
+      "CLI",
+      "Node.js library"
+    ],
+    "first_correct": true,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "CONDITIONAL"
+  },
+  {
+    "id": 98,
+    "field": "access",
+    "expected": "Local/open source",
+    "url": "https://www.npmjs.com/package/%40mermaid-js/mermaid-cli",
+    "note": "The publisher distributes the local renderer under MIT.",
+    "name": "Mermaid CLI",
+    "first": "Unknown",
+    "final": "Local/open source",
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "CONDITIONAL"
+  },
+  {
+    "id": 4,
+    "field": "access",
+    "expected": "Self-serve free",
+    "url": "https://attio.com/help/reference/workspace-settings-billing/attio-plans-and-features",
+    "note": "The plan comparison explicitly includes API access on every plan, including Free.",
+    "name": "Attio",
+    "first": "Unknown",
+    "final": "Self-serve free",
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 18,
+    "field": "access",
+    "expected": "Paid plan",
+    "url": "https://docs.helpscout.com/article/1140-mailbox-api",
+    "note": "Help Scout assigns API levels and reporting entitlements by paid plan.",
+    "name": "Help Scout",
+    "first": "Unknown",
+    "final": "Paid plan",
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "CONDITIONAL"
+  },
+  {
+    "id": 18,
+    "field": "auth",
+    "expected": "OAuth2",
+    "url": "https://developer.helpscout.com/mailbox-api/overview/authentication/",
+    "note": "The Inbox API documents client credentials and authorization code as OAuth 2.0 flows.",
+    "name": "Help Scout",
+    "first": [
+      "OAuth2"
+    ],
+    "final": [
+      "OAuth2",
+      "API key"
+    ],
+    "first_correct": true,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "CONDITIONAL"
+  },
+  {
+    "id": 22,
+    "field": "access",
+    "expected": "Self-serve trial",
+    "url": "https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account",
+    "note": "Twilio documents no-card signup and trial credentials.",
+    "name": "Twilio",
+    "first": "Unknown",
+    "final": "Self-serve trial",
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "CONDITIONAL"
+  },
+  {
+    "id": 22,
+    "field": "auth",
+    "expected": "Basic",
+    "url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+    "note": "A Twilio Account SID and Auth Token can authenticate via HTTP Basic.",
+    "name": "Twilio",
+    "first": [],
+    "final": [
+      "API key",
+      "Basic"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "CONDITIONAL"
+  },
+  {
+    "id": 74,
+    "field": "auth",
+    "expected": "OAuth2",
+    "url": "https://developer.atlassian.com/cloud/jira/platform/security-overview/",
+    "note": "Jira Cloud documents 3LO app authorization via OAuth 2.0.",
+    "name": "Jira",
+    "first": [],
+    "final": [
+      "OAuth2",
+      "Basic"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 74,
+    "field": "auth",
+    "expected": "Basic",
+    "url": "https://developer.atlassian.com/cloud/jira/platform/jira-rest-api-cookie-based-authentication/",
+    "note": "The migration guide directs API consumers to token-based Basic authentication or OAuth.",
+    "name": "Jira",
+    "first": [],
+    "final": [
+      "OAuth2",
+      "Basic"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 79,
+    "field": "access",
+    "expected": "Paid plan",
+    "url": "https://developers.smartsheet.com/api/smartsheet/openapi/tokens",
+    "note": "The core Smartsheet API reference limits access to Business and Enterprise.",
+    "name": "Smartsheet",
+    "first": "Unknown",
+    "final": "Paid plan",
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "CONDITIONAL"
+  },
+  {
+    "id": 86,
+    "field": "verdict",
+    "expected": "CONDITIONAL",
+    "url": "https://developer.intuit.com/app/developer/qbo/docs/get-started/get-client-id-and-client-secret",
+    "note": "Sandbox keys and production approval are separate steps, so broader deployment is conditional.",
+    "name": "QuickBooks",
+    "first": "UNKNOWN",
+    "final": "CONDITIONAL",
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "CONDITIONAL"
+  },
+  {
+    "id": 92,
+    "field": "official_mcp",
+    "expected": "Verified",
+    "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+    "note": "Otter publishes a connection guide for its own MCP server.",
+    "name": "Otter AI",
+    "first": "Unverified",
+    "final": "Verified",
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "GATED"
+  },
+  {
+    "id": 92,
+    "field": "access",
+    "expected": "Paid plan",
+    "url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+    "note": "The direct API is an Enterprise-workspace entitlement.",
+    "name": "Otter AI",
+    "first": "Unknown",
+    "final": "Paid plan",
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "GATED"
+  },
+  {
+    "id": 95,
+    "field": "official_mcp",
+    "expected": "Verified",
+    "url": "https://docs.reducto.ai/",
+    "note": "Reducto's documentation lists its MCP server and supported clients.",
+    "name": "Reducto",
+    "first": "Unverified",
+    "final": "Verified",
+    "first_correct": false,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 80,
+    "field": "auth",
+    "expected": "Basic",
+    "operator": "excludes",
+    "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+    "note": "The guide explicitly replaces legacy Basic authentication with a personal access token in v2.",
+    "name": "Harvest",
+    "first": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "final": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "first_correct": true,
+    "final_correct": true,
+    "first_verdict": "READY",
+    "final_verdict": "READY"
+  },
+  {
+    "id": 98,
+    "field": "api",
+    "expected": "REST",
+    "operator": "excludes",
+    "url": "https://github.com/mermaid-js/mermaid-cli/blob/master/README.md",
+    "note": "Scope is the named mmdc distribution. Its documented interfaces are a local CLI and a Node library.",
+    "name": "Mermaid CLI",
+    "first": [
+      "CLI"
+    ],
+    "final": [
+      "CLI",
+      "Node.js library"
+    ],
+    "first_correct": true,
+    "final_correct": true,
+    "first_verdict": "UNKNOWN",
+    "final_verdict": "CONDITIONAL"
+  },
+  {
+    "id": 80,
+    "field": "auth",
+    "expected": [
+      "Bearer token",
+      "OAuth2"
+    ],
+    "operator": "exact_set",
+    "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+    "note": "The v2 guide enumerates exactly two supported credential routes: personal token or OAuth2.",
+    "name": "Harvest",
+    "first": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "final": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "first_correct": true,
+    "final_correct": true,
+    "first_verdict": "READY",
+    "final_verdict": "READY"
+  }
+]

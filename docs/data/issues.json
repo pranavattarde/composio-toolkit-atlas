@@ -1,0 +1,1618 @@
+[
+  {
+    "id": 1,
+    "kind": "direct reader limitation",
+    "url": "https://help.salesforce.com/s/articleView?id=000005140&language=en_US&type=1",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 1,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 2,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 3,
+    "kind": "auth discrepancy",
+    "before": [
+      "OAuth2"
+    ],
+    "after": [
+      "OAuth2",
+      "API key"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 4,
+    "kind": "unavailable citation",
+    "url": "https://docs.attio.com/rest-api/endpoint-reference/meetings/find-or-create-a-meeting",
+    "action": "Removed from the published app evidence; remaining sources re-evaluated."
+  },
+  {
+    "id": 4,
+    "kind": "auth discrepancy",
+    "before": [
+      "OAuth2"
+    ],
+    "after": [
+      "OAuth2",
+      "API key"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 5,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "API key",
+      "OAuth2"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 6,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 7,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 9,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "API key"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 11,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Basic",
+      "API key"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 11,
+    "kind": "version or route ambiguity",
+    "action": "New integrations need OAuth. Customer API tokens cannot be used to authenticate multi-customer apps. Public distribution and EAP participation have separate requirements."
+  },
+  {
+    "id": 12,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 13,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "API key",
+      "Basic",
+      "OAuth2"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 14,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 15,
+    "kind": "direct reader limitation",
+    "url": "https://support.usepylon.com/articles/4735104435-how-do-i-create-an-api-token",
+    "status": "robots_disallowed",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 15,
+    "kind": "direct reader limitation",
+    "url": "https://support.usepylon.com/articles/2407390554-connecting-to-the-pylon-mcp-server",
+    "status": "robots_disallowed",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 15,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "No standalone free API sandbox was confirmed."
+    ]
+  },
+  {
+    "id": 15,
+    "kind": "auth discrepancy",
+    "before": [
+      "Bearer token"
+    ],
+    "after": [
+      "Bearer token",
+      "OAuth2"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 16,
+    "kind": "direct reader limitation",
+    "url": "https://support.liveagent.com/docs/api/v3/",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 16,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Confirm endpoint version for each tool because v3 and v4 coexist."
+    ]
+  },
+  {
+    "id": 16,
+    "kind": "auth discrepancy",
+    "before": [
+      "API key"
+    ],
+    "after": [
+      "API key",
+      "OAuth2"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 17,
+    "kind": "unavailable citation",
+    "url": "https://mcp.pipedream.com/app/plain",
+    "action": "Removed from the published app evidence; remaining sources re-evaluated."
+  },
+  {
+    "id": 17,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "API key"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 18,
+    "kind": "auth discrepancy",
+    "before": [
+      "OAuth2"
+    ],
+    "after": [
+      "OAuth2",
+      "API key"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 19,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "API key",
+      "Basic"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 20,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "Basic",
+      "API key"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 21,
+    "kind": "auth discrepancy",
+    "before": [
+      "OAuth2",
+      "Other"
+    ],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 22,
+    "kind": "direct reader limitation",
+    "url": "https://help.twilio.com/articles/43750712673819",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 22,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "API key",
+      "Basic"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 22,
+    "kind": "version or route ambiguity",
+    "action": "Trials restrict quantities and destinations. Live traffic incurs usage charges. Twilio Labs publishes an experimental MCP. Support explicitly disclaims an officially supported implementation."
+  },
+  {
+    "id": 23,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 24,
+    "kind": "direct reader limitation",
+    "url": "https://open.larksuite.com/document/server-docs/getting-started/overview-of-app-scopes",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 24,
+    "kind": "direct reader limitation",
+    "url": "https://open.larksuite.com/document/home/introduction-to-custom-app-development/testing-enterprise-and-personnel-functions",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 24,
+    "kind": "direct reader limitation",
+    "url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/authentication-management/access-token/refresh-user-access-token",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 24,
+    "kind": "direct reader limitation",
+    "url": "https://open.larksuite.com/document/mcp_open_tools/mcp-user-guide",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 24,
+    "kind": "direct reader limitation",
+    "url": "https://open.larksuite.com/document/ukTMukTMukTM/uUDN04SN0QjL1QDN/docs-v1",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 24,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Developer test-tenant pricing was not explicitly documented."
+    ]
+  },
+  {
+    "id": 24,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 25,
+    "kind": "auth discrepancy",
+    "before": [
+      "OAuth2",
+      "API key"
+    ],
+    "after": [
+      "API key"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 26,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Other",
+      "Basic"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 28,
+    "kind": "direct reader limitation",
+    "url": "https://www.postman.com/meta/whatsapp-business-platform/documentation/wlk6lh4/whatsapp-cloud-api?entity=folder-13382743-148258e1-3240-4eed-8a78-049bb1d1fe25",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 28,
+    "kind": "auth discrepancy",
+    "before": [
+      "Bearer token"
+    ],
+    "after": [
+      "Bearer token",
+      "Service account"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 29,
+    "kind": "direct reader limitation",
+    "url": "https://support.aircall.io/en-gb/articles/15149698584733",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 29,
+    "kind": "direct reader limitation",
+    "url": "https://support.aircall.io/en-gb/articles/39677926959517",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 29,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Basic",
+      "API key"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 30,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "API key",
+      "Basic",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 31,
+    "kind": "auth discrepancy",
+    "before": [
+      "OAuth2"
+    ],
+    "after": [
+      "OAuth2",
+      "Service account"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 31,
+    "kind": "version or route ambiguity",
+    "action": "Production access and quotas depend on the Cloud project's approved level. The OAuth reference still mentions developer tokens. The September 2026 migration guide supersedes that requirement."
+  },
+  {
+    "id": 32,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Service account"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 33,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 34,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 35,
+    "kind": "unavailable citation",
+    "url": "https://mcp.pipedream.com/app/mailchimp",
+    "action": "Removed from the published app evidence; remaining sources re-evaluated."
+  },
+  {
+    "id": 35,
+    "kind": "auth discrepancy",
+    "before": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "after": [
+      "API key",
+      "OAuth2",
+      "Basic",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 36,
+    "kind": "unavailable citation",
+    "url": "https://mcp.pipedream.com/app/klaviyo_oauth",
+    "action": "Removed from the published app evidence; remaining sources re-evaluated."
+  },
+  {
+    "id": 36,
+    "kind": "auth discrepancy",
+    "before": [
+      "API key"
+    ],
+    "after": [
+      "API key",
+      "OAuth2"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 37,
+    "kind": "unavailable citation",
+    "url": "https://mcp.pipedream.com/app/systeme_io",
+    "action": "Removed from the published app evidence; remaining sources re-evaluated."
+  },
+  {
+    "id": 37,
+    "kind": "MCP ownership unsupported after URL check",
+    "action": "third_party_mcp changed to Unverified"
+  },
+  {
+    "id": 37,
+    "kind": "direct reader limitation",
+    "url": "https://help.systeme.io/article/2323-how-to-use-systeme-io-public-api",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 37,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Check plan entitlements for advanced raw API endpoints separately from MCP."
+    ]
+  },
+  {
+    "id": 37,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "API key"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 38,
+    "kind": "unavailable citation",
+    "url": "https://mcp.pipedream.com/app/pinterest",
+    "action": "Removed from the published app evidence; remaining sources re-evaluated."
+  },
+  {
+    "id": 38,
+    "kind": "direct reader limitation",
+    "url": "https://developers.pinterest.com/docs/key-concepts/access-tiers/",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 38,
+    "kind": "direct reader limitation",
+    "url": "https://developers.pinterest.com/docs/developer-tools/sandbox/",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 38,
+    "kind": "direct reader limitation",
+    "url": "https://developer.pinterest.com/about-pinterest-mcp/",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 38,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Check the exact tools approved for the partner MCP account."
+    ]
+  },
+  {
+    "id": 38,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 39,
+    "kind": "direct reader limitation",
+    "url": "https://www.postman.com/meta/threads/documentation/dht3nzz/threads-api",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 39,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Confirm the exact review requirements for the chosen Threads scopes."
+    ]
+  },
+  {
+    "id": 39,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 40,
+    "kind": "unavailable citation",
+    "url": "https://mcp.pipedream.com/app/sendgrid",
+    "action": "Removed from the published app evidence; remaining sources re-evaluated."
+  },
+  {
+    "id": 40,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "API key",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 41,
+    "kind": "unavailable citation",
+    "url": "https://mcp.pipedream.com/app/shopify",
+    "action": "Removed from the published app evidence; remaining sources re-evaluated."
+  },
+  {
+    "id": 41,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 42,
+    "kind": "auth discrepancy",
+    "before": [
+      "API key"
+    ],
+    "after": [
+      "API key",
+      "Basic",
+      "Other"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 43,
+    "kind": "unavailable citation",
+    "url": "https://mcp.pipedream.com/app/bigcommerce",
+    "action": "Removed from the published app evidence; remaining sources re-evaluated."
+  },
+  {
+    "id": 43,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 44,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 45,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "Other",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 46,
+    "kind": "unavailable citation",
+    "url": "https://mcp.pipedream.com/app/squarespace",
+    "action": "Removed from the published app evidence; remaining sources re-evaluated."
+  },
+  {
+    "id": 46,
+    "kind": "MCP ownership unsupported after URL check",
+    "action": "third_party_mcp changed to Unverified"
+  },
+  {
+    "id": 46,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "API key",
+      "OAuth2",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 47,
+    "kind": "auth discrepancy",
+    "before": [
+      "OAuth2"
+    ],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 48,
+    "kind": "unavailable citation",
+    "url": "https://mcp.pipedream.com/app/gumroad",
+    "action": "Removed from the published app evidence; remaining sources re-evaluated."
+  },
+  {
+    "id": 48,
+    "kind": "direct reader limitation",
+    "url": "https://gumroad.com/help/article/280-create-application-api",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 48,
+    "kind": "direct reader limitation",
+    "url": "https://gumroad.com/help/article/76-license-keys",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 48,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Confirm the scopes required for any changes to memberships or products."
+    ]
+  },
+  {
+    "id": 48,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 49,
+    "kind": "unavailable citation",
+    "url": "https://github.com/amzn/selling-partner-api-samples/blob/main/use-cases/sp-api-dev-mcp/README.md",
+    "action": "Removed from the published app evidence; remaining sources re-evaluated."
+  },
+  {
+    "id": 50,
+    "kind": "direct reader limitation",
+    "url": "https://demo.embedded.fanbasis.io/docs/checkout-session-secret",
+    "status": "robots_http_403",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 50,
+    "kind": "direct reader limitation",
+    "url": "https://demo.embedded.fanbasis.io/docs/api-reference",
+    "status": "robots_http_403",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 50,
+    "kind": "confidence",
+    "action": "Low",
+    "questions": [
+      "Does a new developer receive a sandbox key without sales or payment?",
+      "Which legacy checkout endpoints are supported for new Commas accounts?"
+    ]
+  },
+  {
+    "id": 50,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "API key"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 51,
+    "kind": "unavailable citation",
+    "url": "https://mcp.pipedream.com/app/dataforseo",
+    "action": "Removed from the published app evidence; remaining sources re-evaluated."
+  },
+  {
+    "id": 52,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "API key"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 53,
+    "kind": "unavailable citation",
+    "url": "https://mcp.pipedream.com/app/ahrefs",
+    "action": "Removed from the published app evidence; remaining sources re-evaluated."
+  },
+  {
+    "id": 53,
+    "kind": "auth discrepancy",
+    "before": [
+      "OAuth2",
+      "API key",
+      "Bearer token"
+    ],
+    "after": [
+      "API key",
+      "OAuth2"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 54,
+    "kind": "auth discrepancy",
+    "before": [
+      "API key",
+      "Bearer token"
+    ],
+    "after": [
+      "API key",
+      "Bearer token",
+      "OAuth2"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 55,
+    "kind": "unavailable citation",
+    "url": "https://mcp.pipedream.com/app/apify",
+    "action": "Removed from the published app evidence; remaining sources re-evaluated."
+  },
+  {
+    "id": 55,
+    "kind": "auth discrepancy",
+    "before": [
+      "Bearer token"
+    ],
+    "after": [
+      "Bearer token",
+      "OAuth2"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 56,
+    "kind": "unavailable citation",
+    "url": "https://mcp.pipedream.com/app/firecrawl",
+    "action": "Removed from the published app evidence; remaining sources re-evaluated."
+  },
+  {
+    "id": 56,
+    "kind": "auth discrepancy",
+    "before": [
+      "API key",
+      "Bearer token"
+    ],
+    "after": [
+      "API key",
+      "Bearer token",
+      "Other"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 58,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Whether the self-hosted REST wrapper is currently maintained and production-compatible.",
+      "Authentication for a hosted deployment depends on the operator."
+    ]
+  },
+  {
+    "id": 59,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "API key"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 60,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "API key",
+      "OAuth2",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 61,
+    "kind": "unavailable citation",
+    "url": "https://mcp.pipedream.com/app/github",
+    "action": "Removed from the published app evidence; remaining sources re-evaluated."
+  },
+  {
+    "id": 61,
+    "kind": "auth discrepancy",
+    "before": [
+      "Basic",
+      "Bearer token"
+    ],
+    "after": [
+      "OAuth2",
+      "Bearer token",
+      "Basic",
+      "Other"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 62,
+    "kind": "unavailable citation",
+    "url": "https://mcp.pipedream.com/app/vercel_token_auth",
+    "action": "Removed from the published app evidence; remaining sources re-evaluated."
+  },
+  {
+    "id": 62,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "Bearer token",
+      "OAuth2"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 63,
+    "kind": "unavailable citation",
+    "url": "https://mcp.pipedream.com/app/netlify",
+    "action": "Removed from the published app evidence; remaining sources re-evaluated."
+  },
+  {
+    "id": 63,
+    "kind": "MCP ownership unsupported after URL check",
+    "action": "third_party_mcp changed to Unverified"
+  },
+  {
+    "id": 64,
+    "kind": "unavailable citation",
+    "url": "https://mcp.pipedream.com/app/cloudflare_api_key",
+    "action": "Removed from the published app evidence; remaining sources re-evaluated."
+  },
+  {
+    "id": 64,
+    "kind": "auth discrepancy",
+    "before": [
+      "Bearer token"
+    ],
+    "after": [
+      "API key",
+      "Bearer token",
+      "OAuth2"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 65,
+    "kind": "unavailable citation",
+    "url": "https://mcp.pipedream.com/app/supabase",
+    "action": "Removed from the published app evidence; remaining sources re-evaluated."
+  },
+  {
+    "id": 65,
+    "kind": "auth discrepancy",
+    "before": [
+      "API key",
+      "Bearer token"
+    ],
+    "after": [
+      "API key",
+      "OAuth2",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 66,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "Basic",
+      "Bearer token",
+      "OAuth2"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 67,
+    "kind": "unavailable citation",
+    "url": "https://mcp.pipedream.com/app/snowflake",
+    "action": "Removed from the published app evidence; remaining sources re-evaluated."
+  },
+  {
+    "id": 67,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token",
+      "Other"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 68,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Service account",
+      "API key"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 69,
+    "kind": "auth discrepancy",
+    "before": [
+      "OAuth2",
+      "API key"
+    ],
+    "after": [
+      "API key",
+      "OAuth2",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 70,
+    "kind": "auth discrepancy",
+    "before": [
+      "OAuth2",
+      "API key",
+      "Basic",
+      "Bearer token"
+    ],
+    "after": [
+      "Bearer token",
+      "OAuth2",
+      "Other"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 71,
+    "kind": "direct reader limitation",
+    "url": "https://notion.notion.site/API-Reference-914a8531daa84753aacdf01274df8ec5?pvs=4",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 71,
+    "kind": "auth discrepancy",
+    "before": [
+      "OAuth2",
+      "Bearer token",
+      "Other"
+    ],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 72,
+    "kind": "direct reader limitation",
+    "url": "https://support.airtable.com/articles/6292134965-getting-started-with-airtable-s-web-api",
+    "status": "robots_disallowed",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 72,
+    "kind": "direct reader limitation",
+    "url": "https://support.airtable.com/articles/7735693959-managing-api-call-limits-in-airtable",
+    "status": "robots_disallowed",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 72,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Customer-specific data and base permissions."
+    ]
+  },
+  {
+    "id": 72,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 73,
+    "kind": "auth discrepancy",
+    "before": [
+      "OAuth2",
+      "API key",
+      "Basic",
+      "Bearer token"
+    ],
+    "after": [
+      "API key",
+      "OAuth2"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 74,
+    "kind": "direct reader limitation",
+    "url": "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 74,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Entitlements for particular admin features."
+    ]
+  },
+  {
+    "id": 74,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Basic"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 75,
+    "kind": "auth discrepancy",
+    "before": [
+      "Bearer token"
+    ],
+    "after": [
+      "OAuth2",
+      "Bearer token",
+      "Service account"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 76,
+    "kind": "auth discrepancy",
+    "before": [
+      "OAuth2"
+    ],
+    "after": [
+      "Bearer token",
+      "OAuth2"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 78,
+    "kind": "direct reader limitation",
+    "url": "https://coda.io/developers/apis/v1",
+    "status": "robots_disallowed",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 78,
+    "kind": "direct reader limitation",
+    "url": "https://www.postman.com/codaio/coda-workspace/collection/0vy7uxn/coda-api",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 78,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Check size and workspace settings for the target doc."
+    ]
+  },
+  {
+    "id": 78,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 79,
+    "kind": "direct reader limitation",
+    "url": "https://developers.smartsheet.com/api/smartsheet/openapi/tokens/tokens-getorrefresh",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 79,
+    "kind": "direct reader limitation",
+    "url": "https://developers.smartsheet.com/api/smartsheet/openapi/tokens",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 79,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 81,
+    "kind": "auth discrepancy",
+    "before": [
+      "API key",
+      "Basic",
+      "Bearer token"
+    ],
+    "after": [
+      "API key",
+      "Basic",
+      "OAuth2",
+      "Other"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 82,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "API key"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 83,
+    "kind": "direct reader limitation",
+    "url": "https://developers.binance.com/en/docs/products/spot/rest-api",
+    "status": "http_202",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 83,
+    "kind": "direct reader limitation",
+    "url": "https://www.binance.com/en/support/faq/detail/7a6e676e36fb455d96478932cb12d9f3",
+    "status": "http_202",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 83,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "API key",
+      "Other"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 84,
+    "kind": "direct reader limitation",
+    "url": "https://www.gopaygent.com/",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 84,
+    "kind": "confidence",
+    "action": "Low",
+    "questions": [
+      "Whether gopaygent.com is the intended NMI-powered product.",
+      "Connect-specific auth, price, API and MCP remain unresolved."
+    ]
+  },
+  {
+    "id": 85,
+    "kind": "direct reader limitation",
+    "url": "https://www.ipayx.ai/docs/api",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 85,
+    "kind": "direct reader limitation",
+    "url": "https://www.ipayx.ai/docs/mcp-server",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 85,
+    "kind": "direct reader limitation",
+    "url": "https://www.ipayx.ai/",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 85,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "The live HTML renderer returned generic site copy for indexed deep links. Verify current API tier and quota with the vendor."
+    ]
+  },
+  {
+    "id": 85,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "API key",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 85,
+    "kind": "version or route ambiguity",
+    "action": "The free website estimator, MCP audit allowance and standalone REST entitlement have different descriptions. Confirm the intended route. The live HTML renderer returned generic site copy for indexed deep links. Verify current API tier and quota with the vendor."
+  },
+  {
+    "id": 86,
+    "kind": "direct reader limitation",
+    "url": "https://developer.intuit.com/app/developer/qbo/docs/",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 86,
+    "kind": "direct reader limitation",
+    "url": "https://help.developer.intuit.com/s/question/0D5TR00001Z93zt0AB/quickbooks-api-for-updating-client-records",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 86,
+    "kind": "direct reader limitation",
+    "url": "https://developer.intuit.com/app/developer/qbo/docs/get-started/get-client-id-and-client-secret",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 86,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Specific GraphQL operations and production pricing vary by product and region."
+    ]
+  },
+  {
+    "id": 86,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 87,
+    "kind": "direct reader limitation",
+    "url": "https://developer.xero.com/documentation/getting-started-guide/",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 87,
+    "kind": "direct reader limitation",
+    "url": "https://developer.xero.com/documentation/guides/oauth2/overview",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 87,
+    "kind": "direct reader limitation",
+    "url": "https://developer.xero.com/documentation/api/accounting/invoices",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 87,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Commercial tier and feature eligibility for the intended deployment."
+    ]
+  },
+  {
+    "id": 87,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 88,
+    "kind": "auth discrepancy",
+    "before": [
+      "Bearer token"
+    ],
+    "after": [
+      "Bearer token",
+      "OAuth2"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 89,
+    "kind": "direct reader limitation",
+    "url": "https://docs.ramp.com/developer-api/v1/authorization",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 89,
+    "kind": "direct reader limitation",
+    "url": "https://docs.ramp.com/developer-api/v1/api/transactions",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 89,
+    "kind": "direct reader limitation",
+    "url": "https://docs.ramp.com/developer-api/v1/ramp-mcp",
+    "status": "thin",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 89,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Unpublished scope entitlements for individual businesses."
+    ]
+  },
+  {
+    "id": 89,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 90,
+    "kind": "direct reader limitation",
+    "url": "https://pitchbook.com/help/PitchBook-api",
+    "status": "http_403",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 90,
+    "kind": "direct reader limitation",
+    "url": "https://pitchbook.com/products/direct-access-data/api",
+    "status": "http_403",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 90,
+    "kind": "direct reader limitation",
+    "url": "https://pitchbook.com/media/press-releases/pitchbook-launches-an-agentic-platform-assistant-and-new-pitchbook-data-mcp-to-meet-investors-rapidly-evolving-workflow-needs",
+    "status": "http_403",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 90,
+    "kind": "confidence",
+    "action": "Medium",
+    "questions": [
+      "Exact token format, commercial terms and any API-specific trial."
+    ]
+  },
+  {
+    "id": 90,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "API key",
+      "Other"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 91,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 92,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "API key",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 93,
+    "kind": "auth discrepancy",
+    "before": [
+      "API key"
+    ],
+    "after": [
+      "API key",
+      "OAuth2"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 94,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "API key"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 95,
+    "kind": "auth discrepancy",
+    "before": [
+      "API key"
+    ],
+    "after": [
+      "API key",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 96,
+    "kind": "auth discrepancy",
+    "before": [
+      "API key",
+      "Bearer token"
+    ],
+    "after": [
+      "Service account",
+      "API key",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  },
+  {
+    "id": 98,
+    "kind": "direct reader limitation",
+    "url": "https://www.npmjs.com/package/%40mermaid-js/mermaid-cli",
+    "status": "robots_http_403",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 100,
+    "kind": "direct reader limitation",
+    "url": "https://developers.grain.com/",
+    "status": "robots_http_403",
+    "action": "Attributed source review retained; direct fetch limitation visible."
+  },
+  {
+    "id": 100,
+    "kind": "auth discrepancy",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "action": "Applied source-attributed route review."
+  }
+]

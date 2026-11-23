@@ -1,0 +1,4164 @@
+[
+  {
+    "id": 1,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 1,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST",
+      "SOAP"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 1,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 1,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 1,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 1,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 2,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 2,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 2,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 2,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 2,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 2,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 3,
+    "field": "auth",
+    "before": [
+      "OAuth2"
+    ],
+    "after": [
+      "OAuth2",
+      "API key"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 3,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve trial",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 3,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 3,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 3,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 4,
+    "field": "auth",
+    "before": [
+      "OAuth2"
+    ],
+    "after": [
+      "OAuth2",
+      "API key"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 4,
+    "field": "api",
+    "before": [
+      "REST"
+    ],
+    "after": [
+      "REST",
+      "SDK"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 4,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 4,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 4,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 4,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 5,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "API key",
+      "OAuth2"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 5,
+    "field": "api",
+    "before": [
+      "GraphQL"
+    ],
+    "after": [
+      "REST",
+      "GraphQL"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 5,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Local/open source",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 5,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 5,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 5,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 6,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 6,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 6,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 6,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 6,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 6,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 7,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 7,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST",
+      "GraphQL",
+      "SDK"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 7,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 7,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 7,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 7,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 8,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve trial",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 8,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 8,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 8,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 9,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "API key"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 9,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 9,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve trial",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 9,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 9,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 9,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 10,
+    "field": "api",
+    "before": [
+      "REST",
+      "SDK"
+    ],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 10,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Admin approval",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 10,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 10,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "GATED",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 11,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Basic",
+      "API key"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 11,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 11,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve trial",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 11,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 11,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 11,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 12,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 12,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 12,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 12,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 12,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 13,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "API key",
+      "Basic",
+      "OAuth2"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 13,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 13,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve trial",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 13,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 13,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 13,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 14,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 14,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 14,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 14,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 15,
+    "field": "auth",
+    "before": [
+      "Bearer token"
+    ],
+    "after": [
+      "Bearer token",
+      "OAuth2"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 15,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 16,
+    "field": "auth",
+    "before": [
+      "API key"
+    ],
+    "after": [
+      "API key",
+      "OAuth2"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 16,
+    "field": "api",
+    "before": [
+      "REST"
+    ],
+    "after": [
+      "HTTP API"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 16,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve trial",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 16,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 16,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 17,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "API key"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 17,
+    "field": "api",
+    "before": [],
+    "after": [
+      "GraphQL",
+      "SDK"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 17,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve trial",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 17,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 17,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 17,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 18,
+    "field": "auth",
+    "before": [
+      "OAuth2"
+    ],
+    "after": [
+      "OAuth2",
+      "API key"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 18,
+    "field": "api",
+    "before": [
+      "SDK"
+    ],
+    "after": [
+      "HTTP API",
+      "SDK"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 18,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Paid plan",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 18,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 18,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 18,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 19,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "API key",
+      "Basic"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 19,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 19,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve trial",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 19,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 19,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 19,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 20,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "Basic",
+      "API key"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 20,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 20,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Admin approval",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 20,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 21,
+    "field": "auth",
+    "before": [
+      "OAuth2",
+      "Other"
+    ],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 21,
+    "field": "api",
+    "before": [
+      "CLI"
+    ],
+    "after": [
+      "HTTP API"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 21,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 21,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 21,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 21,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 22,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "API key",
+      "Basic"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 22,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve trial",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 22,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 22,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 23,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 23,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 23,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 23,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 23,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 23,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 24,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 24,
+    "field": "api",
+    "before": [],
+    "after": [
+      "HTTP API"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 24,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Admin approval",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 24,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 24,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 24,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 25,
+    "field": "auth",
+    "before": [
+      "OAuth2",
+      "API key"
+    ],
+    "after": [
+      "API key"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 25,
+    "field": "api",
+    "before": [],
+    "after": [
+      "HTTP API"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 25,
+    "field": "access",
+    "before": "Self-serve (cost unverified)",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 25,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 25,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 25,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 26,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Other",
+      "Basic"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 26,
+    "field": "api",
+    "before": [],
+    "after": [
+      "HTTP API",
+      "WebSocket"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 26,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve (cost unverified)",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 26,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 26,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 27,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 27,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 27,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 28,
+    "field": "auth",
+    "before": [
+      "Bearer token"
+    ],
+    "after": [
+      "Bearer token",
+      "Service account"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 28,
+    "field": "api",
+    "before": [],
+    "after": [
+      "HTTP API"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 28,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve (cost unverified)",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 28,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 28,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 28,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 29,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Basic",
+      "API key"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 29,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 29,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Partner/sales",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 29,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 29,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 29,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "GATED",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 30,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "API key",
+      "Basic",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 30,
+    "field": "api",
+    "before": [
+      "REST"
+    ],
+    "after": [
+      "HTTP API"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 30,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve trial",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 30,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 30,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 31,
+    "field": "auth",
+    "before": [
+      "OAuth2"
+    ],
+    "after": [
+      "OAuth2",
+      "Service account"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 31,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST",
+      "gRPC"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 31,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Admin approval",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 31,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 31,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 31,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 32,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Service account"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 32,
+    "field": "api",
+    "before": [],
+    "after": [
+      "HTTP API"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 32,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Admin approval",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 32,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 32,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 33,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 33,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 33,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Partner/sales",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 33,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 33,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "GATED",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 34,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 34,
+    "field": "api",
+    "before": [],
+    "after": [
+      "HTTP API"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 34,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Paid plan",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 34,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 34,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 34,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 35,
+    "field": "auth",
+    "before": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "after": [
+      "API key",
+      "OAuth2",
+      "Basic",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 35,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 35,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 35,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 35,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 35,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 36,
+    "field": "auth",
+    "before": [
+      "API key"
+    ],
+    "after": [
+      "API key",
+      "OAuth2"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 36,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 36,
+    "field": "access",
+    "before": "Self-serve (cost unverified)",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 36,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 36,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 36,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 37,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "API key"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 37,
+    "field": "api",
+    "before": [],
+    "after": [
+      "HTTP API"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 37,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 37,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 37,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 38,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 38,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 38,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Partner/sales",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 38,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 38,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 38,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "GATED",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 39,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 39,
+    "field": "api",
+    "before": [],
+    "after": [
+      "HTTP API"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 39,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Admin approval",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 39,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 39,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 40,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "API key",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 40,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve trial",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 40,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 40,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 41,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 41,
+    "field": "api",
+    "before": [],
+    "after": [
+      "GraphQL",
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 41,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 41,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 41,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 41,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 42,
+    "field": "auth",
+    "before": [
+      "API key"
+    ],
+    "after": [
+      "API key",
+      "Basic",
+      "Other"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 42,
+    "field": "access",
+    "before": "Self-serve (cost unverified)",
+    "after": "Local/open source",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 42,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 42,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 43,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 43,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve trial",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 43,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 43,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 43,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 44,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 44,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 44,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Admin approval",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 44,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 44,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "GATED",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 45,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "Other",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 45,
+    "field": "api",
+    "before": [
+      "REST"
+    ],
+    "after": [
+      "REST",
+      "GraphQL",
+      "SOAP"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 45,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Local/open source",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 45,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 45,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 45,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 46,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "API key",
+      "OAuth2",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 46,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 46,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Paid plan",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 46,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 46,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 47,
+    "field": "auth",
+    "before": [
+      "OAuth2"
+    ],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 47,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Paid plan",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 47,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 48,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 48,
+    "field": "api",
+    "before": [],
+    "after": [
+      "HTTP API",
+      "CLI"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 48,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 48,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 48,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 48,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 49,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST",
+      "SDK"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 49,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Partner/sales",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 49,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 49,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "GATED",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 50,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "API key"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 50,
+    "field": "api",
+    "before": [],
+    "after": [
+      "HTTP API",
+      "SDK"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 51,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve trial",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 51,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 51,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 51,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 52,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "API key"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 52,
+    "field": "api",
+    "before": [],
+    "after": [
+      "HTTP API"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 52,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve trial",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 52,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 52,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 53,
+    "field": "auth",
+    "before": [
+      "OAuth2",
+      "API key",
+      "Bearer token"
+    ],
+    "after": [
+      "API key",
+      "OAuth2"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 53,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Paid plan",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 53,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 53,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 53,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 54,
+    "field": "auth",
+    "before": [
+      "API key",
+      "Bearer token"
+    ],
+    "after": [
+      "API key",
+      "Bearer token",
+      "OAuth2"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 54,
+    "field": "api",
+    "before": [
+      "SDK"
+    ],
+    "after": [
+      "HTTP API"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 54,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 54,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 54,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 54,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 55,
+    "field": "auth",
+    "before": [
+      "Bearer token"
+    ],
+    "after": [
+      "Bearer token",
+      "OAuth2"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 55,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 55,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 55,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 55,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 56,
+    "field": "auth",
+    "before": [
+      "API key",
+      "Bearer token"
+    ],
+    "after": [
+      "API key",
+      "Bearer token",
+      "Other"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 56,
+    "field": "api",
+    "before": [
+      "REST",
+      "SDK"
+    ],
+    "after": [
+      "REST",
+      "CLI",
+      "SDK"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 56,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 56,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 56,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 57,
+    "field": "api",
+    "before": [
+      "REST",
+      "SDK"
+    ],
+    "after": [
+      "HTTP API"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 57,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 57,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 57,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 57,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 58,
+    "field": "api",
+    "before": [],
+    "after": [
+      "CLI",
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 58,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Local/open source",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 58,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 58,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 59,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "API key"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 59,
+    "field": "api",
+    "before": [],
+    "after": [
+      "HTTP API"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 59,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Partner/sales",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 59,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "GATED",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 60,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "API key",
+      "OAuth2",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 60,
+    "field": "api",
+    "before": [
+      "HTTP API"
+    ],
+    "after": [
+      "HTTP API",
+      "CLI"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 60,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 60,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 60,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 60,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 61,
+    "field": "auth",
+    "before": [
+      "Basic",
+      "Bearer token"
+    ],
+    "after": [
+      "OAuth2",
+      "Bearer token",
+      "Basic",
+      "Other"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 61,
+    "field": "api",
+    "before": [
+      "REST"
+    ],
+    "after": [
+      "REST",
+      "GraphQL"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 61,
+    "field": "access",
+    "before": "Self-serve (cost unverified)",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 61,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 62,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "Bearer token",
+      "OAuth2"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 62,
+    "field": "api",
+    "before": [
+      "REST"
+    ],
+    "after": [
+      "REST",
+      "SDK"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 62,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 62,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 62,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 62,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 63,
+    "field": "access",
+    "before": "Self-serve (cost unverified)",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 63,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 64,
+    "field": "auth",
+    "before": [
+      "Bearer token"
+    ],
+    "after": [
+      "API key",
+      "Bearer token",
+      "OAuth2"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 64,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST",
+      "GraphQL",
+      "SDK"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 64,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 64,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 64,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 64,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 65,
+    "field": "auth",
+    "before": [
+      "API key",
+      "Bearer token"
+    ],
+    "after": [
+      "API key",
+      "OAuth2",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 65,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 65,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 65,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 65,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 66,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "Basic",
+      "Bearer token",
+      "OAuth2"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 66,
+    "field": "api",
+    "before": [],
+    "after": [
+      "HTTP API"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 66,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 66,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 66,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 66,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 67,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token",
+      "Other"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 67,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve trial",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 67,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 67,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 67,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 68,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Service account",
+      "API key"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 68,
+    "field": "api",
+    "before": [
+      "REST",
+      "GraphQL",
+      "CLI"
+    ],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 68,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Admin approval",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 68,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 68,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 68,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 69,
+    "field": "auth",
+    "before": [
+      "OAuth2",
+      "API key"
+    ],
+    "after": [
+      "API key",
+      "OAuth2",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 69,
+    "field": "api",
+    "before": [
+      "REST",
+      "HTTP API"
+    ],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 69,
+    "field": "access",
+    "before": "Self-serve (cost unverified)",
+    "after": "Self-serve trial",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 69,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 69,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 70,
+    "field": "auth",
+    "before": [
+      "OAuth2",
+      "API key",
+      "Basic",
+      "Bearer token"
+    ],
+    "after": [
+      "Bearer token",
+      "OAuth2",
+      "Other"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 70,
+    "field": "api",
+    "before": [],
+    "after": [
+      "HTTP API"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 70,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve (cost unverified)",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 70,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 70,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 70,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 71,
+    "field": "auth",
+    "before": [
+      "OAuth2",
+      "Bearer token",
+      "Other"
+    ],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 71,
+    "field": "api",
+    "before": [
+      "SDK"
+    ],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 71,
+    "field": "access",
+    "before": "Self-serve (cost unverified)",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 71,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 71,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 71,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 72,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 72,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 72,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 72,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 72,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 72,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 73,
+    "field": "auth",
+    "before": [
+      "OAuth2",
+      "API key",
+      "Basic",
+      "Bearer token"
+    ],
+    "after": [
+      "API key",
+      "OAuth2"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 73,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 73,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 73,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 73,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 74,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Basic"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 74,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 74,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 74,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 74,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 75,
+    "field": "auth",
+    "before": [
+      "Bearer token"
+    ],
+    "after": [
+      "OAuth2",
+      "Bearer token",
+      "Service account"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 75,
+    "field": "access",
+    "before": "Self-serve (cost unverified)",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 75,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 75,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 76,
+    "field": "auth",
+    "before": [
+      "OAuth2"
+    ],
+    "after": [
+      "Bearer token",
+      "OAuth2"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 76,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 76,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 76,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 76,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 77,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 77,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 77,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 77,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 77,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 78,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 78,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 78,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 78,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 78,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 78,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 79,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 79,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 79,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Paid plan",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 79,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 79,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 79,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 80,
+    "field": "access",
+    "before": "Self-serve (cost unverified)",
+    "after": "Self-serve free",
+    "reason": "Harvest's support article explicitly includes access for free and trial accounts, resolving the pricing question that the developer guide left open."
+  },
+  {
+    "id": 80,
+    "field": "access",
+    "before": "Self-serve (cost unverified)",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 80,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 80,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 81,
+    "field": "auth",
+    "before": [
+      "API key",
+      "Basic",
+      "Bearer token"
+    ],
+    "after": [
+      "API key",
+      "Basic",
+      "OAuth2",
+      "Other"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 81,
+    "field": "api",
+    "before": [
+      "REST",
+      "CLI"
+    ],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 81,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 81,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 81,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 81,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 82,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "API key"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 82,
+    "field": "api",
+    "before": [
+      "REST"
+    ],
+    "after": [
+      "HTTP API"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 82,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 82,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 82,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 82,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 83,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "API key",
+      "Other"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 83,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST",
+      "WebSocket"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 83,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 83,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 83,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 85,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "API key",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 85,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 85,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 85,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 86,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 86,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST",
+      "GraphQL"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 86,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 86,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 86,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 86,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 87,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 87,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 87,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 87,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 87,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 87,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 88,
+    "field": "auth",
+    "before": [
+      "Bearer token"
+    ],
+    "after": [
+      "Bearer token",
+      "OAuth2"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 88,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 88,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Partner/sales",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 88,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 88,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 88,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "GATED",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 89,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 89,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 89,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Partner/sales",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 89,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 89,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 89,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "GATED",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 90,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "API key",
+      "Other"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 90,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 90,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Partner/sales",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 90,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 90,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 90,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "GATED",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 91,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 91,
+    "field": "api",
+    "before": [
+      "REST",
+      "CLI"
+    ],
+    "after": [
+      "REST",
+      "RPC"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 91,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Admin approval",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 91,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 91,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "GATED",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 92,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "API key",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 92,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 92,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Paid plan",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 92,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 92,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "GATED",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 93,
+    "field": "auth",
+    "before": [
+      "API key"
+    ],
+    "after": [
+      "API key",
+      "OAuth2"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 93,
+    "field": "api",
+    "before": [
+      "SDK"
+    ],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 93,
+    "field": "access",
+    "before": "Self-serve (cost unverified)",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 93,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 93,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 93,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 94,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "API key"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 94,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 94,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 94,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 94,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 94,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 95,
+    "field": "auth",
+    "before": [
+      "API key"
+    ],
+    "after": [
+      "API key",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 95,
+    "field": "api",
+    "before": [],
+    "after": [
+      "HTTP API",
+      "SDK",
+      "CLI"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 95,
+    "field": "access",
+    "before": "Self-serve (cost unverified)",
+    "after": "Self-serve trial",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 95,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 95,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 96,
+    "field": "auth",
+    "before": [
+      "API key",
+      "Bearer token"
+    ],
+    "after": [
+      "Service account",
+      "API key",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 96,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 96,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Paid plan",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 96,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 96,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 97,
+    "field": "api",
+    "before": [],
+    "after": [
+      "REST",
+      "SDK",
+      "CLI"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 97,
+    "field": "access",
+    "before": "Self-serve (cost unverified)",
+    "after": "Paid plan",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 97,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 97,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 97,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 98,
+    "field": "api",
+    "before": [
+      "CLI"
+    ],
+    "after": [
+      "CLI",
+      "Node.js library"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 98,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Local/open source",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 98,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 98,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "CONDITIONAL",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 99,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve trial",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 99,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 99,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 100,
+    "field": "auth",
+    "before": [],
+    "after": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 100,
+    "field": "api",
+    "before": [],
+    "after": [
+      "HTTP API"
+    ],
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 100,
+    "field": "access",
+    "before": "Unknown",
+    "after": "Self-serve free",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 100,
+    "field": "official_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 100,
+    "field": "third_party_mcp",
+    "before": "Unverified",
+    "after": "Verified",
+    "reason": "Reviewed source notes and scope in the final app record."
+  },
+  {
+    "id": 100,
+    "field": "verdict",
+    "before": "UNKNOWN",
+    "after": "READY",
+    "reason": "Reviewed source notes and scope in the final app record."
+  }
+]

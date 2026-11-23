@@ -1,0 +1,2308 @@
+[
+  {
+    "id": 35,
+    "description": "Runs email campaigns and maintains audience and engagement records.",
+    "website": "https://mailchimp.com",
+    "auth": [
+      "API key",
+      "OAuth2",
+      "Basic",
+      "Bearer token"
+    ],
+    "access": "Self-serve free",
+    "access_note": "Account owners can generate a key. Free Marketing accounts have sending and contact limits. Use OAuth2 for installations by other customers.",
+    "api": [
+      "REST"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Audience management",
+      "Campaigns",
+      "Activity and campaign reports"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Verified",
+    "verdict": "READY",
+    "blocker": "No material barrier to a single-account read prototype. Customer installs require OAuth2.",
+    "blocker_type": "None",
+    "toolkit": "Start with audience counts and campaign reporting.",
+    "unknowns": [
+      "Verify account-level MCP coverage separately from documentation search."
+    ],
+    "sources": [
+      {
+        "url": "https://mailchimp.com/developer/marketing/api-concepts/authentication/",
+        "claims": [
+          "auth"
+        ],
+        "note": "Own-account keys and delegated OAuth2 tokens can travel via Basic or Bearer authentication."
+      },
+      {
+        "url": "https://mailchimp.com/developer/marketing/api-concepts/api-structure",
+        "claims": [
+          "api"
+        ],
+        "note": "Marketing v3 generally follows REST conventions."
+      },
+      {
+        "url": "https://mailchimp.com/developer/marketing/build/get-started/create-an-account",
+        "claims": [
+          "access",
+          "surface"
+        ],
+        "note": "The account setup guide links key generation with audience, campaign and analytics functions and ties available operations to plan."
+      },
+      {
+        "url": "https://mailchimp.com/pricing/marketing/compare-plans/",
+        "claims": [
+          "access"
+        ],
+        "note": "The pricing comparison includes a free plan with send limits."
+      },
+      {
+        "url": "https://mailchimp.com/developer/marketing/build/ai-tools/mcp-server/",
+        "claims": [
+          "mcp_official"
+        ],
+        "note": "Mailchimp documents a credential-free marketing documentation MCP. This particular server searches docs only."
+      },
+      {
+        "url": "https://mcp.pipedream.com/app/mailchimp",
+        "claims": [
+          "mcp_third_party"
+        ],
+        "note": "Pipedream lists an independently operated MCP connection for marketing accounts."
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "description": "Manages customer profiles, marketing campaigns and event-driven messaging.",
+    "website": "https://www.klaviyo.com",
+    "auth": [
+      "API key",
+      "OAuth2"
+    ],
+    "access": "Self-serve free",
+    "access_note": "A test account starts on the free plan. Owners, administrators or managers may manage keys. Public directory listing has a separate review.",
+    "api": [
+      "REST"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Profiles and events",
+      "Campaigns and templates",
+      "Lists and segments"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Verified",
+    "verdict": "READY",
+    "blocker": "Free test accounts support scoped prototypes. Directory publication adds review.",
+    "blocker_type": "None",
+    "toolkit": "Read campaign and segment summaries with a scoped key.",
+    "unknowns": [
+      "Check which send operations are enabled on the target plan."
+    ],
+    "sources": [
+      {
+        "url": "https://developers.klaviyo.com/en/docs/authenticate_",
+        "claims": [
+          "auth",
+          "access"
+        ],
+        "note": "Klaviyo separates private server keys, delegated OAuth and public client IDs, and lists the roles allowed to manage keys."
+      },
+      {
+        "url": "https://developers.klaviyo.com/en/docs/create_a_test_account",
+        "claims": [
+          "access"
+        ],
+        "note": "New integration test accounts begin on the free plan and inherit its usage limits."
+      },
+      {
+        "url": "https://developers.klaviyo.com/en/v2024-10-15/docs/build_your_integration",
+        "claims": [
+          "access"
+        ],
+        "note": "The developer guide distinguishes testing from submitting a public integration to the directory."
+      },
+      {
+        "url": "https://developers.klaviyo.com/en/reference/api_overview",
+        "claims": [
+          "api"
+        ],
+        "note": "The API reference describes JSON:API resource relationships, includes, sparse fields and pagination."
+      },
+      {
+        "url": "https://developers.klaviyo.com/en/v2026-07-15/docs/connect_to_the_klaviyo_mcp_server",
+        "claims": [
+          "mcp_official",
+          "surface"
+        ],
+        "note": "Klaviyo documents hosted and local MCP modes and lists campaign, event, profile, list, and segment scopes."
+      },
+      {
+        "url": "https://mcp.pipedream.com/app/klaviyo_oauth",
+        "claims": [
+          "mcp_third_party"
+        ],
+        "note": "Pipedream publishes a Klaviyo OAuth MCP connection."
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "description": "Combines funnels, contacts, courses and marketing automation.",
+    "website": "https://systeme.io",
+    "auth": [
+      "API key"
+    ],
+    "access": "Self-serve free",
+    "access_note": "Account settings issue public API keys. The vendor explicitly includes MCP on its free plan and caps public API keys at three per account.",
+    "api": [
+      "HTTP API"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Contacts and tags",
+      "Products and offers",
+      "Bookings and sales settings"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Verified",
+    "verdict": "READY",
+    "blocker": "The account owner can create a public key. Three keys per account limits environment separation.",
+    "blocker_type": "None",
+    "toolkit": "Start with contact search and tags. The vendor MCP already covers these operations.",
+    "unknowns": [
+      "Check plan entitlements for advanced raw API endpoints separately from MCP."
+    ],
+    "sources": [
+      {
+        "url": "https://help.systeme.io/article/2323-how-to-use-systeme-io-public-api",
+        "claims": [
+          "auth",
+          "access",
+          "api",
+          "surface"
+        ],
+        "note": "The API guide shows generating a named key, the three-key cap, and supported contact, offer, product and booking operations."
+      },
+      {
+        "url": "https://systeme.io/mcp",
+        "claims": [
+          "access",
+          "mcp_official"
+        ],
+        "note": "The company's MCP product page confirms all plans, including Free, can connect."
+      },
+      {
+        "url": "https://mcp.pipedream.com/app/systeme_io",
+        "claims": [
+          "mcp_third_party"
+        ],
+        "note": "Pipedream documents its separate Systeme.io MCP connection."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "description": "Lets users discover and save visual content and advertisers measure campaigns.",
+    "website": "https://www.pinterest.com",
+    "auth": [
+      "OAuth2"
+    ],
+    "access": "Partner/sales",
+    "access_note": "Pinterest approves Trial access. Standard access requires review of a video and the OAuth flow. Trial-created content is creator-visible only.",
+    "api": [
+      "REST"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Pins and boards",
+      "Ads and audiences",
+      "Analytics and catalogs"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Verified",
+    "verdict": "GATED",
+    "blocker": "Pinterest must approve the application, and Trial pins and boards cannot be published visibly to others.",
+    "blocker_type": "Partner/approval",
+    "toolkit": "Validate pin analytics in an approved trial, then request Standard before launching publishing.",
+    "unknowns": [
+      "Check the exact tools approved for the partner MCP account."
+    ],
+    "sources": [
+      {
+        "url": "https://developers.pinterest.com/docs/key-concepts/access-tiers/",
+        "claims": [
+          "auth",
+          "access",
+          "surface"
+        ],
+        "note": "The access table lists ads, analytics, boards and catalogs. Trial and Standard have distinct review and visibility rules."
+      },
+      {
+        "url": "https://developers.pinterest.com/docs/developer-tools/sandbox/",
+        "claims": [
+          "api"
+        ],
+        "note": "The sandbox shows resource-oriented HTTP methods on v5 pins and boards."
+      },
+      {
+        "url": "https://developer.pinterest.com/about-pinterest-mcp/",
+        "claims": [
+          "mcp_official"
+        ],
+        "note": "Pinterest publishes a remote MCP server and connection URL."
+      },
+      {
+        "url": "https://business.pinterest.com/en-gb/blog/pinterest-ai-for-marketers/",
+        "claims": [
+          "access",
+          "mcp_official"
+        ],
+        "note": "The company announcement identifies approved partners as the audience for its MCP."
+      },
+      {
+        "url": "https://mcp.pipedream.com/app/pinterest",
+        "claims": [
+          "mcp_third_party"
+        ],
+        "note": "Pipedream publishes a separately operated Pinterest MCP connection."
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "description": "Publishes and analyzes short-form social posts on Meta's Threads network.",
+    "website": "https://www.threads.com",
+    "auth": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "access": "Admin approval",
+    "access_note": "Create a Meta app and authorize a Threads test user. Access beyond eligible roles can require permission review. A universal fee-free entitlement was not established.",
+    "api": [
+      "HTTP API"
+    ],
+    "surface": "Moderate",
+    "capabilities": [
+      "Publish posts",
+      "Read posts and replies",
+      "Inspect insights"
+    ],
+    "official_mcp": "Unverified",
+    "third_party_mcp": "Verified",
+    "verdict": "CONDITIONAL",
+    "blocker": "Testing with app roles does not establish authorization to act for external users.",
+    "blocker_type": "Partner/approval",
+    "toolkit": "Prototype read-only insights with an authorized test account before requesting production permissions.",
+    "unknowns": [
+      "Confirm the exact review requirements for the chosen Threads scopes."
+    ],
+    "sources": [
+      {
+        "url": "https://www.postman.com/meta/threads/documentation/dht3nzz/threads-api",
+        "claims": [
+          "auth",
+          "api",
+          "access",
+          "surface"
+        ],
+        "note": "Meta's own Postman collection walks through creating a Threads app, user authorization and tokens, then exercises its Graph API for posts and insights."
+      },
+      {
+        "url": "https://developers.facebook.com/docs/resp-plat-initiatives/app-review/introduction",
+        "claims": [
+          "access"
+        ],
+        "note": "Meta documents role-based testing for business apps and advanced permissions reviewed before release."
+      },
+      {
+        "url": "https://github.com/andreaselmi/threads-mcp",
+        "claims": [
+          "mcp_third_party"
+        ],
+        "note": "The andreaselmi repository documents a community Threads MCP for publishing, reading posts and fetching insights."
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "description": "Provides email delivery APIs for transactional messages and marketing campaigns.",
+    "website": "https://sendgrid.com",
+    "auth": [
+      "API key",
+      "Bearer token"
+    ],
+    "access": "Self-serve trial",
+    "access_note": "The account can start with a 60-day trial of the Email API and Marketing Campaigns. Account verification and continued service requirements apply.",
+    "api": [
+      "REST",
+      "SDK"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Email delivery",
+      "Campaign reporting",
+      "Inbound email and attachments"
+    ],
+    "official_mcp": "Unverified",
+    "third_party_mcp": "Verified",
+    "verdict": "CONDITIONAL",
+    "blocker": "The documented trial expires. Production sending also requires appropriate sender verification.",
+    "blocker_type": "Plan/payment",
+    "toolkit": "Start with account statistics and a restricted key. Validate sender identity before enabling send actions.",
+    "unknowns": [
+      "Check sending limits and the paid tier needed after the trial."
+    ],
+    "sources": [
+      {
+        "url": "https://www.twilio.com/docs/sendgrid/api-reference/mail-send",
+        "claims": [
+          "auth",
+          "api",
+          "surface"
+        ],
+        "note": "The v3 Mail Send endpoint accepts a JSON body and expects the SendGrid API key as a bearer credential."
+      },
+      {
+        "url": "https://www.twilio.com/docs/sendgrid/api-reference/api-keys",
+        "claims": [
+          "auth",
+          "access"
+        ],
+        "note": "The first scoped or revocable key is created in the SendGrid app."
+      },
+      {
+        "url": "https://www.twilio.com/docs/sendgrid/ui/account-and-settings/upgrading-your-plan?save_locale=en",
+        "claims": [
+          "access"
+        ],
+        "note": "Twilio describes a 60-day SendGrid trial and account verification."
+      },
+      {
+        "url": "https://www.twilio.com/docs/sendgrid",
+        "claims": [
+          "surface"
+        ],
+        "note": "Twilio lists email sending, campaign measurement and inbound processing."
+      },
+      {
+        "url": "https://mcp.pipedream.com/app/sendgrid",
+        "claims": [
+          "mcp_third_party"
+        ],
+        "note": "Pipedream publishes a SendGrid MCP connection for its integration platform."
+      },
+      {
+        "url": "https://www.twilio.com/docs/sendgrid/api-reference",
+        "claims": [
+          "api"
+        ],
+        "note": "The vendor explicitly identifies v3 as a REST interface."
+      },
+      {
+        "url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/requests",
+        "claims": [
+          "api"
+        ],
+        "note": "Official request documentation lists supported language SDKs."
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "description": "Provides storefront and merchant APIs for operating online shops.",
+    "website": "https://www.shopify.com",
+    "auth": [
+      "OAuth2"
+    ],
+    "access": "Self-serve free",
+    "access_note": "Partners can create free dev stores for testing with no live transactions. Real merchant access requires an install with appropriate scopes.",
+    "api": [
+      "GraphQL",
+      "REST"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Products and inventory",
+      "Orders and customers",
+      "Merchant store operations"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Verified",
+    "verdict": "READY",
+    "blocker": "A development store is enough for catalog prototyping. Merchant authorization is required for real data.",
+    "blocker_type": "None",
+    "toolkit": "Use GraphQL Admin API for catalog and inventory reads in a dev store.",
+    "unknowns": [
+      "Confirm requirements for protected customer data before requesting those scopes."
+    ],
+    "sources": [
+      {
+        "url": "https://shopify.dev/docs/api/usage/authentication",
+        "claims": [
+          "auth",
+          "api",
+          "surface"
+        ],
+        "note": "Shopify identifies OAuth-issued tokens for Admin GraphQL and lists product, order, customer and inventory data."
+      },
+      {
+        "url": "https://help.shopify.com/en/partners/partner-program/glossary",
+        "claims": [
+          "access"
+        ],
+        "note": "The Partner glossary defines a dev store as free for testing, with no live selling."
+      },
+      {
+        "url": "https://shopify.dev/docs/agents/shop-mcp",
+        "claims": [
+          "mcp_official"
+        ],
+        "note": "Shopify's hosted Shop MCP serves shopper discovery and checkout. Its scope differs from Admin API."
+      },
+      {
+        "url": "https://shopify.dev/docs/api/ai-toolkit",
+        "claims": [
+          "mcp_official"
+        ],
+        "note": "Shopify separately ships a local developer MCP for documentation and tooling."
+      },
+      {
+        "url": "https://shopify.dev/docs/api/admin-rest/latest",
+        "claims": [
+          "api"
+        ],
+        "note": "The REST Admin API is legacy. Shopify requires GraphQL Admin API for all new public apps."
+      },
+      {
+        "url": "https://mcp.pipedream.com/app/shopify",
+        "claims": [
+          "mcp_third_party"
+        ],
+        "note": "Pipedream publishes its own Shopify store MCP connection."
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "description": "Adds an open-source ecommerce store and administration APIs to WordPress.",
+    "website": "https://woocommerce.com",
+    "auth": [
+      "API key",
+      "Basic",
+      "Other"
+    ],
+    "access": "Local/open source",
+    "access_note": "A developer can install the free plugin locally and issue REST keys for a WordPress user. The chosen user's permissions govern access.",
+    "api": [
+      "REST"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Products",
+      "Orders",
+      "Customers and store data"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Verified",
+    "verdict": "READY",
+    "blocker": "Access to a WordPress installation and permission to issue keys are required.",
+    "blocker_type": "None",
+    "toolkit": "Expose read-only orders and product lookup on a local test shop.",
+    "unknowns": [
+      "Check the deployed plugin version and MCP adapter before promising MCP compatibility."
+    ],
+    "sources": [
+      {
+        "url": "https://woocommerce.com/download/",
+        "claims": [
+          "identity",
+          "access"
+        ],
+        "note": "WooCommerce describes its free, open-source plugin and installation process."
+      },
+      {
+        "url": "https://developer.woocommerce.com/docs/apis/rest-api/authentication",
+        "claims": [
+          "auth",
+          "access"
+        ],
+        "note": "The authentication guide explains scoped consumer key/secret pairs, HTTPS Basic and an alternative OAuth 1.0a flow."
+      },
+      {
+        "url": "https://developer.woocommerce.com/docs/apis/rest-api/",
+        "claims": [
+          "api",
+          "surface"
+        ],
+        "note": "The v3 REST API uses HTTP verbs and JSON to read or change WooCommerce data."
+      },
+      {
+        "url": "https://developer.woocommerce.com/docs/features/mcp/",
+        "claims": [
+          "mcp_official",
+          "surface"
+        ],
+        "note": "The official developer preview exposes product and order abilities through a separately installed WordPress MCP Adapter."
+      },
+      {
+        "url": "https://woocommerce.com/document/w7s-mcp/",
+        "claims": [
+          "mcp_third_party"
+        ],
+        "note": "The Woo marketplace documents w7s's separate MCP extension and credential settings."
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "description": "Provides store management and storefront APIs for ecommerce merchants.",
+    "website": "https://www.bigcommerce.com",
+    "auth": [
+      "OAuth2"
+    ],
+    "access": "Self-serve trial",
+    "access_note": "Developers can register a free portal account and build on a trial store with install privileges. Marketplace submission requires an approved Technology Partner.",
+    "api": [
+      "REST",
+      "GraphQL"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Catalog and products",
+      "Store data",
+      "Storefront and checkout"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Verified",
+    "verdict": "CONDITIONAL",
+    "blocker": "A trial supports prototyping. Marketplace distribution requires BigCommerce partner approval.",
+    "blocker_type": "Partner/approval",
+    "toolkit": "Prototype catalog reads on a trial store. Budget a separate step for marketplace distribution.",
+    "unknowns": [
+      "Check individual sandbox and plan limits for high-volume integrations."
+    ],
+    "sources": [
+      {
+        "url": "https://docs.bigcommerce.com/developer/docs/overview/quick-start",
+        "claims": [
+          "api",
+          "surface"
+        ],
+        "note": "Developer quick start distinguishes storefront GraphQL, checkout apps and store data management over REST and GraphQL."
+      },
+      {
+        "url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+        "claims": [
+          "auth",
+          "access"
+        ],
+        "note": "BigCommerce describes three OAuth-based account types with different credential scopes."
+      },
+      {
+        "url": "https://docs.bigcommerce.com/developer/docs/integrations/apps/tutorial-single-click-app/introduction",
+        "claims": [
+          "access"
+        ],
+        "note": "The tutorial permits a trial store with install rights and a free developer account."
+      },
+      {
+        "url": "https://docs.bigcommerce.com/developer/docs/integrations/becoming-a-partner",
+        "claims": [
+          "access"
+        ],
+        "note": "An approved Technology Partner account is required for app marketplace submission."
+      },
+      {
+        "url": "https://docs.bigcommerce.com/developer/api-reference/mcp/overview/",
+        "claims": [
+          "mcp_official"
+        ],
+        "note": "Vendor documentation distinguishes the docs server, Storefront MCP and store management abilities."
+      },
+      {
+        "url": "https://www.bigcommerce.com/pricing/",
+        "claims": [
+          "access"
+        ],
+        "note": "BigCommerce advertises a fully functional 15-day free trial."
+      },
+      {
+        "url": "https://mcp.pipedream.com/app/bigcommerce",
+        "claims": [
+          "mcp_third_party"
+        ],
+        "note": "Pipedream publishes a separately operated BigCommerce MCP."
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "description": "Offers shopper-facing commerce and backend merchandising APIs for Salesforce B2C Commerce.",
+    "website": "https://www.salesforce.com",
+    "auth": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "access": "Admin approval",
+    "access_note": "SCAPI is included for B2C Commerce customers. A demo sandbox illustrates shopper calls, while tenant admin access needs Account Manager registration and roles.",
+    "api": [
+      "REST"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Products and storefronts",
+      "Shopper sessions",
+      "Merchant administration"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Unverified",
+    "verdict": "GATED",
+    "blocker": "A demo shopper call cannot grant the tenant-specific admin role required by a merchant toolkit.",
+    "blocker_type": "Admin/permissions",
+    "toolkit": "Use the demo for catalog reads, then obtain an authorized merchant tenant for admin tools.",
+    "unknowns": [
+      "Identify an entitled organization and delegated administrator for live merchant workflows."
+    ],
+    "sources": [
+      {
+        "url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/scapi-get-started.html",
+        "claims": [
+          "api",
+          "access",
+          "surface",
+          "mcp_official"
+        ],
+        "note": "The SCAPI guide describes REST, a demo product call, B2C customer entitlements, and a vendor MCP that executes Admin APIs."
+      },
+      {
+        "url": "https://developer.salesforce.com/docs/commerce/b2c-commerce/guide/authorization-for-admin-apis.html",
+        "claims": [
+          "auth",
+          "access"
+        ],
+        "note": "Admin clients register in Account Manager and exchange client credentials for an access token."
+      },
+      {
+        "url": "https://developer.salesforce.com/docs/commerce/commerce-api/references/about-commerce-api/about.html",
+        "claims": [
+          "auth"
+        ],
+        "note": "The release notes distinguish OAuth 2.1 shopper access and refresh tokens."
+      },
+      {
+        "url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/b2c_cc_roles.html",
+        "claims": [
+          "access"
+        ],
+        "note": "The role guide directs users without an Account Manager account to their account administrator."
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "description": "Offers modular ecommerce APIs for Adobe Commerce and self-hosted Magento Open Source.",
+    "website": "https://developer.adobe.com/commerce",
+    "auth": [
+      "Other",
+      "Bearer token"
+    ],
+    "access": "Local/open source",
+    "access_note": "Magento Open Source can be installed locally. An administrator authorizes integration permissions. Adobe Commerce cloud authentication and entitlements differ.",
+    "api": [
+      "REST",
+      "GraphQL",
+      "SOAP"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Catalog and product queries",
+      "Shopping carts",
+      "Orders and customer records"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Verified",
+    "verdict": "READY",
+    "blocker": "A local Magento installation supports prototyping. Installation and permissions must match the target edition.",
+    "blocker_type": "None",
+    "toolkit": "Prototype catalog reads on Magento Open Source and treat Adobe Commerce cloud as a separate deployment target.",
+    "unknowns": [
+      "Check edition-specific authentication and endpoint parity before cloud rollout."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/magento/magento2/blob/2.4-develop/composer.json",
+        "claims": [
+          "identity",
+          "access"
+        ],
+        "note": "The project manifest identifies Magento Open Source and its open-source licenses."
+      },
+      {
+        "url": "https://developer.adobe.com/commerce/webapi/get-started/",
+        "claims": [
+          "api",
+          "surface"
+        ],
+        "note": "Adobe's web API overview lists REST, SOAP and GraphQL for commerce service integrations."
+      },
+      {
+        "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth",
+        "claims": [
+          "auth",
+          "access"
+        ],
+        "note": "The integration flow uses OAuth 1.0a, with authorization in the store. It is recorded under Other."
+      },
+      {
+        "url": "https://developer.adobe.com/commerce/webapi/graphql/usage/authorization-tokens",
+        "claims": [
+          "auth",
+          "surface"
+        ],
+        "note": "The GraphQL guide explains role-specific authorization tokens and product and category access."
+      },
+      {
+        "url": "https://developer.adobe.com/commerce/extensibility/developer-agent/coding-tools",
+        "claims": [
+          "mcp_official"
+        ],
+        "note": "Adobe documents MCP tooling for extension development and cloud migrations. This covers developer work, not storefront orders."
+      },
+      {
+        "url": "https://commercemarketplace.adobe.com/miniorange-inc-miniorange-mcpserver.html",
+        "claims": [
+          "mcp_third_party",
+          "surface"
+        ],
+        "note": "Adobe's marketplace identifies miniOrange as the publisher of a Magento store MCP."
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "description": "Provides APIs for Squarespace merchants to manage store operations.",
+    "website": "https://www.squarespace.com",
+    "auth": [
+      "API key",
+      "OAuth2",
+      "Bearer token"
+    ],
+    "access": "Paid plan",
+    "access_note": "Owners can create site-bound API keys. Commerce endpoint access varies by plan, including orders on Core, Plus, Advanced and legacy Commerce Advanced.",
+    "api": [
+      "REST"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Products",
+      "Orders",
+      "Inventory and stock"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Verified",
+    "verdict": "CONDITIONAL",
+    "blocker": "The merchant plan determines which Commerce API permissions can be issued.",
+    "blocker_type": "Plan/payment",
+    "toolkit": "Start with product and order lookups for merchants whose plan supports the required scopes.",
+    "unknowns": [
+      "Check OAuth extension registration and exact permissions on the merchant's current or legacy plan."
+    ],
+    "sources": [
+      {
+        "url": "https://developers.squarespace.com/commerce-apis/overview",
+        "claims": [
+          "api",
+          "surface"
+        ],
+        "note": "The Commerce API overview maps inventory adjustments, product resources and order history."
+      },
+      {
+        "url": "https://developers.squarespace.com/commerce-apis/products",
+        "claims": [
+          "auth",
+          "api"
+        ],
+        "note": "The product reference accepts API keys or OAuth access tokens in the Bearer authorization header."
+      },
+      {
+        "url": "https://support.squarespace.com/hc/en-us/articles/236297987-Squarespace-API-keys",
+        "claims": [
+          "access"
+        ],
+        "note": "Squarespace lists the eligible plans for generating keys and accessing individual Commerce APIs."
+      },
+      {
+        "url": "https://developers.squarespace.com/mcp/tools/commerce",
+        "claims": [
+          "mcp_official",
+          "surface"
+        ],
+        "note": "Vendor MCP tools include looking up orders, editing products and managing site contacts."
+      },
+      {
+        "url": "https://mcp.pipedream.com/app/squarespace",
+        "claims": [
+          "mcp_third_party"
+        ],
+        "note": "Pipedream lists a separately operated Squarespace MCP connection."
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "description": "Provides merchant stores and a programmable ecommerce platform under Lightspeed.",
+    "website": "https://www.ecwid.com",
+    "auth": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "access": "Paid plan",
+    "access_note": "The developer guide says only paid stores can access the API. Eligible test stores may request a free upgrade by email.",
+    "api": [
+      "REST"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Orders and customers",
+      "Products and categories",
+      "Shipping and payment configuration"
+    ],
+    "official_mcp": "Unverified",
+    "third_party_mcp": "Unverified",
+    "verdict": "CONDITIONAL",
+    "blocker": "A free test-store upgrade is request-based. Production API access requires a paid store.",
+    "blocker_type": "Plan/payment",
+    "toolkit": "Start with inventory lookup on an eligible test store or a merchant-authorized paid store.",
+    "unknowns": [
+      "Confirm eligibility and turnaround for a free test-store upgrade."
+    ],
+    "sources": [
+      {
+        "url": "https://docs.ecwid.com/get-started/set-up-your-dev-environment-in-ecwid",
+        "claims": [
+          "access",
+          "surface"
+        ],
+        "note": "Ecwid requires a paid store and lists the criteria and email route for complimentary test-store upgrades."
+      },
+      {
+        "url": "https://docs.ecwid.com/get-started/make-your-first-api-request",
+        "claims": [
+          "auth",
+          "api"
+        ],
+        "note": "The first-request walkthrough uses OAuth2, store-specific tokens and a Bearer header to access REST."
+      },
+      {
+        "url": "https://docs.ecwid.com/api-reference",
+        "claims": [
+          "api",
+          "surface"
+        ],
+        "note": "The reference covers store data, payment and shipping methods, and storefront settings."
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "description": "Lets creators sell digital products, manage customers and track sales.",
+    "website": "https://gumroad.com",
+    "auth": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "access": "Self-serve free",
+    "access_note": "Create an app in a seller account and generate a personal token. Other sellers authorize with OAuth. The platform has no monthly fee and charges per transaction.",
+    "api": [
+      "HTTP API",
+      "CLI"
+    ],
+    "surface": "Moderate",
+    "capabilities": [
+      "Products",
+      "Sales and subscribers",
+      "License verification"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Verified",
+    "verdict": "READY",
+    "blocker": "The owner token supports prototyping. Customer installations need a working OAuth redirect.",
+    "blocker_type": "None",
+    "toolkit": "Start with product, sale and license lookups, keeping seller data isolated per OAuth grant.",
+    "unknowns": [
+      "Confirm the scopes required for any changes to memberships or products."
+    ],
+    "sources": [
+      {
+        "url": "https://gumroad.com/help/article/280-create-application-api",
+        "claims": [
+          "auth",
+          "access",
+          "api",
+          "surface"
+        ],
+        "note": "Account settings can generate a token, the example calls the products HTTP endpoint, and external users authorize via code exchange for a bearer token."
+      },
+      {
+        "url": "https://gumroad.com/pricing",
+        "claims": [
+          "access"
+        ],
+        "note": "The pricing page charges transaction fees and states there is no monthly charge."
+      },
+      {
+        "url": "https://gumroad.com/help/article/76-license-keys",
+        "claims": [
+          "api",
+          "surface"
+        ],
+        "note": "Gumroad documents its license verification HTTP endpoint."
+      },
+      {
+        "url": "https://github.com/antiwork/gumroad-cli/blob/main/README.md",
+        "claims": [
+          "api",
+          "surface"
+        ],
+        "note": "Gumroad's CLI lists product, sales and other seller resources and documents OAuth sign-in."
+      },
+      {
+        "url": "https://gumroad.com/cursor",
+        "claims": [
+          "mcp_official"
+        ],
+        "note": "Gumroad publishes its Cursor connector's MCP address and describes access to sales, products and payouts."
+      },
+      {
+        "url": "https://mcp.pipedream.com/app/gumroad",
+        "claims": [
+          "mcp_third_party"
+        ],
+        "note": "Pipedream publishes a separate Gumroad MCP integration."
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "description": "Lets developers build tools for Amazon seller and vendor operations.",
+    "website": "https://sell.amazon.com/developers",
+    "auth": [
+      "OAuth2"
+    ],
+    "access": "Partner/sales",
+    "access_note": "Developers register and request roles. Public apps need Amazon approval, an Appstore listing and seller authorization. Private registration is separate.",
+    "api": [
+      "REST",
+      "SDK"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Orders and shipments",
+      "Listings and catalogs",
+      "Payments and inventory"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Unverified",
+    "verdict": "GATED",
+    "blocker": "Amazon must approve public distribution and data roles before a multi-seller toolkit can operate.",
+    "blocker_type": "Partner/approval",
+    "toolkit": "Use model definitions for development and secure public developer approval before testing seller-specific workflows.",
+    "unknowns": [
+      "Confirm current public developer fees and restricted role policies for the intended use case."
+    ],
+    "sources": [
+      {
+        "url": "https://developer-docs.amazon.com/sp-api/docs/onboarding-overview",
+        "claims": [
+          "auth",
+          "access",
+          "api",
+          "surface"
+        ],
+        "note": "The onboarding guide distinguishes private and public applications, seller OAuth2 and marketplace approval, and lists operational REST domains."
+      },
+      {
+        "url": "https://sell.amazon.com/developers",
+        "claims": [
+          "api",
+          "surface"
+        ],
+        "note": "Amazon describes REST access to orders, shipments, payments and product data."
+      },
+      {
+        "url": "https://github.com/amzn/selling-partner-api-sdk",
+        "claims": [
+          "api"
+        ],
+        "note": "Amazon publishes the official SDK specifically for the REST SP-API."
+      },
+      {
+        "url": "https://github.com/amzn/selling-partner-agentic-toolkit",
+        "claims": [
+          "mcp_official"
+        ],
+        "note": "Amazon's seller toolkit identifies its Selling Partner Connector as the MCP behind the skills and describes approval of write actions."
+      },
+      {
+        "url": "https://github.com/amzn/selling-partner-api-samples/blob/main/use-cases/sp-api-dev-mcp/README.md",
+        "claims": [
+          "mcp_official"
+        ],
+        "note": "Amazon also publishes local sample SP-API developer-assistant MCPs, separately from the selling partner connector."
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "description": "Provides creator checkout and payment infrastructure, rebranded from FanBasis to Commas.",
+    "website": "https://commas.com",
+    "auth": [
+      "API key"
+    ],
+    "access": "Unknown",
+    "access_note": "FanBasis documents a sandbox and a signup form. The sources do not establish automatic key issuance or whether the replacement brand imposes a paid or approval gate.",
+    "api": [
+      "HTTP API",
+      "SDK"
+    ],
+    "surface": "Focused",
+    "capabilities": [
+      "Embedded checkout sessions",
+      "Product checkout",
+      "Sandbox checkout configuration"
+    ],
+    "official_mcp": "Unverified",
+    "third_party_mcp": "Unverified",
+    "verdict": "UNKNOWN",
+    "blocker": "The documented checkout API is technically usable, but eligibility for a fresh Commas sandbox key is unresolved.",
+    "blocker_type": "Evidence gap",
+    "toolkit": "A checkout-session wrapper is technically plausible after Commas confirms current credentials and endpoints.",
+    "unknowns": [
+      "Does a new developer receive a sandbox key without sales or payment?",
+      "Which legacy checkout endpoints are supported for new Commas accounts?"
+    ],
+    "sources": [
+      {
+        "url": "https://commas.com/fanbasis-is-now-commas",
+        "claims": [
+          "identity"
+        ],
+        "note": "Commas confirms the July 2026 name change and identifies FanBasis, Inc. as its operator."
+      },
+      {
+        "url": "https://demo.embedded.fanbasis.io/docs/checkout-session-secret",
+        "claims": [
+          "auth",
+          "api",
+          "surface"
+        ],
+        "note": "The vendor's embedded-checkout reference shows an HTTP POST with x-api-key to create a checkout session, with separate sandbox and production examples."
+      },
+      {
+        "url": "https://demo.embedded.fanbasis.io/docs/api-reference",
+        "claims": [
+          "api",
+          "surface"
+        ],
+        "note": "The vendor documents its payment checkout SDK and separate sandbox and production settings."
+      },
+      {
+        "url": "https://www.fanbasis.com/auth/setup/signup",
+        "claims": [
+          "access"
+        ],
+        "note": "The legacy onboarding form asks for business and website information. It does not promise API credentials."
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "description": "Supplies search rankings, keywords, backlinks and business data through APIs.",
+    "website": "https://dataforseo.com",
+    "auth": [
+      "Basic"
+    ],
+    "access": "Self-serve trial",
+    "access_note": "Register to see API credentials and receive a small one-time live testing balance. The free sandbox provides test data. Live use beyond credit is metered.",
+    "api": [
+      "REST"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Search results",
+      "Keyword metrics",
+      "Backlinks and business data"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Verified",
+    "verdict": "CONDITIONAL",
+    "blocker": "The trial balance is finite and sandbox results cannot validate live data quality.",
+    "blocker_type": "Usage limits",
+    "toolkit": "Start with one keyword or SERP lookup and expose an explicit cost estimate before bulk jobs.",
+    "unknowns": [
+      "Check the credit cost and freshness for the chosen endpoints."
+    ],
+    "sources": [
+      {
+        "url": "https://docs.dataforseo.com/v3/auth/",
+        "claims": [
+          "auth",
+          "api"
+        ],
+        "note": "The v3 authentication guide specifies HTTP Basic using the API login and password."
+      },
+      {
+        "url": "https://dataforseo.com/help-center/how-does-your-free-unlimited-trial-work",
+        "claims": [
+          "access"
+        ],
+        "note": "Trial registration provides dashboard credentials and a finite live balance. A free sandbox handles larger test volumes."
+      },
+      {
+        "url": "https://dataforseo.com/apis",
+        "claims": [
+          "api",
+          "surface"
+        ],
+        "note": "The vendor catalogs SERP, keyword, backlinks and business data APIs."
+      },
+      {
+        "url": "https://dataforseo.com/help-center/setting-up-the-official-dataforseo-mcp-server-simple-guide",
+        "claims": [
+          "mcp_official"
+        ],
+        "note": "DataForSEO documents how to connect its own MCP server using the same API credentials."
+      },
+      {
+        "url": "https://mcp.pipedream.com/app/dataforseo",
+        "claims": [
+          "mcp_third_party"
+        ],
+        "note": "Pipedream separately publishes an MCP connection for DataForSEO."
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "description": "Provides search and backlink datasets and tools for monitoring SEO projects.",
+    "website": "https://seranking.com",
+    "auth": [
+      "API key"
+    ],
+    "access": "Self-serve trial",
+    "access_note": "The standalone API offers a 14-day credit-limited trial with MCP access. Ongoing production consumption requires credits.",
+    "api": [
+      "HTTP API"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Keyword volumes",
+      "Backlink analysis",
+      "Site audits and search data"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Unverified",
+    "verdict": "CONDITIONAL",
+    "blocker": "Credits and trial expiry constrain repeated SEO analysis.",
+    "blocker_type": "Usage limits",
+    "toolkit": "Prototype keyword and backlink summaries with credit tracking.",
+    "unknowns": [
+      "Verify which Project API operations are included in the chosen package."
+    ],
+    "sources": [
+      {
+        "url": "https://seranking.com/api/data/getting-started/",
+        "claims": [
+          "auth",
+          "access",
+          "api"
+        ],
+        "note": "The dashboard issues an API key. Data API examples use a Token header and JSON HTTP requests for backlink and subscription endpoints."
+      },
+      {
+        "url": "https://seranking.com/api-pricing.html",
+        "claims": [
+          "access",
+          "api",
+          "surface",
+          "mcp_official"
+        ],
+        "note": "The pricing page documents the standalone trial, credits, MCP access, and keyword, backlink, AI search and audit data."
+      },
+      {
+        "url": "https://help.seranking.com/hc/en-us/articles/22903914755100-Prompt-library",
+        "claims": [
+          "mcp_official"
+        ],
+        "note": "The knowledge base describes the vendor's MCP connecting assistants to its SEO data."
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "description": "Provides keyword, backlink, ranking and site-audit intelligence.",
+    "website": "https://ahrefs.com",
+    "auth": [
+      "API key",
+      "OAuth2"
+    ],
+    "access": "Paid plan",
+    "access_note": "Core SEO data requires a qualifying subscription and uses API units. A small public subset and special test requests are free. Only workspace owners/admins manage API keys.",
+    "api": [
+      "REST"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Backlinks",
+      "Keyword metrics and SERPs",
+      "Rank tracking and site audits"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Verified",
+    "verdict": "CONDITIONAL",
+    "blocker": "Free public or test endpoints cannot deliver unrestricted, fresh competitor research.",
+    "blocker_type": "Plan/payment",
+    "toolkit": "Offer feature-scoped keyword and backlink lookups for customers with sufficient API units.",
+    "unknowns": [
+      "Check the exact datasets, row limits and units for the customer's subscription."
+    ],
+    "sources": [
+      {
+        "url": "https://docs.ahrefs.com/en/api/docs/api-keys-creation-and-management",
+        "claims": [
+          "auth",
+          "access"
+        ],
+        "note": "Workspace owners and admins create v3 keys and set usage limits."
+      },
+      {
+        "url": "https://docs.ahrefs.com/en/ahrefs-connect/docs/api-guide",
+        "claims": [
+          "auth",
+          "api",
+          "access",
+          "surface"
+        ],
+        "note": "Ahrefs Connect documents OAuth testing, the v3 SEO resource groups and the per-request unit model."
+      },
+      {
+        "url": "https://help.ahrefs.com/en/articles/6117209-what-s-the-difference-between-all-ahrefs-subscription-plans",
+        "claims": [
+          "access"
+        ],
+        "note": "Ahrefs compares subscription capabilities including direct API access and the shared pool of API units."
+      },
+      {
+        "url": "https://docs.ahrefs.com/en/api/reference/public",
+        "claims": [
+          "access",
+          "api"
+        ],
+        "note": "The official reference explicitly identifies a limited set of free public endpoints."
+      },
+      {
+        "url": "https://docs.ahrefs.com/en/mcp/docs/introduction",
+        "claims": [
+          "mcp_official"
+        ],
+        "note": "Ahrefs documents a hosted MCP for Lite and higher plan workspaces."
+      },
+      {
+        "url": "https://mcp.pipedream.com/app/ahrefs",
+        "claims": [
+          "mcp_third_party"
+        ],
+        "note": "Pipedream lists a separate Ahrefs MCP connection."
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "description": "Runs web extraction jobs and returns structured results.",
+    "website": "https://mrscraper.com",
+    "auth": [
+      "API key",
+      "Bearer token",
+      "OAuth2"
+    ],
+    "access": "Self-serve free",
+    "access_note": "A developer can create an account and obtain an API token. The free plan includes a monthly quota without a credit card. OAuth2 is documented for an MCP transport.",
+    "api": [
+      "HTTP API"
+    ],
+    "surface": "Moderate",
+    "capabilities": [
+      "Extract web pages",
+      "Run configured scrapers",
+      "Retrieve job results"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Unverified",
+    "verdict": "READY",
+    "blocker": "The free quota supports a small prototype. MCP transport and raw API support different operations.",
+    "blocker_type": "None",
+    "toolkit": "Expose a single bounded fetch and result lookup using the documented free allowance.",
+    "unknowns": [
+      "Confirm whether a selected operation belongs to the legacy scraper API or the current MCP toolset."
+    ],
+    "sources": [
+      {
+        "url": "https://docs.mrscraper.com/docs/api/authentication",
+        "claims": [
+          "auth",
+          "api"
+        ],
+        "note": "The HTTP API authenticates requests with API tokens and documents a results endpoint."
+      },
+      {
+        "url": "https://docs.mrscraper.com/docs/features/activating-api",
+        "claims": [
+          "api",
+          "surface"
+        ],
+        "note": "MrScraper documents an endpoint to run an existing scraper on a supplied URL."
+      },
+      {
+        "url": "https://mrscraper.com/pricing",
+        "claims": [
+          "access"
+        ],
+        "note": "The pricing page describes monthly free scraper credits without a card."
+      },
+      {
+        "url": "https://docs.mrscraper.com/docs/getting-started/mcp-server",
+        "claims": [
+          "mcp_official",
+          "auth",
+          "surface"
+        ],
+        "note": "The vendor MCP guide lists supported tools, removes legacy operations, and documents OAuth 2.1 or bearer keys for applicable HTTP deployments."
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "description": "Runs cloud automation programs called Actors and stores their datasets and results.",
+    "website": "https://apify.com",
+    "auth": [
+      "Bearer token",
+      "OAuth2"
+    ],
+    "access": "Self-serve free",
+    "access_note": "Free accounts receive a monthly usage allowance without a card. Console users can create a token; individual Actors have their own pricing.",
+    "api": [
+      "REST",
+      "SDK"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Actor runs",
+      "Datasets and storage",
+      "Run monitoring"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Verified",
+    "verdict": "READY",
+    "blocker": "A free account supports bounded runs. Actor-specific fees and input costs vary.",
+    "blocker_type": "None",
+    "toolkit": "Start with Actor discovery, status polling and dataset pagination using a scoped token.",
+    "unknowns": [
+      "Check the Actor's price and permission manifest before enabling a run."
+    ],
+    "sources": [
+      {
+        "url": "https://docs.apify.com/api/v2",
+        "claims": [
+          "auth",
+          "api",
+          "surface"
+        ],
+        "note": "The v2 reference documents bearer tokens, REST endpoints, storage and official API clients."
+      },
+      {
+        "url": "https://docs.apify.com/integrations/integrate",
+        "claims": [
+          "auth"
+        ],
+        "note": "The vendor's integration guide describes OAuth for connecting external users to Apify."
+      },
+      {
+        "url": "https://docs.apify.com/agents/quickstart",
+        "claims": [
+          "access",
+          "mcp_official",
+          "surface"
+        ],
+        "note": "The agent quickstart describes free credits, token creation and running Actors through the Apify MCP."
+      },
+      {
+        "url": "https://apify.com/pricing",
+        "claims": [
+          "access"
+        ],
+        "note": "Pricing distinguishes the platform allowance from individual Actor pricing models."
+      },
+      {
+        "url": "https://mcp.pipedream.com/app/apify",
+        "claims": [
+          "mcp_third_party"
+        ],
+        "note": "Pipedream documents a separately operated Apify MCP connection."
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "description": "Turns public web pages and sites into searchable and structured content.",
+    "website": "https://www.firecrawl.dev",
+    "auth": [
+      "API key",
+      "Bearer token",
+      "Other"
+    ],
+    "access": "Self-serve free",
+    "access_note": "A free account receives monthly credits. A separately limited keyless route supports a subset of operations. Authenticated use unlocks broader coverage.",
+    "api": [
+      "REST",
+      "CLI",
+      "SDK"
+    ],
+    "surface": "Moderate",
+    "capabilities": [
+      "Search",
+      "Scrape and parse",
+      "Crawl and map"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Verified",
+    "verdict": "READY",
+    "blocker": "Keyless daily quotas restrict the initial toolset. An account key enables crawl and map.",
+    "blocker_type": "None",
+    "toolkit": "Start with keyless page reads and search. Add an account key for full-site crawl.",
+    "unknowns": [
+      "Confirm credit costs for requested extraction formats and hosted operation limits."
+    ],
+    "sources": [
+      {
+        "url": "https://www.firecrawl.dev/crawl",
+        "claims": [
+          "access",
+          "auth",
+          "api",
+          "surface"
+        ],
+        "note": "The crawl product page describes the API key path, free account credits and site-level crawling."
+      },
+      {
+        "url": "https://github.com/firecrawl/firecrawl-docs/blob/main/rate-limits.mdx",
+        "claims": [
+          "auth",
+          "access",
+          "api",
+          "surface"
+        ],
+        "note": "Official rate-limit documentation explicitly lists keyless support for the REST API, CLI and SDKs, and identifies operations requiring a key."
+      },
+      {
+        "url": "https://github.com/firecrawl/firecrawl-docs/blob/main/mcp-server.mdx",
+        "claims": [
+          "auth",
+          "mcp_official"
+        ],
+        "note": "The Firecrawl docs repository distinguishes keyless MCP from the endpoint accepting Bearer authentication."
+      },
+      {
+        "url": "https://mcp.pipedream.com/app/firecrawl",
+        "claims": [
+          "mcp_third_party"
+        ],
+        "note": "Pipedream publishes a separately operated Firecrawl MCP connection."
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "description": "Provides web data collection, extraction and search services.",
+    "website": "https://brightdata.com",
+    "auth": [
+      "API key",
+      "Bearer token"
+    ],
+    "access": "Self-serve free",
+    "access_note": "The official Web MCP offers a capped free allowance without a card. This entitlement is specific to MCP; direct datasets and other REST products have separate terms.",
+    "api": [
+      "HTTP API"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Web search",
+      "Page and structured data retrieval",
+      "Dataset job monitoring"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Unverified",
+    "verdict": "READY",
+    "blocker": "The free MCP provides a concrete prototype path. Entitlements for separate API products must be confirmed.",
+    "blocker_type": "None",
+    "toolkit": "Reuse Bright Data's free MCP for a bounded search or page read.",
+    "unknowns": [
+      "Confirm independent dataset API pricing before expanding beyond the Web MCP."
+    ],
+    "sources": [
+      {
+        "url": "https://docs.brightdata.com/api-reference/web-scraper-api/management-apis/monitor-progress",
+        "claims": [
+          "api",
+          "auth",
+          "surface"
+        ],
+        "note": "The scraper management reference demonstrates a dataset snapshot status HTTP request using an API key as a bearer token."
+      },
+      {
+        "url": "https://docs.brightdata.com/ai/mcp-server/overview",
+        "claims": [
+          "mcp_official",
+          "access"
+        ],
+        "note": "Bright Data's own documentation identifies its Web MCP and free tier."
+      },
+      {
+        "url": "https://github.com/brightdata/brightdata-mcp",
+        "claims": [
+          "access",
+          "mcp_official",
+          "surface",
+          "auth"
+        ],
+        "note": "The publisher's MCP repository outlines account token setup, a no-card quota, search, page extraction and structured scrapers."
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "description": "An open-source command-line project that checks public account names across services.",
+    "website": "https://github.com/sherlock-project/sherlock",
+    "auth": [],
+    "access": "Local/open source",
+    "access_note": "The CLI runs locally without a vendor account. A separate project-owned REST wrapper requires local installation and hosting. No maintained public hosted endpoint was verified.",
+    "api": [
+      "CLI",
+      "REST"
+    ],
+    "surface": "Focused",
+    "capabilities": [
+      "Local username existence checks",
+      "Structured result export"
+    ],
+    "official_mcp": "Unverified",
+    "third_party_mcp": "Verified",
+    "verdict": "CONDITIONAL",
+    "blocker": "There is no verified hosted API with a service guarantee. The local wrapper and underlying external sites require maintenance.",
+    "blocker_type": "Scope/technical",
+    "toolkit": "Use a local, opt-in brand-handle availability skill. Treat website matches as unverified until confirmed.",
+    "unknowns": [
+      "Whether the self-hosted REST wrapper is currently maintained and production-compatible.",
+      "Authentication for a hosted deployment depends on the operator."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/sherlock-project/sherlock",
+        "claims": [
+          "identity",
+          "access",
+          "api",
+          "surface"
+        ],
+        "note": "The upstream README documents a local open-source CLI and export options. Its main invocation does not call for a Sherlock account or key."
+      },
+      {
+        "url": "https://github.com/sherlock-project/api/blob/master/README.md",
+        "claims": [
+          "api",
+          "access"
+        ],
+        "note": "The same project's separate MIT-licensed repository describes a Django REST server run on localhost. It does not promise a hosted public API."
+      },
+      {
+        "url": "https://pypi.org/project/osint-toolbox-mcp/1.1.0/",
+        "claims": [
+          "mcp_third_party"
+        ],
+        "note": "An independent PyPI publisher documents a local MCP distribution that includes a Sherlock adapter."
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "description": "Enriches business contacts and companies using multiple data providers.",
+    "website": "https://www.waterfall.io",
+    "auth": [
+      "API key"
+    ],
+    "access": "Partner/sales",
+    "access_note": "The published onboarding route starts with a call, a benchmark, quoted terms and signing. Results consume credits; an empty result can be free.",
+    "api": [
+      "HTTP API"
+    ],
+    "surface": "Moderate",
+    "capabilities": [
+      "Contact enrichment",
+      "Job status and results",
+      "Prospecting and contact search"
+    ],
+    "official_mcp": "Unverified",
+    "third_party_mcp": "Unverified",
+    "verdict": "GATED",
+    "blocker": "Published rates and production onboarding depend on a benchmark and vendor conversation.",
+    "blocker_type": "Partner/approval",
+    "toolkit": "Request a sandbox key and terms for a narrow enrichment use case before planning a rollout.",
+    "unknowns": [
+      "Is there an alternate self-serve developer sandbox?",
+      "Which API-key header applies to each API version?"
+    ],
+    "sources": [
+      {
+        "url": "https://www.waterfall.io/product/contact-enrich",
+        "claims": [
+          "auth",
+          "api",
+          "surface"
+        ],
+        "note": "The product page shows a contact enrichment POST with x-api-key and a follow-up GET for job results."
+      },
+      {
+        "url": "https://www.waterfall.io/product/prospector",
+        "claims": [
+          "auth",
+          "api",
+          "surface"
+        ],
+        "note": "The Prospector page documents domain and role filters with a key-authenticated request."
+      },
+      {
+        "url": "https://www.waterfall.io/pricing",
+        "claims": [
+          "access"
+        ],
+        "note": "Pricing describes outcome-based credits, with rates quoted after a benchmark."
+      },
+      {
+        "url": "https://www.waterfall.io/book-a-call",
+        "claims": [
+          "access"
+        ],
+        "note": "The onboarding page starts with a call, followed by a benchmark and signing before go-live."
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "description": "Searches and enriches B2B data and automates go-to-market workflows.",
+    "website": "https://www.clay.com",
+    "auth": [
+      "API key",
+      "OAuth2",
+      "Bearer token"
+    ],
+    "access": "Self-serve free",
+    "access_note": "Clay's current developer platform includes Free accounts and basic table reads. Structured queries require Enterprise table sync, and free search results are capped. MCP uses a separate workspace-approved client.",
+    "api": [
+      "HTTP API",
+      "CLI"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "People and company search",
+      "Run enrichment functions",
+      "Read known tables"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Unverified",
+    "verdict": "READY",
+    "blocker": "The free developer API supports bounded search and reads. Advanced table queries and MCP permissions have separate gates.",
+    "blocker_type": "None",
+    "toolkit": "Build a basic workspace search or enrichment wrapper. Keep table writes and advanced queries out of the initial scope.",
+    "unknowns": [
+      "Check per-workspace client allowlists for MCP and provider credit costs."
+    ],
+    "sources": [
+      {
+        "url": "https://university.clay.com/docs/clay-api-cli",
+        "claims": [
+          "auth",
+          "api",
+          "access",
+          "surface"
+        ],
+        "note": "Clay distinguishes an API key and CLI session, includes Free developer API access, restricts table writes, and reserves advanced table sync for Enterprise."
+      },
+      {
+        "url": "https://university.clay.com/docs/connect-to-clay-mcp",
+        "claims": [
+          "auth",
+          "access",
+          "mcp_official"
+        ],
+        "note": "Clay documents hosted MCP, dynamic OAuth client registration, bearer access tokens and workspace client restrictions."
+      },
+      {
+        "url": "https://university.clay.com/docs/guide-find-clay-api-key",
+        "claims": [
+          "auth"
+        ],
+        "note": "The account guide describes generating a personal key for Clay-native data tools."
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "description": "Hosts repositories, issues, pull requests and developer collaboration workflows.",
+    "website": "https://github.com",
+    "auth": [
+      "OAuth2",
+      "Bearer token",
+      "Basic",
+      "Other"
+    ],
+    "access": "Self-serve free",
+    "access_note": "A free personal account can create access tokens. Some public REST reads require no authentication. Organization policies, SSO and repository scopes govern private access.",
+    "api": [
+      "REST",
+      "GraphQL"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Repository data",
+      "Issues and pull requests",
+      "Automation workflows"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Verified",
+    "verdict": "READY",
+    "blocker": "Public or owned repositories are enough to prototype. Organization access may require approval.",
+    "blocker_type": "None",
+    "toolkit": "Start with read-only issue and pull-request status. Use installation-scoped permissions for organizations.",
+    "unknowns": [
+      "Check target organization policies and scopes before private repository access."
+    ],
+    "sources": [
+      {
+        "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api?apiVersion=2022-11-28",
+        "claims": [
+          "auth",
+          "access",
+          "api"
+        ],
+        "note": "GitHub documents personal tokens, app tokens, workflow tokens and limited app endpoints accepting Basic authentication."
+      },
+      {
+        "url": "https://docs.github.com/en/rest/using-the-rest-api/getting-started-with-the-rest-api?apiVersion=latest",
+        "claims": [
+          "api",
+          "access",
+          "auth"
+        ],
+        "note": "The getting-started guide distinguishes public unauthenticated requests from token-authorized REST access."
+      },
+      {
+        "url": "https://docs.github.com/en/graphql/guides/forming-calls-with-graphql",
+        "claims": [
+          "auth",
+          "api"
+        ],
+        "note": "GitHub's GraphQL guide accepts personal tokens, GitHub Apps and OAuth apps."
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/learning-about-github/githubs-plans",
+        "claims": [
+          "access"
+        ],
+        "note": "GitHub Free supports personal accounts with public and private repositories."
+      },
+      {
+        "url": "https://github.com/github/github-mcp-server",
+        "claims": [
+          "mcp_official",
+          "surface"
+        ],
+        "note": "GitHub's official MCP repository documents toolsets for repository contents, issues and pull requests."
+      },
+      {
+        "url": "https://mcp.pipedream.com/app/github",
+        "claims": [
+          "mcp_third_party"
+        ],
+        "note": "Pipedream offers a separately operated GitHub MCP integration."
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "description": "Builds, deploys and manages web applications and project domains.",
+    "website": "https://vercel.com",
+    "auth": [
+      "Bearer token",
+      "OAuth2"
+    ],
+    "access": "Self-serve free",
+    "access_note": "A personal Hobby account can create access tokens and supports personal, noncommercial projects. Team operations need appropriate team scope and entitlement.",
+    "api": [
+      "REST",
+      "SDK"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Deployment status",
+      "Projects",
+      "Domains and environment settings"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Verified",
+    "verdict": "READY",
+    "blocker": "Personal test projects support the prototype. Commercial projects and team features have different terms.",
+    "blocker_type": "None",
+    "toolkit": "Expose deployment status and project discovery with an account-scoped token.",
+    "unknowns": [
+      "Confirm the commercial plan and team role required for the production use case."
+    ],
+    "sources": [
+      {
+        "url": "https://vercel.com/docs/rest-api",
+        "claims": [
+          "auth",
+          "access",
+          "api",
+          "surface"
+        ],
+        "note": "The REST reference documents token generation in account settings, Bearer requests, the SDK and deployments, domains and environment settings."
+      },
+      {
+        "url": "https://vercel.com/pricing",
+        "claims": [
+          "access"
+        ],
+        "note": "Vercel identifies Hobby as its personal, noncommercial plan."
+      },
+      {
+        "url": "https://vercel.com/docs/plans/hobby",
+        "claims": [
+          "access"
+        ],
+        "note": "The Hobby guide identifies a free development plan."
+      },
+      {
+        "url": "https://vercel.com/docs/agent-resources/vercel-mcp",
+        "claims": [
+          "auth",
+          "mcp_official"
+        ],
+        "note": "Vercel documents a remote OAuth-protected MCP for authenticated project operations and public tools."
+      },
+      {
+        "url": "https://mcp.pipedream.com/app/vercel_token_auth",
+        "claims": [
+          "mcp_third_party"
+        ],
+        "note": "Pipedream publishes its own token-authenticated Vercel MCP integration."
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "description": "Builds and deploys sites and manages their hosting, DNS and form submissions.",
+    "website": "https://www.netlify.com",
+    "auth": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "access": "Self-serve free",
+    "access_note": "Free includes API-based deployment within the included credit allowance. Users can generate expiring personal tokens. SAML team data has an additional authorization option.",
+    "api": [
+      "REST"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Deployments and sites",
+      "DNS",
+      "Form submissions"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Verified",
+    "verdict": "READY",
+    "blocker": "A free personal project supports build-status lookups. Production deploys consume plan credits and require appropriate site access.",
+    "blocker_type": "None",
+    "toolkit": "Start with deploy status and previews. Put production deployment behind a separate permission.",
+    "unknowns": [
+      "Confirm team SAML authorization and current credits before enabling production deployments."
+    ],
+    "sources": [
+      {
+        "url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+        "claims": [
+          "auth",
+          "access",
+          "api",
+          "surface"
+        ],
+        "note": "The REST guide documents site/deploy/DNS/form capabilities, OAuth2 and personal Bearer token creation."
+      },
+      {
+        "url": "https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-credit-based-plans/credit-based-pricing-plans/",
+        "claims": [
+          "access"
+        ],
+        "note": "The pricing guide includes free accounts and deployment by API in its credit-based offering."
+      },
+      {
+        "url": "https://docs.netlify.com/build/build-with-ai/agent-setup-guides/agent-setup-overview/",
+        "claims": [
+          "mcp_official"
+        ],
+        "note": "Netlify documents connecting clients to its remote MCP for deployment workflows."
+      },
+      {
+        "url": "https://mcp.pipedream.com/app/netlify",
+        "claims": [
+          "mcp_third_party"
+        ],
+        "note": "Pipedream publishes a separate Netlify MCP connection."
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "description": "Provides networking, DNS, edge compute and storage APIs.",
+    "website": "https://www.cloudflare.com",
+    "auth": [
+      "API key",
+      "Bearer token",
+      "OAuth2"
+    ],
+    "access": "Self-serve free",
+    "access_note": "Users can create a free account and issue scoped user API tokens. OAuth clients require permission to create them, and resource operations remain plan-specific.",
+    "api": [
+      "REST",
+      "GraphQL",
+      "SDK"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "DNS records and analytics",
+      "Workers",
+      "Object storage"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Verified",
+    "verdict": "READY",
+    "blocker": "A free account supports a scoped prototype. Access to a specific zone or product depends on its role and plan.",
+    "blocker_type": "None",
+    "toolkit": "Start with read-only DNS or zone analytics and reuse the native MCP for discovery.",
+    "unknowns": [
+      "Verify plan-appropriate GraphQL datasets before promising analytics fields."
+    ],
+    "sources": [
+      {
+        "url": "https://developers.cloudflare.com/api/overview/",
+        "claims": [
+          "api",
+          "auth",
+          "access"
+        ],
+        "note": "The API overview covers personal token creation, legacy API keys, permissions and official SDKs."
+      },
+      {
+        "url": "https://developers.cloudflare.com/fundamentals/api/how-to/make-api-calls/",
+        "claims": [
+          "auth",
+          "api"
+        ],
+        "note": "Cloudflare illustrates its v4 HTTP resource operations and Bearer authentication."
+      },
+      {
+        "url": "https://developers.cloudflare.com/fundamentals/account/create-account/",
+        "claims": [
+          "access"
+        ],
+        "note": "Cloudflare documents creating Free accounts and managing account access."
+      },
+      {
+        "url": "https://developers.cloudflare.com/fundamentals/oauth/create-an-oauth-client/",
+        "claims": [
+          "auth",
+          "access"
+        ],
+        "note": "The vendor documents creating an OAuth client with account-level permission."
+      },
+      {
+        "url": "https://developers.cloudflare.com/dns/additional-options/analytics/",
+        "claims": [
+          "api",
+          "surface"
+        ],
+        "note": "Cloudflare provides GraphQL schemas for DNS analytics."
+      },
+      {
+        "url": "https://developers.cloudflare.com/agents/model-context-protocol/cloudflare/servers-for-cloudflare/",
+        "claims": [
+          "mcp_official",
+          "surface"
+        ],
+        "note": "Cloudflare documents its own API MCP with access to DNS, Workers, R2 and other product operations."
+      },
+      {
+        "url": "https://mcp.pipedream.com/app/cloudflare_api_key",
+        "claims": [
+          "mcp_third_party"
+        ],
+        "note": "Pipedream publishes an independent Cloudflare MCP integration."
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "description": "Provides hosted Postgres, data APIs and developer services for applications.",
+    "website": "https://supabase.com",
+    "auth": [
+      "API key",
+      "OAuth2",
+      "Bearer token"
+    ],
+    "access": "Self-serve free",
+    "access_note": "Free organizations can provision projects. Project data keys and Management API personal/OAuth tokens serve different purposes. Database policies still control row access.",
+    "api": [
+      "REST",
+      "GraphQL"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Table data",
+      "Project management",
+      "Database development tools"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Verified",
+    "verdict": "READY",
+    "blocker": "A free project supports test data. The connector must distinguish project keys from management tokens and respect database policies.",
+    "blocker_type": "None",
+    "toolkit": "Prototype read-only table access on a sample project and request management scopes only for administrative tools.",
+    "unknowns": [
+      "Check row-level security and project-scoped permissions before exposing live customer tables."
+    ],
+    "sources": [
+      {
+        "url": "https://supabase.com/docs/guides/platform/billing-on-supabase",
+        "claims": [
+          "access"
+        ],
+        "note": "The billing guide describes the Free plan and its project limits."
+      },
+      {
+        "url": "https://supabase.com/docs/guides/api/creating-routes",
+        "claims": [
+          "api",
+          "access",
+          "surface"
+        ],
+        "note": "Supabase documents the project REST endpoint and database grants that control exposed objects."
+      },
+      {
+        "url": "https://supabase.com/docs/guides/getting-started/api-keys",
+        "claims": [
+          "auth"
+        ],
+        "note": "The API keys guide explains publishable and secret project credentials."
+      },
+      {
+        "url": "https://supabase.com/docs/guides/graphql",
+        "claims": [
+          "api",
+          "surface"
+        ],
+        "note": "The official documentation describes the GraphQL database interface."
+      },
+      {
+        "url": "https://supabase.com/docs/reference/api/introduction",
+        "claims": [
+          "auth",
+          "api",
+          "access"
+        ],
+        "note": "The Management API reference distinguishes personal access tokens and delegated OAuth credentials."
+      },
+      {
+        "url": "https://supabase.com/features/mcp-server",
+        "claims": [
+          "mcp_official"
+        ],
+        "note": "Supabase identifies its official MCP as an interface for connecting development tools."
+      },
+      {
+        "url": "https://mcp.pipedream.com/app/supabase",
+        "claims": [
+          "mcp_third_party"
+        ],
+        "note": "Pipedream publishes a separate Supabase MCP integration."
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "description": "Stores connected data in a graph database queried with Cypher.",
+    "website": "https://neo4j.com",
+    "auth": [
+      "Basic",
+      "Bearer token",
+      "OAuth2"
+    ],
+    "access": "Self-serve free",
+    "access_note": "AuraDB Free provides a no-card hosted database, and developers can install locally. Database login and Aura management credentials are separate.",
+    "api": [
+      "HTTP API"
+    ],
+    "surface": "Moderate",
+    "capabilities": [
+      "Graph query and updates",
+      "Schema exploration",
+      "Aura instance management"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Unverified",
+    "verdict": "READY",
+    "blocker": "A free database supports HTTP Cypher reads. Instance management uses a separate identity.",
+    "blocker_type": "None",
+    "toolkit": "Start with parameterized, read-only graph queries using the database Query API or official MCP.",
+    "unknowns": [
+      "Confirm Aura management API plan eligibility separately from database query access."
+    ],
+    "sources": [
+      {
+        "url": "https://neo4j.com/docs/query-api/current/",
+        "claims": [
+          "api",
+          "surface"
+        ],
+        "note": "Neo4j's Query API executes Cypher statements over HTTP on a local or hosted server."
+      },
+      {
+        "url": "https://neo4j.com/docs/query-api/current/authentication-authorization/",
+        "claims": [
+          "auth"
+        ],
+        "note": "The database Query API supports Basic and Bearer authentication."
+      },
+      {
+        "url": "https://neo4j.com/docs/aura/api/authentication/",
+        "claims": [
+          "auth",
+          "api"
+        ],
+        "note": "The Aura platform authentication guide documents client ID/secret exchange for an OAuth access token. This is separate from the database login."
+      },
+      {
+        "url": "https://neo4j.com/docs/aura/api/overview/",
+        "claims": [
+          "api",
+          "surface"
+        ],
+        "note": "The Aura platform reference provides instance management endpoints."
+      },
+      {
+        "url": "https://neo4j.com/free-graph-database/",
+        "claims": [
+          "access"
+        ],
+        "note": "AuraDB Free is a managed database with no credit card required."
+      },
+      {
+        "url": "https://neo4j.com/blog/genai/introducing-mcp-for-aura/",
+        "claims": [
+          "mcp_official",
+          "access"
+        ],
+        "note": "Neo4j describes vendor-hosted MCP availability on Free and other Aura tiers."
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "description": "Provides cloud data warehousing, SQL execution and managed database resources.",
+    "website": "https://www.snowflake.com",
+    "auth": [
+      "OAuth2",
+      "Bearer token",
+      "Other"
+    ],
+    "access": "Self-serve trial",
+    "access_note": "The self-service trial provides limited credits for storage and compute. SQL, resource APIs and managed MCP operate under account roles and grants.",
+    "api": [
+      "REST"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Execute SQL",
+      "Manage databases and schemas",
+      "Manage warehouses and resources"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Verified",
+    "verdict": "CONDITIONAL",
+    "blocker": "A trial can validate a prototype, but regular warehouse queries require ongoing compute and data privileges.",
+    "blocker_type": "Plan/payment",
+    "toolkit": "Prototype read-only sample-data queries with bounded result sizes and a limited warehouse.",
+    "unknowns": [
+      "Check grants for MCP objects and the account's compute budget before production use."
+    ],
+    "sources": [
+      {
+        "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "claims": [
+          "auth"
+        ],
+        "note": "Snowflake documents OAuth, key-pair JWTs, programmatic access tokens and workload identity federation."
+      },
+      {
+        "url": "https://docs.snowflake.com/en/developer-guide/sql-api",
+        "claims": [
+          "api",
+          "surface"
+        ],
+        "note": "The SQL REST API submits statements and accesses or updates data."
+      },
+      {
+        "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/tutorials-overview",
+        "claims": [
+          "api",
+          "surface"
+        ],
+        "note": "Snowflake provides REST tutorials for database, schema and other resource-object management."
+      },
+      {
+        "url": "https://docs.snowflake.com/en/user-guide/admin-trial-account",
+        "claims": [
+          "access"
+        ],
+        "note": "The self-service trial guide explains limited usage credits and storage and compute consumption."
+      },
+      {
+        "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp",
+        "claims": [
+          "mcp_official",
+          "access"
+        ],
+        "note": "Snowflake documents its managed MCP server and role privileges required to use it."
+      },
+      {
+        "url": "https://mcp.pipedream.com/app/snowflake",
+        "claims": [
+          "mcp_third_party"
+        ],
+        "note": "Pipedream publishes a separately operated Snowflake MCP connection."
+      }
+    ]
+  }
+]

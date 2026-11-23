@@ -1,0 +1,259 @@
+{
+  "auth": {
+    "OAuth2": 69,
+    "Bearer token": 50,
+    "API key": 48,
+    "Basic": 16,
+    "Other": 11,
+    "Service account": 6
+  },
+  "api": {
+    "REST": 70,
+    "HTTP API": 25,
+    "SDK": 14,
+    "GraphQL": 12,
+    "CLI": 7,
+    "SOAP": 2,
+    "WebSocket": 2,
+    "gRPC": 1,
+    "RPC": 1,
+    "Node.js library": 1
+  },
+  "access": {
+    "Self-serve free": 44,
+    "Self-serve trial": 18,
+    "Admin approval": 10,
+    "Paid plan": 9,
+    "Partner/sales": 8,
+    "Local/open source": 5,
+    "Self-serve (cost unverified)": 3,
+    "Unknown": 3
+  },
+  "remote_api": {
+    "Documented": 97,
+    "Self-hosted HTTP wrapper": 1,
+    "Unverified": 1,
+    "Local interface only in reviewed sources": 1
+  },
+  "surface": {
+    "Broad": 79,
+    "Moderate": 14,
+    "Focused": 6,
+    "Unknown": 1
+  },
+  "blocker_type": {
+    "None": 51,
+    "Plan/payment": 15,
+    "Partner/approval": 13,
+    "Admin/permissions": 10,
+    "Usage limits": 6,
+    "Scope/technical": 3,
+    "Evidence gap": 2
+  },
+  "confidence": {
+    "High": 82,
+    "Medium": 16,
+    "Low": 2
+  },
+  "verdict": {
+    "READY": 51,
+    "CONDITIONAL": 35,
+    "GATED": 12,
+    "UNKNOWN": 2
+  },
+  "official_mcp": {
+    "Verified": 85,
+    "Unverified": 15
+  },
+  "third_party_mcp": {
+    "Verified": 78,
+    "Unverified": 22
+  },
+  "apps": 100,
+  "categories": [
+    {
+      "name": "CRM and Sales",
+      "count": 10,
+      "verdict": {
+        "READY": 7,
+        "CONDITIONAL": 2,
+        "GATED": 1
+      },
+      "access": {
+        "Self-serve free": 5,
+        "Self-serve trial": 3,
+        "Local/open source": 1,
+        "Admin approval": 1
+      }
+    },
+    {
+      "name": "Support and Helpdesk",
+      "count": 10,
+      "verdict": {
+        "CONDITIONAL": 6,
+        "READY": 4
+      },
+      "access": {
+        "Self-serve trial": 5,
+        "Self-serve free": 2,
+        "Admin approval": 2,
+        "Paid plan": 1
+      }
+    },
+    {
+      "name": "Communications and Messaging",
+      "count": 10,
+      "verdict": {
+        "CONDITIONAL": 5,
+        "READY": 4,
+        "GATED": 1
+      },
+      "access": {
+        "Self-serve free": 4,
+        "Self-serve trial": 2,
+        "Self-serve (cost unverified)": 2,
+        "Admin approval": 1,
+        "Partner/sales": 1
+      }
+    },
+    {
+      "name": "Marketing, Ads, Email and Social",
+      "count": 10,
+      "verdict": {
+        "CONDITIONAL": 5,
+        "READY": 3,
+        "GATED": 2
+      },
+      "access": {
+        "Admin approval": 3,
+        "Self-serve free": 3,
+        "Partner/sales": 2,
+        "Paid plan": 1,
+        "Self-serve trial": 1
+      }
+    },
+    {
+      "name": "Ecommerce",
+      "count": 10,
+      "verdict": {
+        "READY": 4,
+        "CONDITIONAL": 3,
+        "GATED": 2,
+        "UNKNOWN": 1
+      },
+      "access": {
+        "Self-serve free": 2,
+        "Local/open source": 2,
+        "Paid plan": 2,
+        "Self-serve trial": 1,
+        "Admin approval": 1,
+        "Partner/sales": 1,
+        "Unknown": 1
+      }
+    },
+    {
+      "name": "Data, SEO and Scraping",
+      "count": 10,
+      "verdict": {
+        "READY": 5,
+        "CONDITIONAL": 4,
+        "GATED": 1
+      },
+      "access": {
+        "Self-serve free": 5,
+        "Self-serve trial": 2,
+        "Paid plan": 1,
+        "Local/open source": 1,
+        "Partner/sales": 1
+      }
+    },
+    {
+      "name": "Developer, Infra and Data platforms",
+      "count": 10,
+      "verdict": {
+        "READY": 8,
+        "CONDITIONAL": 2
+      },
+      "access": {
+        "Self-serve free": 6,
+        "Self-serve trial": 2,
+        "Admin approval": 1,
+        "Self-serve (cost unverified)": 1
+      }
+    },
+    {
+      "name": "Productivity and Project Management",
+      "count": 10,
+      "verdict": {
+        "READY": 9,
+        "CONDITIONAL": 1
+      },
+      "access": {
+        "Self-serve free": 9,
+        "Paid plan": 1
+      }
+    },
+    {
+      "name": "Finance and Fintech",
+      "count": 10,
+      "verdict": {
+        "CONDITIONAL": 4,
+        "GATED": 3,
+        "READY": 2,
+        "UNKNOWN": 1
+      },
+      "access": {
+        "Self-serve free": 5,
+        "Partner/sales": 3,
+        "Unknown": 2
+      }
+    },
+    {
+      "name": "AI, Research and Media-native",
+      "count": 10,
+      "verdict": {
+        "READY": 5,
+        "CONDITIONAL": 3,
+        "GATED": 2
+      },
+      "access": {
+        "Paid plan": 3,
+        "Self-serve free": 3,
+        "Self-serve trial": 2,
+        "Admin approval": 1,
+        "Local/open source": 1
+      }
+    }
+  ],
+  "reviewed_sources": 517,
+  "readable_sources": 467,
+  "source_fields": {
+    "identity": 11,
+    "auth": 98,
+    "access": 99,
+    "api": 99,
+    "surface": 99,
+    "mcp_official": 85,
+    "mcp_third_party": 78
+  },
+  "catalog_matches": 77,
+  "both_mcp": 68,
+  "selfserve": 65,
+  "coverage_apps": 100,
+  "tested_apps": 30,
+  "tested_fields": 59,
+  "first_hits": 21,
+  "final_hits": 59,
+  "sample_classes": {
+    "READY": 13,
+    "CONDITIONAL": 12,
+    "GATED": 4,
+    "UNKNOWN": 1
+  },
+  "sample_categories": 10,
+  "first_known": 7,
+  "first_sources": 367,
+  "last_checked": "2026-11-23",
+  "ready_listed": 43,
+  "free_with_restrictions": 16
+}

@@ -1,0 +1,255 @@
+[
+  {
+    "id": 31,
+    "description": "Manages advertising campaigns, budgets, bidding and performance reporting.",
+    "website": "https://ads.google.com",
+    "auth": [
+      "OAuth2",
+      "Service account"
+    ],
+    "access": "Admin approval",
+    "access_note": "A Cloud project starts with Test access. Explorer, Basic and Standard have different production limits and approval paths.",
+    "api": [
+      "REST",
+      "gRPC"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Query performance",
+      "Manage campaigns and assets",
+      "Adjust bidding"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Unverified",
+    "verdict": "CONDITIONAL",
+    "blocker": "Production access and quotas depend on the Cloud project's approved level.",
+    "blocker_type": "Admin/permissions",
+    "toolkit": "Start with report queries on test accounts. Require explicit advertiser permissions before enabling edits.",
+    "unknowns": [
+      "The OAuth reference still mentions developer tokens. The September 2026 migration guide supersedes that requirement."
+    ],
+    "sources": [
+      {
+        "url": "https://developers.google.com/google-ads/api/docs/api-policy/developer-token",
+        "note": "Google retired the old developer token and moved access levels to Cloud projects.",
+        "claims": [
+          "access",
+          "auth"
+        ]
+      },
+      {
+        "url": "https://developers.google.com/google-ads/api/docs/api-policy/access-levels",
+        "note": "Test access and production Explorer, Basic and Standard levels differ in review and operation limits.",
+        "claims": [
+          "access"
+        ]
+      },
+      {
+        "url": "https://developers.google.com/google-ads/api/docs/best-practices/testing",
+        "note": "The test guide distinguishes the user OAuth and service account flows.",
+        "claims": [
+          "auth"
+        ]
+      },
+      {
+        "url": "https://developers.google.com/google-ads/api/rest/overview",
+        "note": "The API exposes REST and gRPC interfaces.",
+        "claims": [
+          "api"
+        ]
+      },
+      {
+        "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction",
+        "note": "Lists reporting, account management, bidding and campaign management.",
+        "claims": [
+          "surface"
+        ]
+      },
+      {
+        "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server",
+        "note": "Google maintains an MCP server for Google Ads.",
+        "claims": [
+          "mcp_official"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "description": "Creates campaigns and reads audience, creative and performance data for Meta ads.",
+    "website": "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+    "auth": [
+      "OAuth2",
+      "Service account"
+    ],
+    "access": "Admin approval",
+    "access_note": "App roles and business asset permissions determine what can be tested. Serving client ad accounts requires additional permissions and access review.",
+    "api": [
+      "HTTP API"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Read ad insights",
+      "Manage ad sets",
+      "Manage campaigns and creatives"
+    ],
+    "official_mcp": "Unverified",
+    "third_party_mcp": "Unverified",
+    "verdict": "CONDITIONAL",
+    "blocker": "Cross-business campaign management requires business permissions and the appropriate app access level.",
+    "blocker_type": "Admin/permissions",
+    "toolkit": "Prototype an insights reader against an authorized ad account before adding campaign writes.",
+    "unknowns": [
+      "A system user is Meta's business automation identity. Confirm the exact permissions and review for each action.",
+      "Developer onboarding cost and official MCP availability were not established by these pages."
+    ],
+    "sources": [
+      {
+        "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+        "note": "The Marketing API groups Graph API endpoints for campaigns, audiences and insights.",
+        "claims": [
+          "api",
+          "surface"
+        ]
+      },
+      {
+        "url": "https://developers.facebook.com/docs/business-management-apis/system-users",
+        "note": "Meta documents user OAuth and system-user tokens used for automated calls.",
+        "claims": [
+          "auth"
+        ]
+      },
+      {
+        "url": "https://developers.facebook.com/docs/business-management-apis/2tier-bm-solution/get-started/",
+        "note": "Ads Management Standard Access expands operation beyond app admins and developers.",
+        "claims": [
+          "access"
+        ]
+      },
+      {
+        "url": "https://developers.facebook.com/docs/business-management-apis/businessmanager/support",
+        "note": "Client permission requirements include ads management and business management.",
+        "claims": [
+          "access"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "description": "Operates advertising campaigns and reports campaign performance on LinkedIn.",
+    "website": "https://business.linkedin.com/marketing-solutions",
+    "auth": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "access": "Partner/sales",
+    "access_note": "Development access supports limited edits. Multi-account production writes require Standard access after LinkedIn reviews the integration.",
+    "api": [
+      "REST"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Manage ad accounts",
+      "Create campaigns",
+      "Read campaign analytics"
+    ],
+    "official_mcp": "Unverified",
+    "third_party_mcp": "Unverified",
+    "verdict": "GATED",
+    "blocker": "Expanding write access across customer accounts requires LinkedIn's Standard tier approval.",
+    "blocker_type": "Partner/approval",
+    "toolkit": "Prototype reporting and limited edits in Development, then apply for production write access.",
+    "unknowns": [
+      "Eligibility differs by marketing product and customer role. No official MCP server was established in this review."
+    ],
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-10",
+        "note": "Development allows edits to five accounts while broader Standard access requires a request.",
+        "claims": [
+          "access",
+          "surface"
+        ]
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/linkedin/marketing/integrations/ads/getting-started?view=li-lms-2026-01",
+        "note": "Campaign management requires OAuth scopes for member and ad-account access and describes campaign resources.",
+        "claims": [
+          "auth",
+          "api",
+          "surface"
+        ]
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/linkedin/marketing/quick-start?view=li-lms-2026-10",
+        "note": "The quickstart walks through an access token and REST requests to advertising resources.",
+        "claims": [
+          "auth",
+          "api"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "description": "Automates agency CRM, lead management and customer communications.",
+    "website": "https://www.gohighlevel.com",
+    "auth": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "access": "Paid plan",
+    "access_note": "Starter includes private integrations. Some operations require a higher subscription. Exact API access during a new trial is unverified.",
+    "api": [
+      "HTTP API"
+    ],
+    "surface": "Broad",
+    "capabilities": [
+      "Manage contacts",
+      "Update opportunities",
+      "Create tasks and appointments"
+    ],
+    "official_mcp": "Verified",
+    "third_party_mcp": "Unverified",
+    "verdict": "CONDITIONAL",
+    "blocker": "Subscription tier and the target agency or location determine usable endpoints.",
+    "blocker_type": "Plan/payment",
+    "toolkit": "Use scoped contact and task tools for one location. Check entitlement before adding agency-level endpoints.",
+    "unknowns": [
+      "Which endpoints are accessible to a new trial before conversion?"
+    ],
+    "sources": [
+      {
+        "url": "https://marketplace.gohighlevel.com/docs/Authorization/authorization_doc/",
+        "note": "HighLevel documents private integration tokens and OAuth 2.0 for its API.",
+        "claims": [
+          "auth",
+          "api"
+        ]
+      },
+      {
+        "url": "https://help.gohighlevel.com/support/solutions/articles/155000003054-private-integrations-everything-you-need-to-know",
+        "note": "The plan comparison distinguishes starter access from more advanced API capabilities.",
+        "claims": [
+          "access"
+        ]
+      },
+      {
+        "url": "https://marketplace.gohighlevel.com/docs/other/mcp/",
+        "note": "HighLevel documents its server and its contact, opportunity and task workflows.",
+        "claims": [
+          "surface",
+          "mcp_official"
+        ]
+      },
+      {
+        "url": "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/",
+        "note": "OAuth access tokens are scoped to agency or location contexts.",
+        "claims": [
+          "auth"
+        ]
+      }
+    ]
+  }
+]

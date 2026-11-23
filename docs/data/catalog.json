@@ -1,0 +1,1277 @@
+{
+  "checked_at": "2026-11-23T16:25:22+00:00",
+  "sitemap": "https://composio.dev/toolkits/sitemap.xml",
+  "links_scanned": 1785,
+  "matches": [
+    {
+      "id": 1,
+      "catalog_route": "https://composio.dev/toolkits/salesforce",
+      "mcp_route": true,
+      "title": "Salesforce MCP Server for AI Agents | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/salesforce",
+        "final_url": "https://composio.dev/toolkits/salesforce",
+        "status": "readable",
+        "http": 200,
+        "title": "Salesforce MCP Server for AI Agents | Composio",
+        "checked_at": "2026-11-23T16:22:27+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 2,
+      "catalog_route": "https://composio.dev/toolkits/hubspot",
+      "mcp_route": true,
+      "title": "HubSpot MCP Server for AI Agents | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/hubspot",
+        "final_url": "https://composio.dev/toolkits/hubspot",
+        "status": "readable",
+        "http": 200,
+        "title": "HubSpot MCP Server for AI Agents | Composio",
+        "checked_at": "2026-11-23T16:22:27+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 3,
+      "catalog_route": "https://composio.dev/toolkits/pipedrive",
+      "mcp_route": true,
+      "title": "Pipedrive MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/pipedrive",
+        "final_url": "https://composio.dev/toolkits/pipedrive",
+        "status": "readable",
+        "http": 200,
+        "title": "Pipedrive MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:28+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 4,
+      "catalog_route": "https://composio.dev/toolkits/attio",
+      "mcp_route": true,
+      "title": "Attio MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/attio",
+        "final_url": "https://composio.dev/toolkits/attio",
+        "status": "readable",
+        "http": 200,
+        "title": "Attio MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:29+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 5,
+      "catalog_route": "https://composio.dev/toolkits/twenty",
+      "mcp_route": true,
+      "title": "Twenty MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/twenty",
+        "final_url": "https://composio.dev/toolkits/twenty",
+        "status": "readable",
+        "http": 200,
+        "title": "Twenty MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:30+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 6,
+      "catalog_route": "https://composio.dev/toolkits/podio",
+      "mcp_route": true,
+      "title": "Podio MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/podio",
+        "final_url": "https://composio.dev/toolkits/podio",
+        "status": "readable",
+        "http": 200,
+        "title": "Podio MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:30+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 7,
+      "catalog_route": "https://composio.dev/toolkits/zoho",
+      "mcp_route": true,
+      "title": "Zoho MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/zoho",
+        "final_url": "https://composio.dev/toolkits/zoho",
+        "status": "readable",
+        "http": 200,
+        "title": "Zoho MCP Server | Composio",
+        "checked_at": "2026-11-23T16:24:33+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 8,
+      "catalog_route": "https://composio.dev/toolkits/close",
+      "mcp_route": true,
+      "title": "Close MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/close",
+        "final_url": "https://composio.dev/toolkits/close",
+        "status": "readable",
+        "http": 200,
+        "title": "Close MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:31+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 9,
+      "catalog_route": "https://composio.dev/toolkits/copper",
+      "mcp_route": true,
+      "title": "Copper MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/copper",
+        "final_url": "https://composio.dev/toolkits/copper",
+        "status": "readable",
+        "http": 200,
+        "title": "Copper MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:32+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 10,
+      "catalog_route": null,
+      "mcp_route": false
+    },
+    {
+      "id": 11,
+      "catalog_route": "https://composio.dev/toolkits/zendesk",
+      "mcp_route": true,
+      "title": "Zendesk MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/zendesk",
+        "final_url": "https://composio.dev/toolkits/zendesk",
+        "status": "readable",
+        "http": 200,
+        "title": "Zendesk MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:33+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 12,
+      "catalog_route": "https://composio.dev/toolkits/intercom",
+      "mcp_route": true,
+      "title": "Intercom MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/intercom",
+        "final_url": "https://composio.dev/toolkits/intercom",
+        "status": "readable",
+        "http": 200,
+        "title": "Intercom MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:34+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 13,
+      "catalog_route": "https://composio.dev/toolkits/freshdesk",
+      "mcp_route": true,
+      "title": "Freshdesk MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/freshdesk",
+        "final_url": "https://composio.dev/toolkits/freshdesk",
+        "status": "readable",
+        "http": 200,
+        "title": "Freshdesk MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:35+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 14,
+      "catalog_route": null,
+      "mcp_route": false
+    },
+    {
+      "id": 15,
+      "catalog_route": null,
+      "mcp_route": false
+    },
+    {
+      "id": 16,
+      "catalog_route": null,
+      "mcp_route": false
+    },
+    {
+      "id": 17,
+      "catalog_route": "https://composio.dev/toolkits/plain",
+      "mcp_route": true,
+      "title": "Plain MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/plain",
+        "final_url": "https://composio.dev/toolkits/plain",
+        "status": "readable",
+        "http": 200,
+        "title": "Plain MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:36+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 18,
+      "catalog_route": "https://composio.dev/toolkits/help_scout",
+      "mcp_route": true,
+      "title": "Help Scout MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/help_scout",
+        "final_url": "https://composio.dev/toolkits/help_scout",
+        "status": "readable",
+        "http": 200,
+        "title": "Help Scout MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:37+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 19,
+      "catalog_route": "https://composio.dev/toolkits/gorgias",
+      "mcp_route": true,
+      "title": "Gorgias MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/gorgias",
+        "final_url": "https://composio.dev/toolkits/gorgias",
+        "status": "readable",
+        "http": 200,
+        "title": "Gorgias MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:37+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 20,
+      "catalog_route": null,
+      "mcp_route": false
+    },
+    {
+      "id": 21,
+      "catalog_route": "https://composio.dev/toolkits/slack",
+      "mcp_route": true,
+      "title": "Slack MCP Server for AI Agents | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/slack",
+        "final_url": "https://composio.dev/toolkits/slack",
+        "status": "readable",
+        "http": 200,
+        "title": "Slack MCP Server for AI Agents | Composio",
+        "checked_at": "2026-11-23T16:22:38+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 22,
+      "catalog_route": "https://composio.dev/toolkits/twilio",
+      "mcp_route": true,
+      "title": "Twilio MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/twilio",
+        "final_url": "https://composio.dev/toolkits/twilio",
+        "status": "readable",
+        "http": 200,
+        "title": "Twilio MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:39+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 23,
+      "catalog_route": "https://composio.dev/toolkits/zoho_cliq",
+      "mcp_route": true,
+      "title": "Zoho Cliq MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/zoho_cliq",
+        "final_url": "https://composio.dev/toolkits/zoho_cliq",
+        "status": "readable",
+        "http": 200,
+        "title": "Zoho Cliq MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:40+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 24,
+      "catalog_route": "https://composio.dev/toolkits/lark",
+      "mcp_route": true,
+      "title": "Lark MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/lark",
+        "final_url": "https://composio.dev/toolkits/lark",
+        "status": "readable",
+        "http": 200,
+        "title": "Lark MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:40+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 25,
+      "catalog_route": "https://composio.dev/toolkits/pumble",
+      "mcp_route": true,
+      "title": "Pumble MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/pumble",
+        "final_url": "https://composio.dev/toolkits/pumble",
+        "status": "readable",
+        "http": 200,
+        "title": "Pumble MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:41+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 26,
+      "catalog_route": "https://composio.dev/toolkits/discord",
+      "mcp_route": true,
+      "title": "Discord MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/discord",
+        "final_url": "https://composio.dev/toolkits/discord",
+        "status": "readable",
+        "http": 200,
+        "title": "Discord MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:42+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 27,
+      "catalog_route": "https://composio.dev/toolkits/telegram",
+      "mcp_route": true,
+      "title": "Telegram MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/telegram",
+        "final_url": "https://composio.dev/toolkits/telegram",
+        "status": "readable",
+        "http": 200,
+        "title": "Telegram MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:44+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 28,
+      "catalog_route": "https://composio.dev/toolkits/whatsapp",
+      "mcp_route": true,
+      "title": "Whatsapp MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/whatsapp",
+        "final_url": "https://composio.dev/toolkits/whatsapp",
+        "status": "readable",
+        "http": 200,
+        "title": "Whatsapp MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:44+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 29,
+      "catalog_route": "https://composio.dev/toolkits/aircall",
+      "mcp_route": true,
+      "title": "Aircall MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/aircall",
+        "final_url": "https://composio.dev/toolkits/aircall",
+        "status": "readable",
+        "http": 200,
+        "title": "Aircall MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:45+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 30,
+      "catalog_route": null,
+      "mcp_route": false
+    },
+    {
+      "id": 31,
+      "catalog_route": "https://composio.dev/toolkits/googleads",
+      "mcp_route": true,
+      "title": "Google Ads MCP Server for AI Agents | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/googleads",
+        "final_url": "https://composio.dev/toolkits/googleads",
+        "status": "readable",
+        "http": 200,
+        "title": "Google Ads MCP Server for AI Agents | Composio",
+        "checked_at": "2026-11-23T16:22:46+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 32,
+      "catalog_route": "https://composio.dev/toolkits/metaads",
+      "mcp_route": true,
+      "title": "Metaads MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/metaads",
+        "final_url": "https://composio.dev/toolkits/metaads",
+        "status": "readable",
+        "http": 200,
+        "title": "Metaads MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:47+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 33,
+      "catalog_route": "https://composio.dev/toolkits/linkedin_ads",
+      "mcp_route": true,
+      "title": "Linkedin Ads MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/linkedin_ads",
+        "final_url": "https://composio.dev/toolkits/linkedin_ads",
+        "status": "readable",
+        "http": 200,
+        "title": "Linkedin Ads MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:47+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 34,
+      "catalog_route": "https://composio.dev/toolkits/highlevel",
+      "mcp_route": true,
+      "title": "Highlevel MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/highlevel",
+        "final_url": "https://composio.dev/toolkits/highlevel",
+        "status": "readable",
+        "http": 200,
+        "title": "Highlevel MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:48+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 35,
+      "catalog_route": "https://composio.dev/toolkits/mailchimp",
+      "mcp_route": true,
+      "title": "Mailchimp MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/mailchimp",
+        "final_url": "https://composio.dev/toolkits/mailchimp",
+        "status": "readable",
+        "http": 200,
+        "title": "Mailchimp MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:49+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 36,
+      "catalog_route": "https://composio.dev/toolkits/klaviyo",
+      "mcp_route": true,
+      "title": "Klaviyo MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/klaviyo",
+        "final_url": "https://composio.dev/toolkits/klaviyo",
+        "status": "readable",
+        "http": 200,
+        "title": "Klaviyo MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:50+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 37,
+      "catalog_route": null,
+      "mcp_route": false
+    },
+    {
+      "id": 38,
+      "catalog_route": "https://composio.dev/toolkits/pinterest",
+      "mcp_route": true,
+      "title": "Pinterest MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/pinterest",
+        "final_url": "https://composio.dev/toolkits/pinterest",
+        "status": "readable",
+        "http": 200,
+        "title": "Pinterest MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:51+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 39,
+      "catalog_route": "https://composio.dev/toolkits/threads",
+      "mcp_route": true,
+      "title": "Threads MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/threads",
+        "final_url": "https://composio.dev/toolkits/threads",
+        "status": "readable",
+        "http": 200,
+        "title": "Threads MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:52+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 40,
+      "catalog_route": "https://composio.dev/toolkits/sendgrid",
+      "mcp_route": true,
+      "title": "Sendgrid MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/sendgrid",
+        "final_url": "https://composio.dev/toolkits/sendgrid",
+        "status": "readable",
+        "http": 200,
+        "title": "Sendgrid MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:52+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 41,
+      "catalog_route": "https://composio.dev/toolkits/shopify",
+      "mcp_route": true,
+      "title": "Shopify MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/shopify",
+        "final_url": "https://composio.dev/toolkits/shopify",
+        "status": "readable",
+        "http": 200,
+        "title": "Shopify MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:53+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 42,
+      "catalog_route": null,
+      "mcp_route": false
+    },
+    {
+      "id": 43,
+      "catalog_route": "https://composio.dev/toolkits/bigcommerce",
+      "mcp_route": true,
+      "title": "BigCommerce MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/bigcommerce",
+        "final_url": "https://composio.dev/toolkits/bigcommerce",
+        "status": "readable",
+        "http": 200,
+        "title": "BigCommerce MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:54+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 44,
+      "catalog_route": null,
+      "mcp_route": false
+    },
+    {
+      "id": 45,
+      "catalog_route": null,
+      "mcp_route": false
+    },
+    {
+      "id": 46,
+      "catalog_route": null,
+      "mcp_route": false
+    },
+    {
+      "id": 47,
+      "catalog_route": null,
+      "mcp_route": false
+    },
+    {
+      "id": 48,
+      "catalog_route": "https://composio.dev/toolkits/gumroad",
+      "mcp_route": true,
+      "title": "Gumroad MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/gumroad",
+        "final_url": "https://composio.dev/toolkits/gumroad",
+        "status": "readable",
+        "http": 200,
+        "title": "Gumroad MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:55+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 49,
+      "catalog_route": null,
+      "mcp_route": false
+    },
+    {
+      "id": 50,
+      "catalog_route": null,
+      "mcp_route": false
+    },
+    {
+      "id": 51,
+      "catalog_route": "https://composio.dev/toolkits/dataforseo",
+      "mcp_route": true,
+      "title": "Dataforseo MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/dataforseo",
+        "final_url": "https://composio.dev/toolkits/dataforseo",
+        "status": "readable",
+        "http": 200,
+        "title": "Dataforseo MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:56+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 52,
+      "catalog_route": null,
+      "mcp_route": false
+    },
+    {
+      "id": 53,
+      "catalog_route": "https://composio.dev/toolkits/ahrefs",
+      "mcp_route": true,
+      "title": "Ahrefs MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/ahrefs",
+        "final_url": "https://composio.dev/toolkits/ahrefs",
+        "status": "readable",
+        "http": 200,
+        "title": "Ahrefs MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:57+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 54,
+      "catalog_route": "https://composio.dev/toolkits/mrscraper",
+      "mcp_route": true,
+      "title": "MrScraper MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/mrscraper",
+        "final_url": "https://composio.dev/toolkits/mrscraper",
+        "status": "readable",
+        "http": 200,
+        "title": "MrScraper MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:57+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 55,
+      "catalog_route": "https://composio.dev/toolkits/apify",
+      "mcp_route": true,
+      "title": "Apify MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/apify",
+        "final_url": "https://composio.dev/toolkits/apify",
+        "status": "readable",
+        "http": 200,
+        "title": "Apify MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:58+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 56,
+      "catalog_route": "https://composio.dev/toolkits/firecrawl",
+      "mcp_route": true,
+      "title": "Firecrawl MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/firecrawl",
+        "final_url": "https://composio.dev/toolkits/firecrawl",
+        "status": "readable",
+        "http": 200,
+        "title": "Firecrawl MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:59+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 57,
+      "catalog_route": "https://composio.dev/toolkits/brightdata",
+      "mcp_route": true,
+      "title": "Brightdata MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/brightdata",
+        "final_url": "https://composio.dev/toolkits/brightdata",
+        "status": "readable",
+        "http": 200,
+        "title": "Brightdata MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:00+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 58,
+      "catalog_route": null,
+      "mcp_route": false
+    },
+    {
+      "id": 59,
+      "catalog_route": null,
+      "mcp_route": false
+    },
+    {
+      "id": 60,
+      "catalog_route": "https://composio.dev/toolkits/clay",
+      "mcp_route": true,
+      "title": "Clay MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/clay",
+        "final_url": "https://composio.dev/toolkits/clay",
+        "status": "readable",
+        "http": 200,
+        "title": "Clay MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:01+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 61,
+      "catalog_route": "https://composio.dev/toolkits/github",
+      "mcp_route": true,
+      "title": "GitHub MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/github",
+        "final_url": "https://composio.dev/toolkits/github",
+        "status": "readable",
+        "http": 200,
+        "title": "GitHub MCP Server | Composio",
+        "checked_at": "2026-11-23T16:22:02+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 62,
+      "catalog_route": "https://composio.dev/toolkits/vercel",
+      "mcp_route": true,
+      "title": "Vercel MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/vercel",
+        "final_url": "https://composio.dev/toolkits/vercel",
+        "status": "readable",
+        "http": 200,
+        "title": "Vercel MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:01+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 63,
+      "catalog_route": "https://composio.dev/toolkits/netlify_mcp",
+      "mcp_route": true,
+      "title": "Netlify MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/netlify_mcp",
+        "final_url": "https://composio.dev/toolkits/netlify_mcp",
+        "status": "readable",
+        "http": 200,
+        "title": "Netlify MCP Server | Composio",
+        "checked_at": "2026-11-23T16:24:33+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 64,
+      "catalog_route": "https://composio.dev/toolkits/cloudflare",
+      "mcp_route": true,
+      "title": "Cloudflare MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/cloudflare",
+        "final_url": "https://composio.dev/toolkits/cloudflare",
+        "status": "readable",
+        "http": 200,
+        "title": "Cloudflare MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:02+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 65,
+      "catalog_route": "https://composio.dev/toolkits/supabase",
+      "mcp_route": true,
+      "title": "Supabase MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/supabase",
+        "final_url": "https://composio.dev/toolkits/supabase",
+        "status": "readable",
+        "http": 200,
+        "title": "Supabase MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:03+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 66,
+      "catalog_route": "https://composio.dev/toolkits/neo4j",
+      "mcp_route": true,
+      "title": "Neo4J MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/neo4j",
+        "final_url": "https://composio.dev/toolkits/neo4j",
+        "status": "readable",
+        "http": 200,
+        "title": "Neo4J MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:04+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 67,
+      "catalog_route": "https://composio.dev/toolkits/snowflake",
+      "mcp_route": true,
+      "title": "Snowflake MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/snowflake",
+        "final_url": "https://composio.dev/toolkits/snowflake",
+        "status": "readable",
+        "http": 200,
+        "title": "Snowflake MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:04+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 68,
+      "catalog_route": "https://composio.dev/toolkits/mongodb",
+      "mcp_route": true,
+      "title": "MongoDB MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/mongodb",
+        "final_url": "https://composio.dev/toolkits/mongodb",
+        "status": "readable",
+        "http": 200,
+        "title": "MongoDB MCP Server | Composio",
+        "checked_at": "2026-11-23T16:24:33+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 69,
+      "catalog_route": "https://composio.dev/toolkits/datadog",
+      "mcp_route": true,
+      "title": "Datadog MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/datadog",
+        "final_url": "https://composio.dev/toolkits/datadog",
+        "status": "readable",
+        "http": 200,
+        "title": "Datadog MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:05+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 70,
+      "catalog_route": "https://composio.dev/toolkits/sentry",
+      "mcp_route": true,
+      "title": "Sentry MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/sentry",
+        "final_url": "https://composio.dev/toolkits/sentry",
+        "status": "readable",
+        "http": 200,
+        "title": "Sentry MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:06+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 71,
+      "catalog_route": "https://composio.dev/toolkits/notion",
+      "mcp_route": true,
+      "title": "Notion MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/notion",
+        "final_url": "https://composio.dev/toolkits/notion",
+        "status": "readable",
+        "http": 200,
+        "title": "Notion MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:07+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 72,
+      "catalog_route": "https://composio.dev/toolkits/airtable",
+      "mcp_route": true,
+      "title": "Airtable MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/airtable",
+        "final_url": "https://composio.dev/toolkits/airtable",
+        "status": "readable",
+        "http": 200,
+        "title": "Airtable MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:08+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 73,
+      "catalog_route": "https://composio.dev/toolkits/linear",
+      "mcp_route": true,
+      "title": "Linear MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/linear",
+        "final_url": "https://composio.dev/toolkits/linear",
+        "status": "readable",
+        "http": 200,
+        "title": "Linear MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:09+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 74,
+      "catalog_route": "https://composio.dev/toolkits/jira",
+      "mcp_route": true,
+      "title": "Jira MCP Server for AI Agents | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/jira",
+        "final_url": "https://composio.dev/toolkits/jira",
+        "status": "readable",
+        "http": 200,
+        "title": "Jira MCP Server for AI Agents | Composio",
+        "checked_at": "2026-11-23T16:23:10+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 75,
+      "catalog_route": "https://composio.dev/toolkits/asana",
+      "mcp_route": true,
+      "title": "Asana MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/asana",
+        "final_url": "https://composio.dev/toolkits/asana",
+        "status": "readable",
+        "http": 200,
+        "title": "Asana MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:11+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 76,
+      "catalog_route": "https://composio.dev/toolkits/monday",
+      "mcp_route": true,
+      "title": "Monday MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/monday",
+        "final_url": "https://composio.dev/toolkits/monday",
+        "status": "readable",
+        "http": 200,
+        "title": "Monday MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:12+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 77,
+      "catalog_route": "https://composio.dev/toolkits/clickup",
+      "mcp_route": true,
+      "title": "Clickup MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/clickup",
+        "final_url": "https://composio.dev/toolkits/clickup",
+        "status": "readable",
+        "http": 200,
+        "title": "Clickup MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:13+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 78,
+      "catalog_route": "https://composio.dev/toolkits/coda",
+      "mcp_route": true,
+      "title": "Coda MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/coda",
+        "final_url": "https://composio.dev/toolkits/coda",
+        "status": "readable",
+        "http": 200,
+        "title": "Coda MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:13+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 79,
+      "catalog_route": "https://composio.dev/toolkits/smartsheet",
+      "mcp_route": true,
+      "title": "Smartsheet MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/smartsheet",
+        "final_url": "https://composio.dev/toolkits/smartsheet",
+        "status": "readable",
+        "http": 200,
+        "title": "Smartsheet MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:14+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 80,
+      "catalog_route": "https://composio.dev/toolkits/harvest",
+      "mcp_route": true,
+      "title": "Harvest MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/harvest",
+        "final_url": "https://composio.dev/toolkits/harvest",
+        "status": "readable",
+        "http": 200,
+        "title": "Harvest MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:15+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 81,
+      "catalog_route": "https://composio.dev/toolkits/stripe",
+      "mcp_route": true,
+      "title": "Stripe MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/stripe",
+        "final_url": "https://composio.dev/toolkits/stripe",
+        "status": "readable",
+        "http": 200,
+        "title": "Stripe MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:16+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 82,
+      "catalog_route": "https://composio.dev/toolkits/plaid",
+      "mcp_route": true,
+      "title": "Plaid MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/plaid",
+        "final_url": "https://composio.dev/toolkits/plaid",
+        "status": "readable",
+        "http": 200,
+        "title": "Plaid MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:17+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 83,
+      "catalog_route": null,
+      "mcp_route": false
+    },
+    {
+      "id": 84,
+      "catalog_route": null,
+      "mcp_route": false
+    },
+    {
+      "id": 85,
+      "catalog_route": null,
+      "mcp_route": false
+    },
+    {
+      "id": 86,
+      "catalog_route": "https://composio.dev/toolkits/quickbooks",
+      "mcp_route": true,
+      "title": "QuickBooks MCP Server for AI Agents | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/quickbooks",
+        "final_url": "https://composio.dev/toolkits/quickbooks",
+        "status": "readable",
+        "http": 200,
+        "title": "QuickBooks MCP Server for AI Agents | Composio",
+        "checked_at": "2026-11-23T16:23:18+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 87,
+      "catalog_route": "https://composio.dev/toolkits/xero",
+      "mcp_route": true,
+      "title": "Xero MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/xero",
+        "final_url": "https://composio.dev/toolkits/xero",
+        "status": "readable",
+        "http": 200,
+        "title": "Xero MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:19+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 88,
+      "catalog_route": "https://composio.dev/toolkits/brex",
+      "mcp_route": true,
+      "title": "Brex MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/brex",
+        "final_url": "https://composio.dev/toolkits/brex",
+        "status": "readable",
+        "http": 200,
+        "title": "Brex MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:19+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 89,
+      "catalog_route": "https://composio.dev/toolkits/ramp",
+      "mcp_route": true,
+      "title": "Ramp MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/ramp",
+        "final_url": "https://composio.dev/toolkits/ramp",
+        "status": "readable",
+        "http": 200,
+        "title": "Ramp MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:20+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 90,
+      "catalog_route": "https://composio.dev/toolkits/pitchbook",
+      "mcp_route": true,
+      "title": "PitchBook MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/pitchbook",
+        "final_url": "https://composio.dev/toolkits/pitchbook",
+        "status": "readable",
+        "http": 200,
+        "title": "PitchBook MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:21+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 91,
+      "catalog_route": "https://composio.dev/toolkits/notebook_lm",
+      "mcp_route": true,
+      "title": "NotebookLM MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/notebook_lm",
+        "final_url": "https://composio.dev/toolkits/notebook_lm",
+        "status": "readable",
+        "http": 200,
+        "title": "NotebookLM MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:22+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 92,
+      "catalog_route": "https://composio.dev/toolkits/otter_ai_mcp",
+      "mcp_route": true,
+      "title": "Otter.ai MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/otter_ai_mcp",
+        "final_url": "https://composio.dev/toolkits/otter_ai_mcp",
+        "status": "readable",
+        "http": 200,
+        "title": "Otter.ai MCP Server | Composio",
+        "checked_at": "2026-11-23T16:24:34+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 93,
+      "catalog_route": "https://composio.dev/toolkits/fathom",
+      "mcp_route": true,
+      "title": "Fathom MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/fathom",
+        "final_url": "https://composio.dev/toolkits/fathom",
+        "status": "readable",
+        "http": 200,
+        "title": "Fathom MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:22+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 94,
+      "catalog_route": "https://composio.dev/toolkits/consensus",
+      "mcp_route": true,
+      "title": "Consensus MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/consensus",
+        "final_url": "https://composio.dev/toolkits/consensus",
+        "status": "readable",
+        "http": 200,
+        "title": "Consensus MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:23+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 95,
+      "catalog_route": null,
+      "mcp_route": false
+    },
+    {
+      "id": 96,
+      "catalog_route": "https://composio.dev/toolkits/devin_mcp",
+      "mcp_route": true,
+      "title": "Devin MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/devin_mcp",
+        "final_url": "https://composio.dev/toolkits/devin_mcp",
+        "status": "readable",
+        "http": 200,
+        "title": "Devin MCP Server | Composio",
+        "checked_at": "2026-11-23T16:24:36+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 97,
+      "catalog_route": "https://composio.dev/toolkits/higgsfield",
+      "mcp_route": true,
+      "title": "Higgsfield MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/higgsfield",
+        "final_url": "https://composio.dev/toolkits/higgsfield",
+        "status": "readable",
+        "http": 200,
+        "title": "Higgsfield MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:24+00:00",
+        "cached": true
+      }
+    },
+    {
+      "id": 98,
+      "catalog_route": null,
+      "mcp_route": false
+    },
+    {
+      "id": 99,
+      "catalog_route": null,
+      "mcp_route": false
+    },
+    {
+      "id": 100,
+      "catalog_route": "https://composio.dev/toolkits/grain",
+      "mcp_route": true,
+      "title": "Grain MCP Server | Composio",
+      "receipt": {
+        "url": "https://composio.dev/toolkits/grain",
+        "final_url": "https://composio.dev/toolkits/grain",
+        "status": "readable",
+        "http": 200,
+        "title": "Grain MCP Server | Composio",
+        "checked_at": "2026-11-23T16:23:26+00:00",
+        "cached": true
+      }
+    }
+  ]
+}

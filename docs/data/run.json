@@ -1,0 +1,18 @@
+{
+  "started": "2026-11-23T16:18:59+00:00",
+  "finished": "2026-11-23T16:20:57+00:00",
+  "run_signature": "9c16bc6d2ef3",
+  "records": 100,
+  "fresh_records": 100,
+  "resumed": 0,
+  "max_pages_per_app": 5,
+  "workers": 8,
+  "inference": "deterministic",
+  "source_status": {
+    "readable": 331,
+    "thin": 25,
+    "robots_disallowed": 5,
+    "http_404": 4,
+    "http_403": 2
+  }
+}

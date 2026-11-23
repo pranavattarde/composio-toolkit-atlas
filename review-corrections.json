@@ -1,0 +1,15 @@
+[
+  {
+    "id": 80,
+    "field": "access",
+    "value": "Self-serve free",
+    "note": "Harvest's support article explicitly includes access for free and trial accounts, resolving the pricing question that the developer guide left open.",
+    "url": "https://support.getharvest.com/hc/en-us/articles/360048180732-The-Harvest-API",
+    "claims": [
+      "access"
+    ],
+    "additional": {
+      "access_note": "All accounts, including free and trial, include API access. Generate a personal token in Harvest ID or register an OAuth application for delegated access."
+    }
+  }
+]

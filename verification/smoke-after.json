@@ -1,0 +1,350 @@
+[
+  {
+    "id": 27,
+    "name": "Telegram",
+    "category": "Communications and Messaging",
+    "website_hint": "core.telegram.org",
+    "auth": [
+      "Other"
+    ],
+    "api": [
+      "HTTP API"
+    ],
+    "access": "Unknown",
+    "official_mcp": "Unverified",
+    "third_party_mcp": "Unverified",
+    "verdict": "UNKNOWN",
+    "evidence": [
+      {
+        "field": "auth",
+        "value": "Other",
+        "url": "https://core.telegram.org/bots/api",
+        "excerpt": "links to untrusted sites. See earlier changes » Authorizing your bot Each bot is given a unique authentication token when it is created . The token looks something like"
+      },
+      {
+        "field": "api",
+        "value": "HTTP API",
+        "url": "https://core.telegram.org/bots/api",
+        "excerpt": "Bots Telegram Bot API Telegram Bot API The Bot API is an HTTP-based interface created for developers keen on building bots for"
+      }
+    ],
+    "access_signals": [],
+    "sources": [
+      {
+        "url": "https://core.telegram.org/bots/api",
+        "final_url": "https://core.telegram.org/bots/api",
+        "status": "readable",
+        "http": 200,
+        "title": "Telegram Bot API",
+        "checked_at": "2026-11-23T16:17:47+00:00",
+        "cached": true
+      },
+      {
+        "url": "https://core.telegram.org/bots",
+        "final_url": "https://core.telegram.org/bots",
+        "status": "readable",
+        "http": 200,
+        "title": "Bots: An introduction for developers",
+        "checked_at": "2026-11-23T16:17:52+00:00",
+        "cached": true
+      },
+      {
+        "url": "https://core.telegram.org",
+        "final_url": "https://core.telegram.org",
+        "status": "readable",
+        "http": 200,
+        "title": "Telegram APIs",
+        "checked_at": "2026-11-23T16:17:52+00:00",
+        "cached": true
+      },
+      {
+        "url": "https://core.telegram.org/api",
+        "final_url": "https://core.telegram.org/api",
+        "status": "readable",
+        "http": 200,
+        "title": "Telegram APIs",
+        "checked_at": "2026-11-23T16:17:53+00:00",
+        "cached": true
+      },
+      {
+        "url": "https://core.telegram.org/api/url-authorization",
+        "final_url": "https://core.telegram.org/api/url-authorization",
+        "status": "readable",
+        "http": 200,
+        "title": "Seamless Telegram Login",
+        "checked_at": "2026-11-23T16:17:54+00:00",
+        "cached": true
+      }
+    ],
+    "checked_at": "2026-11-23T16:18:59+00:00",
+    "signature": "9c16bc6d2ef3"
+  },
+  {
+    "id": 61,
+    "name": "GitHub",
+    "category": "Developer, Infra and Data platforms",
+    "website_hint": "docs.github.com/rest",
+    "auth": [
+      "Basic",
+      "Bearer token"
+    ],
+    "api": [
+      "REST"
+    ],
+    "access": "Self-serve (cost unverified)",
+    "official_mcp": "Verified",
+    "third_party_mcp": "Unverified",
+    "verdict": "READY",
+    "evidence": [
+      {
+        "field": "auth",
+        "value": "Basic",
+        "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+        "excerpt": "created by apps are automatically authorized for SAML SSO. Using basic authentication Some REST API endpoints for GitHub Apps and OAuth"
+      },
+      {
+        "field": "auth",
+        "value": "Bearer token",
+        "url": "https://github.com/github/github-mcp-server",
+        "excerpt": "\" , \"id\" : \" github_mcp_pat \" , \"description\" : \" GitHub Personal Access Token \" , \"password\" : true } ] } Install in other MCP"
+      },
+      {
+        "field": "api",
+        "value": "REST",
+        "url": "https://docs.github.com/en/rest",
+        "excerpt": "REST API documentation - GitHub Docs. The REST API is now"
+      },
+      {
+        "field": "access",
+        "value": "Self-serve (cost unverified)",
+        "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+        "excerpt": "There are a few different ways to get a token: You can create a personal access token, generate a token with a GitHub App, or use the"
+      },
+      {
+        "field": "official_mcp",
+        "value": "Verified",
+        "url": "https://github.com/github/github-mcp-server",
+        "excerpt": "- github/github-mcp-server: GitHub's official MCP Server · GitHub. GitHub MCP Server The GitHub MCP Server"
+      }
+    ],
+    "access_signals": [
+      "Self-serve (cost unverified)"
+    ],
+    "sources": [
+      {
+        "url": "https://docs.github.com/en/rest",
+        "final_url": "https://docs.github.com/en/rest",
+        "status": "readable",
+        "http": 200,
+        "title": "GitHub REST API documentation - GitHub Docs",
+        "checked_at": "2026-11-23T16:17:47+00:00",
+        "cached": true
+      },
+      {
+        "url": "https://github.com/github/github-mcp-server",
+        "final_url": "https://github.com/github/github-mcp-server",
+        "status": "readable",
+        "http": 200,
+        "title": "GitHub - github/github-mcp-server: GitHub's official MCP Server · GitHub",
+        "checked_at": "2026-11-23T16:17:48+00:00",
+        "cached": true
+      },
+      {
+        "url": "https://docs.github.com/rest",
+        "final_url": "https://docs.github.com/en/rest",
+        "status": "readable",
+        "http": 200,
+        "title": "GitHub REST API documentation - GitHub Docs",
+        "checked_at": "2026-11-23T16:17:52+00:00",
+        "cached": true
+      },
+      {
+        "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+        "final_url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+        "status": "readable",
+        "http": 200,
+        "title": "Authenticating to the REST API - GitHub Docs",
+        "checked_at": "2026-11-23T16:17:53+00:00",
+        "cached": true
+      },
+      {
+        "url": "https://docs.github.com/en/rest/apps/oauth-applications",
+        "final_url": "https://docs.github.com/en/rest/apps/oauth-applications",
+        "status": "readable",
+        "http": 200,
+        "title": "REST API endpoints for OAuth authorizations - GitHub Docs",
+        "checked_at": "2026-11-23T16:17:54+00:00",
+        "cached": true
+      }
+    ],
+    "checked_at": "2026-11-23T16:18:59+00:00",
+    "signature": "9c16bc6d2ef3"
+  },
+  {
+    "id": 80,
+    "name": "Harvest",
+    "category": "Productivity and Project Management",
+    "website_hint": "harvestapp.com (help.getharvest.com/api-v2)",
+    "auth": [
+      "OAuth2",
+      "Bearer token"
+    ],
+    "api": [
+      "REST"
+    ],
+    "access": "Self-serve (cost unverified)",
+    "official_mcp": "Unverified",
+    "third_party_mcp": "Unverified",
+    "verdict": "READY",
+    "evidence": [
+      {
+        "field": "auth",
+        "value": "OAuth2",
+        "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "excerpt": "way to start playing around with the API. Implementing a full OAuth2 Authentication flow which allows other people to use"
+      },
+      {
+        "field": "auth",
+        "value": "Bearer token",
+        "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "excerpt": "authenticate requests. There are two options available to you: A Personal Access Token which is tied directly to you and is the quickest way"
+      },
+      {
+        "field": "api",
+        "value": "REST",
+        "url": "https://help.getharvest.com/api-v2/introduction/overview/general/",
+        "excerpt": "V1 documentation . Help Topics Overview The Harvest V2 API is a REST API that allows you to interact with your Harvest account"
+      },
+      {
+        "field": "access",
+        "value": "Self-serve (cost unverified)",
+        "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "excerpt": "integrations. Personal access tokens The API can be accessed by creating a Personal Access Token from the Developers section of Harvest ID. After"
+      }
+    ],
+    "access_signals": [
+      "Self-serve (cost unverified)"
+    ],
+    "sources": [
+      {
+        "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "final_url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "status": "readable",
+        "http": 200,
+        "title": "Authentication – Harvest API V2 Documentation",
+        "checked_at": "2026-11-23T16:17:47+00:00",
+        "cached": true
+      },
+      {
+        "url": "https://help.getharvest.com/api-v2/introduction/overview/general/",
+        "final_url": "https://help.getharvest.com/api-v2/introduction/overview/general/",
+        "status": "readable",
+        "http": 200,
+        "title": "Overview – Harvest API V2 Documentation",
+        "checked_at": "2026-11-23T16:17:50+00:00",
+        "cached": true
+      },
+      {
+        "url": "https://harvestapp.com",
+        "final_url": "https://harvestapp.com",
+        "status": "robots_disallowed",
+        "http": 0,
+        "title": "",
+        "checked_at": "2026-11-23T16:17:51+00:00",
+        "cached": true
+      },
+      {
+        "url": "https://help.getharvest.com/api-v2/authentication-api",
+        "final_url": "https://help.getharvest.com/api-v2/authentication-api/",
+        "status": "readable",
+        "http": 200,
+        "title": "Authentication – Harvest API V2 Documentation",
+        "checked_at": "2026-11-23T16:17:52+00:00",
+        "cached": true
+      },
+      {
+        "url": "https://help.getharvest.com/api-v2",
+        "final_url": "https://help.getharvest.com/api-v2/",
+        "status": "readable",
+        "http": 200,
+        "title": "Harvest API V2 Documentation",
+        "checked_at": "2026-11-23T16:17:54+00:00",
+        "cached": true
+      }
+    ],
+    "checked_at": "2026-11-23T16:18:59+00:00",
+    "signature": "9c16bc6d2ef3"
+  },
+  {
+    "id": 90,
+    "name": "PitchBook",
+    "category": "Finance and Fintech",
+    "website_hint": "pitchbook.com (research API)",
+    "auth": [],
+    "api": [],
+    "access": "Unknown",
+    "official_mcp": "Unverified",
+    "third_party_mcp": "Unverified",
+    "verdict": "UNKNOWN",
+    "evidence": [],
+    "access_signals": [],
+    "sources": [
+      {
+        "url": "https://pitchbook.com/products/direct-data",
+        "final_url": "https://pitchbook.com/products/direct-data",
+        "status": "http_403",
+        "http": 403,
+        "title": "",
+        "checked_at": "2026-11-23T16:17:47+00:00",
+        "cached": true
+      },
+      {
+        "url": "https://pitchbook.com",
+        "final_url": "https://pitchbook.com",
+        "status": "http_403",
+        "http": 403,
+        "title": "",
+        "checked_at": "2026-11-23T16:17:48+00:00",
+        "cached": true
+      }
+    ],
+    "checked_at": "2026-11-23T16:18:59+00:00",
+    "signature": "9c16bc6d2ef3"
+  },
+  {
+    "id": 98,
+    "name": "Mermaid CLI",
+    "category": "AI, Research and Media-native",
+    "website_hint": "github.com/mermaid-js/mermaid-cli",
+    "auth": [],
+    "api": [
+      "CLI"
+    ],
+    "access": "Unknown",
+    "official_mcp": "Unverified",
+    "third_party_mcp": "Unverified",
+    "verdict": "UNKNOWN",
+    "evidence": [
+      {
+        "field": "api",
+        "value": "CLI",
+        "url": "https://github.com/mermaid-js/mermaid-cli",
+        "excerpt": "- mermaid-js/mermaid-cli: Command line tool for the Mermaid library · GitHub. mermaid-cli This is"
+      }
+    ],
+    "access_signals": [],
+    "sources": [
+      {
+        "url": "https://github.com/mermaid-js/mermaid-cli",
+        "final_url": "https://github.com/mermaid-js/mermaid-cli",
+        "status": "readable",
+        "http": 200,
+        "title": "GitHub - mermaid-js/mermaid-cli: Command line tool for the Mermaid library · GitHub",
+        "checked_at": "2026-11-23T16:17:47+00:00",
+        "cached": true
+      }
+    ],
+    "checked_at": "2026-11-23T16:18:59+00:00",
+    "signature": "9c16bc6d2ef3"
+  }
+]
